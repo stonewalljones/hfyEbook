@@ -1,0 +1,89 @@
+{
+	"title": "Builders In The Void\nPart 2: War",
+	"creator": "DrunkRobot97",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"builders-in-the-void",
+		"typography",
+		"finalize"
+	],
+	"filename": "Builders In The Void 2 - War",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "The Hammer Falls",
+			"src": "http://www.reddit.com/r/HFY/comments/209yp1/bitv_the_hammer_falls/"
+		},
+		{
+			"title": "Inner Demons",
+			"src": "http://www.reddit.com/r/HFY/comments/22mtzi/bitv_inner_demons/"
+		},
+		{
+			"title": "Logistical Nightmare",
+			"src": "http://www.reddit.com/r/HFY/comments/23mzp7/oc_bitv_logistical_nightmare/"
+		},
+		{
+			"title": "The Fix",
+			"src": "http://www.reddit.com/r/HFY/comments/23vqve/ocbitv_the_fix/"
+		},
+		{
+			"title": "Masters",
+			"src": "http://www.reddit.com/r/HFY/comments/23zty4/ocbitv_masters/"
+		},
+		{
+			"title": "Stranglehold, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/24k03s/ocbitv_stranglehold_part_1/"
+		},
+		{
+			"title": "Stranglehold, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/24nala/ocbitv_stranglehold_part_2/"
+		},
+		{
+			"title": "Stranglehold, Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/25efgu/ocbitv_stranglehold_part_3/"
+		},
+		{
+			"title": "Stranglehold, Part 4",
+			"src": "http://www.reddit.com/r/HFY/comments/27xgk4/ocbitv_stranglehold_part_4/"
+		},
+		{
+			"title": "Stranglehold, Part 5",
+			"src": "http://www.reddit.com/r/HFY/comments/27xgz6/ocbitv_stranglehold_part_5/"
+		},
+		{
+			"title": "Escape",
+			"src": "http://www.reddit.com/r/HFY/comments/28pdbl/ocbitv_escape/"
+		},
+		{
+			"title": "Humans with Hand Grenades, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/293lv9/ocbitv_usefulnoteshumans_with_hand_grenades_part_1/"
+		},
+		{
+			"title": "Humans with Hand Grenades, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2atnxj/bitv_usefulnoteshumans_with_hand_grenades_part_2/"
+		},
+		{
+			"title": "Humans with Hand Grenades, Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/2bpjr3/bitv_usefulnoteshumans_with_hand_grenades_part_3/"
+		},
+		{
+			"title": "Flight in the Void",
+			"src": "http://www.reddit.com/r/HFY/comments/29xnnj/bitv_flight_in_the_void/"
+		},
+		{
+			"title": "Remembrance",
+			"src": "http://www.reddit.com/r/HFY/comments/2bjxov/bitv_remembrance/"
+		},
+		{
+			"title": "The Wolves",
+			"src": "http://www.reddit.com/r/HFY/comments/2bxqfo/bitv_the_wolves/"
+		},
+		{
+			"title": "The Generals life",
+			"src": "http://www.reddit.com/r/HFY/comments/2c5ehk/bitv_the_generals_life/"
+		}
+	]
+}

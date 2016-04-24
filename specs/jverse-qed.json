@@ -1,0 +1,52 @@
+{
+	"title": "Quod Erat Demonstrandum",
+	"creator": "devourerkwi",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"jverse-qed",
+		"typography",
+		"finalize"
+	],
+	"filename": "Quod Erat Demonstrandum",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "I: Ante Mortem",
+			"src": "http://www.reddit.com/r/HFY/comments/2iv5bn/ocjenkinsverse_quod_erat_demonstrandum_pars_i/"
+		},
+		{
+			"title": "II: Bellum se Ipsum Alet",
+			"src": "http://www.reddit.com/r/HFY/comments/2izzn9/ocjenkinsverse_quod_erat_demonstrandum_pars_ii/"
+		},
+		{
+			"title": "III: Et Lux in Tenebris",
+			"src": "http://www.reddit.com/r/HFY/comments/2j33gh/ocjenkinsverse_quod_erat_demonstrandum_pars_iii/"
+		},
+		{
+			"title": "IV: Per Aspera ad Astra",
+			"src": "http://www.reddit.com/r/HFY/comments/2j5hhq/ocjenkinsverse_quod_erat_demonstrandum_pars_iv/"
+		},
+		{
+			"title": "V: Scientia Potentia Est",
+			"src": "http://www.reddit.com/r/HFY/comments/2jmvyw/ocjenkinsverse_quod_erat_demonstrandum_pars_v/"
+		},
+		{
+			"title": "VI: Sub Rosa",
+			"src": "http://www.reddit.com/r/HFY/comments/2jubvp/ocjenkinsverse_quod_erat_demonstrandum_pars_vi/"
+		},
+		{
+			"title": "VII: Cum Gladio et Sale",
+			"src": "http://www.reddit.com/r/HFY/comments/2k82xr/ocjenkinsverse_quod_erat_demonstrandum_pars_vii/"
+		},
+		{
+			"title": "VIII: Lorem Ipsum",
+			"src": "http://www.reddit.com/r/HFY/comments/2koqw2/ocjenkinsverse_quod_erat_demonstrandum_pars_viii/"
+		},
+		{
+			"title": "IX: Canes Pugnaces",
+			"src": "http://www.reddit.com/r/HFY/comments/2kxcs6/ocjenkinsverse_quod_erat_demonstrandum_pars_ix/"
+		}
+	]
+}

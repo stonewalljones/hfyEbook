@@ -1,0 +1,61 @@
+{
+	"title": "Perspective",
+	"creator": "steampoweredfishcake",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"jverse-perspective",
+		"typography",
+		"finalize"
+	],
+	"filename": "Perspective",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter 1",
+			"src": "http://www.reddit.com/r/HFY/comments/37npti/ocjenkinsverse_perspective_chapter_1/"
+		},
+		{
+			"title": "Chapter 2",
+			"src": "http://www.reddit.com/r/HFY/comments/37qbm9/ocjenkinsverse_perspective_chapter_2/"
+		},
+		{
+			"title": "Chapter 3",
+			"src": "http://www.reddit.com/r/HFY/comments/37uzih/ocjenkinsverse_perspective_chapter_3/"
+		},
+		{
+			"title": "Chapter 4",
+			"src": "http://www.reddit.com/r/HFY/comments/37wa1j/ocjenkinsverse_perspective_chapter_4/"
+		},
+		{
+			"title": "Chapter 5",
+			"src": "http://www.reddit.com/r/HFY/comments/384v5l/ocjenkinsverse_perspective_chapter_5/"
+		},
+		{
+			"title": "Chapter 6",
+			"src": "http://www.reddit.com/r/HFY/comments/39158t/ocjenkinsverse_perspective_chapter_6/"
+		},
+		{
+			"title": "Chapter 7",
+			"src": "http://www.reddit.com/r/HFY/comments/3b7pjp/ocjenkinsverse_perspective_chapter_7/"
+		},
+		{
+			"title": "Chapter 8",
+			"src": "http://www.reddit.com/r/HFY/comments/3djzmi/ocjenkinsverse_perspective_chapter_8/"
+		},
+		{
+			"title": "Chapter 9",
+			"src": "http://www.reddit.com/r/HFY/comments/3fsj9t/ocjenkinsverse_perspective_chapter_9/"
+		},
+        {
+            "title": "Chapter 10",
+            "src": "http://www.reddit.com/r/HFY/comments/3nw5u7/ocjenkinsverse_perspective_chapter_10/"
+        },
+		{
+			"title": "Chapter 11",
+			"src": "http://www.reddit.com/r/HFY/comments/3uipkv/ocjenkinsverse_perspective_chapter_11/"
+		}
+	]
+}

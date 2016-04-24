@@ -1,0 +1,149 @@
+{
+	"title": "Humans don’t make good pets",
+	"creator": "guidosbestfriend",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"jverse-hdmgp",
+		"typography",
+		"finalize"
+	],
+	"filename": "Humans don’t make good pets",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2flz4o/oc_humans_dont_make_good_pets_i/"
+		},
+		{
+			"title": "Chapter 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2fp9fb/oc_humans_dont_make_good_pets_ii/"
+		},
+		{
+			"title": "Chapter 3, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2fpl8j/oc_humans_dont_make_good_pets_iiii/"
+		},
+		{
+			"title": "Chapter 3, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2fqk8q/oc_humans_dont_make_good_pets_iiiii/"
+		},
+		{
+			"title": "Chapter 4",
+			"src": "http://www.reddit.com/r/HFY/comments/2fr9gs/oc_humans_dont_make_good_pets_iv/"
+		},
+		{
+			"title": "Chapter 5",
+			"src": "http://www.reddit.com/r/HFY/comments/2fsbk5/oc_humans_dont_make_good_pets_v/"
+		},
+		{
+			"title": "Chapter 6",
+			"src": "http://www.reddit.com/r/HFY/comments/2fui9g/oc_humans_dont_make_good_pets_vi/"
+		},
+		{
+			"title": "Chapter 7",
+			"src": "http://www.reddit.com/r/HFY/comments/2fykqu/oc_humans_dont_make_good_pets_vii/"
+		},
+		{
+			"title": "Chapter 8",
+			"src": "http://www.reddit.com/r/HFY/comments/2g63t2/oc_humans_dont_make_good_pets_viii/"
+		},
+		{
+			"title": "Chapter 9, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2gbkcy/oc_humans_dont_make_good_pets_ixi/"
+		},
+		{
+			"title": "Chapter 9, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2gc7dj/oc_humans_dont_make_good_pets_ixii/"
+		},
+		{
+			"title": "Chapter 10",
+			"src": "http://www.reddit.com/r/HFY/comments/2gfe69/oc_humans_dont_make_good_pets_x/"
+		},
+		{
+			"title": "Chapter 11",
+			"src": "http://www.reddit.com/r/HFY/comments/2gi5i0/oc_humans_dont_make_good_pets_xi/"
+		},
+		{
+			"title": "Chapter 12",
+			"src": "http://www.reddit.com/r/HFY/comments/2gqm5n/oc_humans_dont_make_good_pets_xii/"
+		},
+		{
+			"title": "Chapter 13",
+			"src": "http://www.reddit.com/r/HFY/comments/2he50c/oc_humans_dont_make_good_pets_xiii/"
+		},
+		{
+			"title": "Chapter 14",
+			"src": "http://www.reddit.com/r/HFY/comments/2i531r/oc_humans_dont_make_good_pets_xiv/"
+		},
+		{
+			"title": "Chapter 15",
+			"src": "http://www.reddit.com/r/HFY/comments/2it95v/oc_humans_dont_make_good_pets_xv/"
+		},
+		{
+			"title": "Chapter 16, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2k272y/oc_humans_dont_make_good_pets_xvi/"
+		},
+		{
+			"title": "Chapter 16, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2kfoiz/oc_humans_dont_make_good_pets_xviv_interlude/"
+		},
+		{
+			"title": "Chapter 17",
+			"src": "http://www.reddit.com/r/HFY/comments/2kykng/oc_humans_dont_make_good_pets_xvii/"
+		},
+		{
+			"title": "Chapter 18",
+			"src": "http://www.reddit.com/r/HFY/comments/2lr2zc/oc_humans_dont_make_good_pets_xviii/"
+		},
+		{
+			"title": "Chapter 19",
+			"src": "http://www.reddit.com/r/HFY/comments/2mfwpu/oc_humans_dont_make_good_pets_xix/"
+		},
+		{
+			"title": "Chapter 20",
+			"src": "http://www.reddit.com/r/HFY/comments/2o8l4o/oc_humans_dont_make_good_pets_xx/"
+		},
+		{
+			"title": "Chapter 21",
+			"src": "http://www.reddit.com/r/HFY/comments/2p4n18/oc_humans_dont_make_good_pets_xxi/"
+		},
+		{
+			"title": "Chapter 22",
+			"src": "http://www.reddit.com/r/HFY/comments/2q0p11/oc_humans_dont_make_good_pets_xxii/"
+		},
+		{
+			"title": "Chapter 24",
+			"src": "http://www.reddit.com/r/HFY/comments/2sddv4/oc_humans_dont_make_good_pets_xxiv/"
+		},
+		{
+			"title": "Chapter 25",
+			"src": "http://www.reddit.com/r/HFY/comments/2t5gfl/oc_humans_dont_make_good_pets_xxv/"
+		},
+		{
+			"title": "Chapter 26",
+			"src": "http://www.reddit.com/r/HFY/comments/2u4hpo/oc_humans_dont_make_good_pets_xxvi/"
+		},
+		{
+			"title": "Chapter 27, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2ydx0g/humans_dont_make_good_pets_xvii/"
+		},
+		{
+			"title": "Chapter 27, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2ydy99/humans_dont_make_good_pets_xvii_part_2/"
+		},
+		{
+			"title": "Chapter 28, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/3y9fm6/humans_dont_make_good_pets_xxviii/"
+		},
+		{
+			"title": "Chapter 28, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/3y9hls/humans_dont_make_good_pets_xxviii_part_2/"
+		},
+		{
+			"title": "Chapter 28, Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/3y9itc/humans_dont_make_good_pets_xxviii_part_3/"
+		}
+	]
+}

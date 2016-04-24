@@ -1,0 +1,170 @@
+{
+	"title": "Billy-Bob Space Trucker",
+	"creator": "RegalLegalEagle",
+	"patreon": "https://www.patreon.com/user?u=2300449",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"billy-bob-space-trucker",
+		"typography",
+		"finalize"
+	],
+	"filename": "Billy-Bob Space Trucker",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Un",
+			"src": "http://www.reddit.com/r/HFY/comments/2gmgmt/oc_billybob_space_trucker/"
+		},
+		{
+			"title": "Deux",
+			"src": "http://www.reddit.com/r/HFY/comments/2gpyhg/oc_billybob_space_trucker_chapitre_deux/"
+		},
+		{
+			"title": "Trois",
+			"src": "http://www.reddit.com/r/HFY/comments/2gtyod/oc_billybob_space_trucker_chapitre_trois/"
+		},
+		{
+			"title": "Quatre",
+			"src": "http://www.reddit.com/r/HFY/comments/2gx4if/oc_billybob_space_trucker_chapitre_quatre/"
+		},
+		{
+			"title": "Cinq",
+			"src": "http://www.reddit.com/r/HFY/comments/2gzjqp/oc_billybob_space_trucker_chapitre_cinq/"
+		},
+		{
+			"title": "Six",
+			"src": "http://www.reddit.com/r/HFY/comments/2h6q5l/oc_billybob_space_trucker_chapitre_six/"
+		},
+		{
+			"title": "Sept",
+			"src": "http://www.reddit.com/r/HFY/comments/2h9uib/oc_billybob_space_trucker_chapitre_sept/"
+		},
+		{
+			"title": "Huit",
+			"src": "http://www.reddit.com/r/HFY/comments/2hedb0/oc_billybob_space_trucker_chapitre_huit/"
+		},
+		{
+			"title": "Neuf",
+			"src": "http://www.reddit.com/r/HFY/comments/2hhw8o/oc_billybob_chapitre_neuf/"
+		},
+		{
+			"title": "Dix",
+			"src": "http://www.reddit.com/r/HFY/comments/2hl3ck/oc_billybob_space_trucker_chapitre_dix/"
+		},
+		{
+			"title": "Onze",
+			"src": "http://www.reddit.com/r/HFY/comments/2huhi8/oc_billybob_space_trucker_chapitre_onze/"
+		},
+		{
+			"title": "Douze",
+			"src": "http://www.reddit.com/r/HFY/comments/2hxrgl/oc_billybob_space_trucker_chapitre_douze/"
+		},
+		{
+			"title": "Treize",
+			"src": "http://www.reddit.com/r/HFY/comments/2i2ccw/oc_billybob_space_trucker_chapitre_treize/"
+		},
+		{
+			"title": "Quatorze",
+			"src": "http://www.reddit.com/r/HFY/comments/2i5e51/oc_billybob_space_trucker_chapitre_quatorze/"
+		},
+		{
+			"title": "Quinze",
+			"src": "http://www.reddit.com/r/HFY/comments/2ib1vw/oc_billybob_space_trucker_chapitre_quinze/"
+		},
+		{
+			"title": "Seize",
+			"src": "http://www.reddit.com/r/HFY/comments/2ii7qr/oc_billybob_space_trucker_chapitre_seize/"
+		},
+		{
+			"title": "Dix-sept",
+			"src": "http://www.reddit.com/r/HFY/comments/2ilmmj/oc_billybob_space_trucker_chapitre_dixsept/"
+		},
+		{
+			"title": "Dix-huit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ipvvp/oc_billybob_space_trucker_chapitre_dixhuit/"
+		},
+		{
+			"title": "Dix-neuf",
+			"src": "http://www.reddit.com/r/HFY/comments/2it62x/oc_billybob_space_trucker_chapitre_dixneuf/"
+		},
+		{
+			"title": "Vingt",
+			"src": "http://www.reddit.com/r/HFY/comments/2iwksd/oc_billybob_space_trucker_chapitre_vingt_deux_dix/"
+		},
+		{
+			"title": "Falling from on high",
+			"src": "http://www.reddit.com/r/HFY/comments/2iz1qz/oc_falling_from_on_high/"
+		},
+		{
+			"title": "Vingt-et-un",
+			"src": "http://www.reddit.com/r/HFY/comments/2j61i3/oc_billybob_space_trucker_chapitre_vingt_et_un/"
+		},
+		{
+			"title": "Vingt-deux",
+			"src": "http://www.reddit.com/r/HFY/comments/2j9zl5/oc_billybob_space_trucker_chapitre_vingtdeux/"
+		},
+		{
+			"title": "Vingt-Trois",
+			"src": "http://www.reddit.com/r/HFY/comments/2jdfw1/oc_billybob_space_trucker_chapitre_vingttrois/"
+		},
+		{
+			"title": "Vingt-Quatre",
+			"src": "http://www.reddit.com/r/HFY/comments/2jgwjn/oc_billybob_space_trucker_chapitre_vingtquatre/"
+		},
+		{
+			"title": "Vingt-Cinc",
+			"src": "http://www.reddit.com/r/HFY/comments/2jkn13/oc_billybob_space_trucker_chapitre_vingtcinq/"
+		},
+		{
+			"title": "Vingt-Six",
+			"src": "http://www.reddit.com/r/HFY/comments/2juis8/oc_billybob_space_trucker_chapitre_vingtsix/"
+		},
+		{
+			"title": "Vingt-Sept",
+			"src": "http://www.reddit.com/r/HFY/comments/2jxpc2/oc_billybob_space_trucker_chapitre_vingtsept/"
+		},
+		{
+			"title": "Vingt-Huit",
+			"src": "http://www.reddit.com/r/HFY/comments/2k1ysi/oc_billybob_space_trucker_chapitre_vingthuit/"
+		},
+		{
+			"title": "Vingt-Neuf",
+			"src": "http://www.reddit.com/r/HFY/comments/2k5fd1/oc_billybob_space_trucker_chapitre_vingtneuf/"
+		},
+		{
+			"title": "Trente",
+			"src": "http://www.reddit.com/r/HFY/comments/2kiuj9/oc_billybob_space_trucker_chapitre_trente/"
+		},
+		{
+			"title": "Trente-Et-Un",
+			"src": "http://www.reddit.com/r/HFY/comments/2lwziv/oc_billybob_space_trucker_chapitre_trente_et_un/"
+		},
+		{
+			"title": "Trente-Deux",
+			"src": "http://www.reddit.com/r/HFY/comments/2m4uf9/oc_billybob_space_trucker_chapitre_trente_deux/"
+		},
+		{
+			"title": "Trente-Trois",
+			"src": "http://www.reddit.com/r/HFY/comments/2mc6ev/oc_billybob_space_trucker_chapitre_trentetrois/"
+		},
+		{
+			"title": "Trente-Quatre",
+			"src": "http://www.reddit.com/r/HFY/comments/2mmgmx/oc_billybob_space_trucker_chapitre_trentequatre/"
+		},
+		{
+			"title": "Trente-Cinq première partie",
+			"src": "http://www.reddit.com/r/HFY/comments/2mui7w/oc_billybob_space_trucker_chapitre_trentecinq/"
+		},
+		{
+			"title": "Trente-cinq deuxième partie",
+			"src": "http://www.reddit.com/r/HFY/comments/2obnvi/ocbillybob_space_trucker_chapitre_trentecinq/"
+		},
+		{
+			"title": "La Fin",
+			"src": "http://www.reddit.com/r/HFY/comments/2oflhg/oc_billybob_space_trucker_la_fin/"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ebook.js",
+  "version": "0.0.1",
+  "description": "Creates EPUB ebooks from filtered Markdown sources.",
+  "homepage": "https://www.reddit.com/r/hfy",
+  "author": "https://www.reddit.com/u/b3iAAoLZOH9Y265cujFhhLoXl",
+  "license": "MIT",
+  "main": "ebook.js",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "marked": "^0.3.3",
+    "node-uuid": "^1.4.3",
+    "node-zip": "^1.1.1"
+  },
+  "devDependencies": {},
+  "readme": "README.txt",
+  "private": true,
+  "repository": ""
+}

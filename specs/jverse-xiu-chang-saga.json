@@ -1,0 +1,57 @@
+{
+	"title": "The Xiù Chang Saga",
+	"creator": "hume_reddit",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit", 
+		"no-preamble",
+		"jverse-txcs",
+		"typography",
+		"finalize"
+	],
+	"filename": "The Xiù Chang Saga",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Monkeys Reaches Stars",
+			"src": "http://www.reddit.com/r/HFY/comments/2hf1f9/ocjenkinsverse_monkeys_reaches_stars/"
+		},
+		{
+			"title": "The Tigers Cub",
+			"src": "http://www.reddit.com/r/HFY/comments/2i7ohf/ocjenkinsverse_the_tigers_cub/"
+		},
+		{
+			"title": "Rat in Sheep's Clothing",
+			"src": "http://www.reddit.com/r/HFY/comments/2iwttx/ocjenkinsverse_rat_in_sheeps_clothing/"
+		},
+		{
+			"title": "The Ox’s Plan, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2kf0i0/jverse_the_oxs_plan_part_1/"
+		},
+		{
+			"title": "The Ox's Plan, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2kf59c/jverse_the_oxs_plan_part_22/"
+		},
+		{
+			"title": "A Wounded Rabbit, Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2vtw4t/jverse_a_wounded_rabbit/"
+		},
+		{
+			"title": "A Wounded Rabbit, Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2vtyt8/jverse_a_wounded_rabbit_part_25/"
+		},
+		{
+			"title": "A Wounded Rabbit, Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/2vu0y9/jverse_a_wounded_rabbit_part_35/"
+		},
+		{
+			"title": "A Wounded Rabbit, Part 4",
+			"src": "http://www.reddit.com/r/HFY/comments/2vu3cq/jverse_a_wounded_rabbit_part_45/"
+		},
+		{
+			"title": "A Wounded Rabbit, Part 5",
+			"src": "http://www.reddit.com/r/HFY/comments/2vu5za/jverse_a_wounded_rabbit_part_55/"
+		}
+	]
+}

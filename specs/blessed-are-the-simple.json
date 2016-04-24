@@ -1,0 +1,133 @@
+{
+	"title": "Blessed are the Simple",
+	"creator": "naturalpinkflamingo",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"bats",
+		"typography",
+		"finalize"
+	],
+	"filename": "Blessed are the Simple",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "How I Summoned a Human",
+			"src": "http://www.reddit.com/r/HFY/comments/2v6eyw/oc_blessed_are_the_simple_or_how_i_summoned_a/"
+		},
+		{
+			"title": "Help I Accidentally the Princess",
+			"src": "http://www.reddit.com/r/HFY/comments/2vsjea/ocfantasy_febheartfelt_quest_blessed_are_the/"
+		},
+		{
+			"title": "I Listen to Advice Dog, Don't You?",
+			"src": "http://www.reddit.com/r/HFY/comments/2wnpaw/oc_blessed_are_the_simple_iii_or_i_listen_to/"
+		},
+		{
+			"title": "How I Learned to Trust My Myrmidon",
+			"src": "http://www.reddit.com/r/HFY/comments/2xf6s0/oc_blessed_are_the_simple_iv_or_how_i_learned_to/"
+		},
+		{
+			"title": "How I Introduced Him to My Father",
+			"src": "http://www.reddit.com/r/HFY/comments/2y7o77/oc_blessed_are_the_simple_v_or_how_i_introduced/"
+		},
+		{
+			"title": "How I Kept Him From Making the Big Orc Cry",
+			"src": "http://www.reddit.com/r/HFY/comments/2yylpk/oc_blessed_are_the_simple_vi_or_how_i_kept_him/"
+		},
+		{
+			"title": "How Everybody had a Horrible Day",
+			"src": "http://www.reddit.com/r/HFY/comments/2zu0zg/blessed_are_the_simple_vii_or_how_everybody_had_a/"
+		},
+		{
+			"title": "How I Discovered that I Hate Cardio",
+			"src": "http://www.reddit.com/r/HFY/comments/30lf8u/blessed_are_the_simple_viii_or_how_i_discovered/"
+		},
+		{
+			"title": "How Lambda's Easter Egg Hunt Means Something Completely Different",
+			"src": "http://www.reddit.com/r/HFY/comments/31hzw8/blessed_are_the_simple_ix_or_how_lambdas_easter/"
+		},
+		{
+			"title": "How He Has a Little Something For Everyone",
+			"src": "http://www.reddit.com/r/HFY/comments/32a6zz/blessed_are_the_simple_x_or_how_he_has_a_little/"
+		},
+		{
+			"title": "How the Purple Guy Can't Catch a Break",
+			"src": "http://www.reddit.com/r/HFY/comments/333e3o/blessed_are_the_simple_xi_or_how_the_purple_guy/"
+		},
+		{
+			"title": "How I Don't Need Pants to be a Badass",
+			"src": "http://www.reddit.com/r/HFY/comments/340hnc/blessed_are_the_simple_xii_or_how_i_dont_need/"
+		},
+		{
+			"title": "How the Author is Influenced by the TV Shows He Watched as a Kid",
+			"src": "http://www.reddit.com/r/HFY/comments/34snvz/blessed_are_the_simple_xiii_or_how_the_author_is/"
+		},
+		{
+			"title": "The Things We Do For Mom",
+			"src": "http://www.reddit.com/r/HFY/comments/35oj0l/blessed_are_the_simple_xiv_or_the_things_we_do/"
+		},
+		{
+			"title": "How We All Dance to Another's Tune",
+			"src": "http://www.reddit.com/r/HFY/comments/36w12t/blessed_are_the_simple_xv_or_how_we_all_dance_to/"
+		},
+		{
+			"title": "How We Don't Have a Military Training Monage",
+			"src": "http://www.reddit.com/r/HFY/comments/37the7/blessed_are_the_simple_xvi_or_how_we_dont_have_a/"
+		},
+		{
+			"title": "How I Learned that Quad-Stacked Magazines are Awesome",
+			"src": "http://www.reddit.com/r/HFY/comments/38v79i/blessed_are_the_simple_xvii_or_how_i_learned_that/"
+		},
+		{
+			"title": "How a Certain Fighting Game was Part of His Training",
+			"src": "http://www.reddit.com/r/HFY/comments/39s0i7/blessed_are_the_simple_xviii_or_how_a_certain/"
+		},
+		{
+			"title": "How He'd Be a Gourmet if It Wasn't All so Delicious",
+			"src": "http://www.reddit.com/r/HFY/comments/3apccc/blessed_are_the_simple_xix_or_how_hed_be_a/"
+		},
+		{
+			"title": "How My Familiar Has Crazy War Stories",
+			"src": "http://www.reddit.com/r/HFY/comments/3b6xo9/blessed_are_the_simple_xx_or_how_my_familiar_has/"
+		},
+		{
+			"title": "How We Enter Act Four",
+			"src": "http://www.reddit.com/r/HFY/comments/3ccw2m/blessed_are_the_simple_xxi_or_how_we_enter_act/"
+		},
+		{
+			"title": "How He Thinks Hard on His One Liners",
+			"src": "http://www.reddit.com/r/HFY/comments/3cy1j1/blessed_are_the_simple_xxii_or_how_he_thinks_hard/"
+		},
+		{
+			"title": "How We Get Little Screen Time",
+			"src": "http://www.reddit.com/r/HFY/comments/3dppij/blessed_are_the_simple_xxiii_how_we_get_little/"
+		},
+		{
+			"title": "This Was Going to be a Double Feature",
+			"src": "http://www.reddit.com/r/HFY/comments/3g6gr9/blessed_are_the_simple_xxiv_or_this_was_going_to/"
+		},
+		{
+			"title": "How Easy it is to Get Lost",
+			"src": "http://www.reddit.com/r/HFY/comments/3h81s6/blessed_are_the_simple_xxv_how_easy_it_is_to_get/"
+		},
+		{
+			"title": "I've Been Doing this for Over Half a Year Now",
+			"src": "http://www.reddit.com/r/HFY/comments/3j4rkn/blessed_are_the_simple_xxvi_or_ive_been_doing/"
+		},
+		{
+			"title": "He is the Get Out of Jail Free Card",
+			"src": "http://www.reddit.com/r/HFY/comments/3mgk3z/blessed_are_the_simple_xxvii_or_he_is_the_get_out/"
+		},
+		{
+			"title": "I Don't Intend on Making this the Last of the Year",
+			"src": "http://www.reddit.com/r/HFY/comments/3vfhf3/blessed_are_the_simple_xxviii_or_i_dont_intend_on/"
+		},
+		{
+			"title": "How I Made It In Time, WOOT!",
+			"src": "http://www.reddit.com/r/HFY/comments/3yzdfy/blessed_are_the_simple_xxix_or_how_i_made_it_in/"
+		}
+	]
+}

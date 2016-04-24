@@ -1,0 +1,133 @@
+{
+	"title": "Chronicles of Clint Stone\nPart 2: Rebellion",
+	"creator": "someguynamedted",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"clint-stone-rebellion",
+		"typography",
+		"finalize"
+	],
+	"filename": "Chronicles of Clint Stone 2 - Rebellion",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Rebellion of Skuar",
+			"src": "http://www.reddit.com/r/HFY/comments/27j5m0/oc_clint_stone_rebellion_of_skuar/"
+		},
+		{
+			"title": "The Lives We Lived",
+			"src": "http://www.reddit.com/r/HFY/comments/27nl7c/oc_clint_stone_the_lives_we_lived/"
+		},
+		{
+			"title": "Enlisted",
+			"src": "http://www.reddit.com/r/HFY/comments/27xtov/oc_clint_stone_enlisted/"
+		},
+		{
+			"title": "Evaluation",
+			"src": "http://www.reddit.com/r/HFY/comments/2893up/oc_clint_stone_evaluation/"
+		},
+		{
+			"title": "Acceptable",
+			"src": "http://www.reddit.com/r/HFY/comments/28flyu/oc_clint_stone_acceptable/"
+		},
+		{
+			"title": "Training Mission",
+			"src": "http://www.reddit.com/r/HFY/comments/28iupi/oc_clint_stone_training_mission/"
+		},
+		{
+			"title": "Captive",
+			"src": "http://www.reddit.com/r/HFY/comments/28m2m7/oc_clint_stone_captive/"
+		},
+		{
+			"title": "Liberated",
+			"src": "http://www.reddit.com/r/HFY/comments/28rxv0/oc_clint_stone_liberated/"
+		},
+		{
+			"title": "Break",
+			"src": "http://www.reddit.com/r/HFY/comments/29g1ps/oc_clint_stone_break/"
+		},
+		{
+			"title": "Breakfast",
+			"src": "http://www.reddit.com/r/HFY/comments/29pmkj/oc_clint_stone_breakfast/"
+		},
+		{
+			"title": "The Pit",
+			"src": "http://www.reddit.com/r/HFY/comments/2a07pp/clint_stone_the_pit/"
+		},
+		{
+			"title": "Purpose",
+			"src": "http://www.reddit.com/r/HFY/comments/2aisnw/clint_stone_purpose/"
+		},
+		{
+			"title": "Sister",
+			"src": "http://www.reddit.com/r/HFY/comments/2aketk/clint_stone_sister/"
+		},
+		{
+			"title": "Home Run",
+			"src": "http://www.reddit.com/r/HFY/comments/2atw6q/clint_stone_home_run/"
+		},
+		{
+			"title": "Unchained",
+			"src": "http://www.reddit.com/r/HFY/comments/2b701k/clint_stone_unchained/"
+		},
+		{
+			"title": "Crazy Bastard",
+			"src": "http://www.reddit.com/r/HFY/comments/2bgmzl/clint_stone_crazy_bastard/"
+		},
+		{
+			"title": "Understand",
+			"src": "http://www.reddit.com/r/HFY/comments/2bkjke/clint_stone_understand/"
+		},
+		{
+			"title": "Illorian Bandits",
+			"src": "http://www.reddit.com/r/HFY/comments/2bwxnj/clint_stone_illorian_bandits/"
+		},
+		{
+			"title": "Law One",
+			"src": "http://www.reddit.com/r/HFY/comments/2c0mue/clint_stone_law_one/"
+		},
+		{
+			"title": "Remorse",
+			"src": "http://www.reddit.com/r/HFY/comments/2lnnxd/clint_stone_remorse_redone/"
+		},
+		{
+			"title": "Prison Break",
+			"src": "http://www.reddit.com/r/HFY/comments/2oevmj/clint_stone_prison_break/"
+		},
+		{
+			"title": "Marooned",
+			"src": "http://www.reddit.com/r/HFY/comments/3a9w8u/clint_stone_marooned/"
+		},
+		{
+			"title": "Pirates",
+			"src": "http://www.reddit.com/r/HFY/comments/3b2dc4/clint_stone_pirates/"
+		},
+		{
+			"title": "Brother Mine",
+			"src": "http://www.reddit.com/r/HFY/comments/3bv22y/clint_stone_brother_mine/"
+		},
+		{
+			"title": "Broken",
+			"src": "http://www.reddit.com/r/HFY/comments/3cny5b/clint_stone_broken/"
+		},
+		{
+			"title": "Dark",
+			"src": "http://www.reddit.com/r/HFY/comments/3dgkba/clint_stone_dark/"
+		},
+		{
+			"title": "Puzzles",
+			"src": "http://www.reddit.com/r/HFY/comments/3eer6h/clint_stone_puzzles/"
+		},
+		{
+			"title": "Family Values",
+			"src": "http://www.reddit.com/r/HFY/comments/3f93g1/clint_stone_family_values/"
+		},
+		{
+			"title": "Behold",
+			"src": "http://www.reddit.com/r/HFY/comments/3fzps7/clint_stone_behold/"
+		}
+	]
+}

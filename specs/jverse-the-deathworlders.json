@@ -1,0 +1,300 @@
+{
+	"title": "The Deathworlders",
+	"creator": "Hambone3110",
+	"patreon": "https://www.patreon.com/HamboneHFY",
+	"filters": {
+		"reddit": [
+			"from-reddit-post",
+			"clean-reddit",
+			"custom-break-to-hr",
+			"no-preamble",
+			"jverse-the-deathworlders",
+			"typography",
+			"finalize"
+		],
+		"hfy-archive": [
+			"from-hfy-archive",
+			"clean-reddit",
+			"custom-break-to-hr",
+			"no-preamble",
+			"jverse-the-deathworlders",
+			"typography",
+			"finalize"
+		]
+	},
+	"filename": "The Deathworlders",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "The Kevin Jenkins Experience 1",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ftcpy/"
+		},
+		{
+			"title": "The Kevin Jenkins Experience 2",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ftdrl/text_the_kevin_jenkins_experience_chapter_1_part/"
+		},
+		{
+			"title": "The Kevin Jenkins Experience 3",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ftevq/text_the_kevin_jenkins_experience_chapter_2/"
+		},
+		{
+			"title": "The Kevin Jenkins Experience 4",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ftfyo/text_the_kevin_jenkins_experience_chapter_3/"
+		},
+		{
+			"title": "Run, little monster",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2fuo5o/oc_run_little_monster/"
+		},
+		{
+			"title": "Aftermath",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-03-aftermath"
+		},
+		{
+			"title": "An Eventful Month",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2h6grb/oc_kevin_jenkins_an_eventful_month/"
+		},
+		{
+			"title": "Quarantine",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2inz1g/jenkinsverse_4_quarantine/"
+		},
+		{
+			"title": "Deliverance",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2j054a/oc_jenkinsverse_5_deliverance/"
+		},
+		{
+			"title": "Interlude/Ultimatum",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2jf769/jenkinsverse_55_interlude_and_ultimatum/"
+		},
+		{
+			"title": "Taking Back the Sky",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2k1nrq/jenkinsvers_6_taking_back_the_sky/"
+		},
+		{
+			"title": "Interlude/Jargon",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2kc8ls/oc_jenkinsverse_65_interludejargon/"
+		},
+		{
+			"title": "Tensions",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2kmpir/oc_jenkinsverse_7_tensions/"
+		},
+		{
+			"title": "Alternatives",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2kxvhw/jenkinsverse_8_alternatives/"
+		},
+		{
+			"title": "Gains and losses",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2lkrph/jenkinsverse_9_gains_and_losses/"
+		},
+		{
+			"title": "Legwork",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2lxm6o/jenkinsverse_10_legwork/"
+		},
+		{
+			"title": "Direct Delivery",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2mbr44/jenkinsverse_11_direct_delivery/"
+		},
+		{
+			"title": "Only Human",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2nffzi/jenkinsverse_12_only_human/"
+		},
+		{
+			"title": "Tall Tales",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2oxj1e/oc_jenkinsverse_13_tall_tales/"
+		},
+		{
+			"title": "The Hornet's Nest",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2pz3tf/oc_jenkinsverse_14_the_hornets_nest/"
+		},
+		{
+			"title": "Forever Changed (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2qhp6k/oc_jenkinsverse_15_forever_changed_pt_1/"
+		},
+		{
+			"title": "Forever Changed (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2qhp6u/oc_jenkinsverse_15_forever_changed_pt_2/"
+		},
+		{
+			"title": "Forever Changed (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2qhp70/oc_jenkinsverse_15_forever_changed_pt_3/"
+		},
+		{
+			"title": "Firebird (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2tsitq/ocjenkinsverse16_firebird_pt_12/"
+		},
+		{
+			"title": "Firebird (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2tsmxm/ocjenkinsverse_16_firebird_pt_22/"
+		},
+		{
+			"title": "Battles (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2vpp5v/ocjverse_17_battles_part_14/"
+		},
+		{
+			"title": "Battles (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2vpp8e/ocjverse_17_battles_part_24/"
+		},
+		{
+			"title": "Battles (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2vpp9m/ocjverse_17_battles_part_34/"
+		},
+		{
+			"title": "Battles (pt. 4)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2vppaj/ocjverse_17_battles_part_44/"
+		},
+		{
+			"title": "Baggage (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ymy0x/ocjverse_18_baggage_part_1_of_4/"
+		},
+		{
+			"title": "Baggage (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ymy1g/ocjverse_18_baggage_part_2_of_4/"
+		},
+		{
+			"title": "Baggage (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ymy21/ocjverse_18_baggage_part_3_of_4/"
+		},
+		{
+			"title": "Baggage (pt. 4)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/2ymy2d/ocjverse_18_baggage_part_4_of_4/"
+		},
+		{
+			"title": "Baptisms (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/31cm1m/ocjverse_19_baptisms_part_1_of_4/"
+		},
+		{
+			"title": "Baptisms (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/31cm2c/ocjverse_19_baptisms_part_2_of_4/"
+		},
+		{
+			"title": "Baptisms (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/31cm2v/ocjverse_19_baptisms_part_3_of_4/"
+		},
+		{
+			"title": "Baptisms (pt. 4)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/31cm37/ocjverse_19_baptisms_part_4_of_4/"
+		},
+		{
+			"title": "Exorcisms (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/33avr0/ocjverse_20_exorcisms_part_1_of_5/"
+		},
+		{
+			"title": "Exorcisms (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/33avrf/ocjverse_20_exorcisms_part_2_of_5/"
+		},
+		{
+			"title": "Exorcisms (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/33avs9/ocjverse_20_exorcisms_part_3_of_5/"
+		},
+		{
+			"title": "Exorcisms (pt. 4)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/33avt0/ocjverse_20_exorcisms_part_4_of_5/"
+		},
+		{
+			"title": "Exorcisms (pt. 5)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/33avti/ocjverse_20_exorcisms_part_5_of_5/"
+		},
+		{
+			"title": "Dragon Dreams (pt. 1)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/36m6k0/ocjverse21_dragon_dreams_part_1_of_4/"
+		},
+		{
+			"title": "Dragon Dreams (pt. 2)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/36m6ll/ocjverse21_dragon_dreams_part_2_of_4/"
+		},
+		{
+			"title": "Dragon Dreams (pt. 3)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/36m6mo/ocjverse21_dragon_dreams_part_3_of_4/"
+		},
+		{
+			"title": "Dragon Dreams (pt. 4)",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/36m6nh/ocjverse21_dragon_dreams_part_4_of_4/"
+		},
+		{
+			"title": "Warhorse",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse"
+		},
+		{
+			"title": "Warhorse - The Second Year",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/second-year"
+		},
+		{
+			"title": "Warhorse - The Third Year",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/third-year"
+		},
+		{
+			"title": "Warhorse - The Fourth Year",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/fourth-year"
+		},
+		{
+			"title": "Warhorse - The Fifth Year",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/fifth-year"
+		},
+		{
+			"title": "Warhorse - Operation NOVA HOUND",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/operation-nova-hound"
+		},
+		{
+			"title": "Warhorse - Interlude: Outlets",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/225-interlude-outlets"
+		},
+		{
+			"title": "Back Down To Earth",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-23-back-down-earth"
+		}
+	]
+}

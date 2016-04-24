@@ -1,0 +1,367 @@
+{
+	"title": "Salvage",
+	"creator": "Rantarian",
+	"patreon": "https://www.patreon.com/Rantarian",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"custom-break-to-hr",
+		"no-preamble",
+        "jverse-salvage",
+		"typography",
+		"finalize"
+	],
+	"filename": "Salvage",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Salvage",
+			"src": "http://www.reddit.com/r/HFY/comments/2j0ra4/ocjenkinsverse_salvage/"
+		},
+		{
+			"title": "Food",
+			"src": "http://www.reddit.com/r/HFY/comments/2j3l12/ocjenkinsverse_food/"
+		},
+		{
+			"title": "Hunting",
+			"src": "http://www.reddit.com/r/HFY/comments/2j3xuq/ocjenkinsverse_hunting/"
+		},
+		{
+			"title": "Turning Point",
+			"src": "http://www.reddit.com/r/HFY/comments/2j7if8/ocjenkinsverse_chapter_4_turning_point/"
+		},
+		{
+			"title": "Dead Mans Switch",
+			"src": "http://www.reddit.com/r/HFY/comments/2jagfb/ocjenkinsverse_chapter_5_dead_mans_switch/"
+		},
+		{
+			"title": "Robotic Death Machine",
+			"src": "http://www.reddit.com/r/HFY/comments/2jb2ln/ocjenkinsverse_chapter_6_robotic_death_machine/"
+		},
+		{
+			"title": "Incompetence In Command",
+			"src": "http://www.reddit.com/r/HFY/comments/2jdy6h/ocjenkinsverse_chapter_7_incompetence_in_command/"
+		},
+		{
+			"title": "Check",
+			"src": "http://www.reddit.com/r/HFY/comments/2je831/ocjenkinsverse_chapter_8_check/"
+		},
+		{
+			"title": "Positions of Power",
+			"src": "http://www.reddit.com/r/HFY/comments/2jepu0/ocjenkinsverse_positions_of_power/"
+		},
+		{
+			"title": "Air Time",
+			"src": "http://www.reddit.com/r/HFY/comments/2jgpzi/ocjenkinsverse_chapter_10_air_time/"
+		},
+		{
+			"title": "Victory for Some",
+			"src": "http://www.reddit.com/r/HFY/comments/2jhwfi/ocjenkinsverse_chapter_11_victory_for_some/"
+		},
+		{
+			"title": "The Backup Plan",
+			"src": "http://www.reddit.com/r/HFY/comments/2jiedn/ocjenkinsverse_chapter_12_the_backup_plan/"
+		},
+		{
+			"title": "Plan C from Outer Space",
+			"src": "http://www.reddit.com/r/HFY/comments/2jkive/ocjenkinsverse_chapter_13_plan_c_from_outer_space/"
+		},
+		{
+			"title": "Knight takes Queen. Checkmate.",
+			"src": "http://www.reddit.com/r/HFY/comments/2jlcin/ocjenkinsverse_chapter_14_knight_takes_queen/"
+		},
+		{
+			"title": "Solitude",
+			"src": "http://www.reddit.com/r/HFY/comments/2jo61h/ocjenkinsverse_salvage_chapter_15_solitude/"
+		},
+		{
+			"title": "Help",
+			"src": "http://www.reddit.com/r/HFY/comments/2jxkml/ocjenkinsverse_salvage_chapter_16_help/"
+		},
+		{
+			"title": "Warp",
+			"src": "http://www.reddit.com/r/HFY/comments/2jyfmh/ocjenkinsverse_salvage_chapter_17_warp/"
+		},
+		{
+			"title": "Fireworks",
+			"src": "http://www.reddit.com/r/HFY/comments/2jzdgm/ocjenkinsverse_salvage_chapter_18_fireworks/"
+		},
+		{
+			"title": "Rogue Elements",
+			"src": "http://www.reddit.com/r/HFY/comments/2jznkj/ocjenkinsverse_salvage_chapter_19_rogue_elements/"
+		},
+		{
+			"title": "Black Flag",
+			"src": "http://www.reddit.com/r/HFY/comments/2k2ko7/ocjenkinsverse_salvage_chapter_20_black_flag/"
+		},
+		{
+			"title": "New Parts",
+			"src": "http://www.reddit.com/r/HFY/comments/2k36w8/ocjenkinsverse_salvage_chapter_21_new_parts/"
+		},
+		{
+			"title": "Ix-Nay",
+			"src": "http://www.reddit.com/r/HFY/comments/2k5gp9/ocjenkinsverse_salvage_chapter_22_ixnay/"
+		},
+		{
+			"title": "Getaway",
+			"src": "http://www.reddit.com/r/HFY/comments/2k63lc/ocjenkinsverse_salvage_chapter_23_getaway/"
+		},
+		{
+			"title": "The Winning Team",
+			"src": "http://www.reddit.com/r/HFY/comments/2k6rej/ocjenkinsverse_salvage_chapter_24_the_winning_team/"
+		},
+		{
+			"title": "New Beginnings",
+			"src": "http://www.reddit.com/r/HFY/comments/2k74av/ocjenkinsverse_salvage_chapter_25_new_beginnings/"
+		},
+		{
+			"title": "Heat",
+			"src": "http://www.reddit.com/r/HFY/comments/2k93gw/ocjenkinsverse_salvage_chapter_26_heat/"
+		},
+		{
+			"title": "Poor Choices",
+			"src": "http://www.reddit.com/r/HFY/comments/2kaapz/ocjenkinsverse_salvage_chapter_27_poor_choices/"
+		},
+		{
+			"title": "Two Out of Three",
+			"src": "http://www.reddit.com/r/HFY/comments/2kfgdb/ocjenkinsverse_salvage_chapter_28_two_out_of_three/"
+		},
+		{
+			"title": "Hot Property",
+			"src": "http://www.reddit.com/r/HFY/comments/2kgmy3/ocjenkinsverse_salvage_chapter_29_hot_property/"
+		},
+		{
+			"title": "Business Concerns",
+			"src": "http://www.reddit.com/r/HFY/comments/2kk0p1/ocjenkinsverse_salvage_chapter_30_business/"
+		},
+		{
+			"title": "Broken Man",
+			"src": "http://www.reddit.com/r/HFY/comments/2kn2xg/ocjenkinsverse_salvage_chapter_31_broken_man/"
+		},
+		{
+			"title": "Game Plan",
+			"src": "http://www.reddit.com/r/HFY/comments/2ko8b0/ocjenkinsverse_salvage_chapter_32_game_plan/"
+		},
+		{
+			"title": "Pieces in Play",
+			"src": "http://www.reddit.com/r/HFY/comments/2kqvri/ocjenkinsverse_salvage_chapter_33_pieces_in_play/"
+		},
+		{
+			"title": "Taking Care of Business",
+			"src": "http://www.reddit.com/r/HFY/comments/2krvmk/ocjenkinsverse_salvage_chapter_34_taking_care_of/"
+		},
+		{
+			"title": "Same Place, Same Time",
+			"src": "http://www.reddit.com/r/HFY/comments/2kscls/ocjenkinsverse_salvage_chapter_35_same_place_same/"
+		},
+		{
+			"title": "Red, White and Blue",
+			"src": "http://www.reddit.com/r/HFY/comments/2kvb2k/ocjenkinsverse_salvage_chapter_36_red_white_and/"
+		},
+		{
+			"title": "One Step at a Time",
+			"src": "http://www.reddit.com/r/HFY/comments/2kvslo/ocjenkinsverse_salvage_chapter_37_one_step_at_a/"
+		},
+		{
+			"title": "The Best Policy",
+			"src": "http://www.reddit.com/r/HFY/comments/2l24k2/ocjenkinsverse_salvage_chapter_38_the_best_policy/"
+		},
+		{
+			"title": "Meetings and Partings",
+			"src": "http://www.reddit.com/r/HFY/comments/2l3v32/ocjenkinsverse_salvage_chapter_39_meetings_and/"
+		},
+		{
+			"title": "With a Bang",
+			"src": "http://www.reddit.com/r/HFY/comments/2l59ox/ocjenkinsverse_salvage_chapter_40_with_a_bang/"
+		},
+		{
+			"title": "You Dropped A Bomb On Me",
+			"src": "http://www.reddit.com/r/HFY/comments/2l5mst/ocjenkinsverse_salvage_chapter_41_you_dropped_a/"
+		},
+		{
+			"title": "Out of the Frying Pan",
+			"src": "http://www.reddit.com/r/HFY/comments/2l7rj4/ocjenkinsverse_salvage_chapter_42_out_of_the/"
+		},
+		{
+			"title": "Good News. Bad News.",
+			"src": "http://www.reddit.com/r/HFY/comments/2l8ktl/ocjenkinsverse_salvage_chapter_43_good_news_bad/"
+		},
+		{
+			"title": "Hitting the Fan",
+			"src": "http://www.reddit.com/r/HFY/comments/2l9ahg/ocjenkinsverse_salvage_chapter_44_hitting_the_fan/"
+		},
+		{
+			"title": "Technical Support",
+			"src": "http://www.reddit.com/r/HFY/comments/2ld5wu/ocjenkinsverse_salvage_chapter_45_technical/"
+		},
+		{
+			"title": "These Silent Halls",
+			"src": "http://www.reddit.com/r/HFY/comments/2lg5uc/ocjenkinsverse_salvage_chapter_46_these_silent/"
+		},
+		{
+			"title": "Point Zero",
+			"src": "http://www.reddit.com/r/HFY/comments/2lgwbt/ocjenkinsverse_salvage_chapter_47_point_zero/"
+		},
+		{
+			"title": "Expectations Not Met",
+			"src": "http://www.reddit.com/r/HFY/comments/2lh922/ocjenkinsverse_salvage_chapter_48_expectations/"
+		},
+		{
+			"title": "Where The Heart Is",
+			"src": "http://www.reddit.com/r/HFY/comments/2lk1ga/ocjenkinsverse_salvage_chapter_49_where_the_heart/"
+		},
+		{
+			"title": "Ships in the Night",
+			"src": "http://www.reddit.com/r/HFY/comments/2lnwuo/ocjenkinsverse_salvage_chapter_50_ships_in_the/"
+		},
+		{
+			"title": "Road to Hell",
+			"src": "http://www.reddit.com/r/HFY/comments/2lqfs3/ocjenkinsverse_salvage_chapter_51_road_to_hell/"
+		},
+		{
+			"title": "Shades of Gray",
+			"src": "http://www.reddit.com/r/HFY/comments/2lucl1/ocjenkinsverse_salvage_chapter_52_shades_of_gray/"
+		},
+		{
+			"title": "Plus One",
+			"src": "http://www.reddit.com/r/HFY/comments/2luste/ocjenkinsverse_salvage_chapter_53_plus_one/"
+		},
+		{
+			"title": "The White Stuff",
+			"src": "http://www.reddit.com/r/HFY/comments/2lypuw/ocjenkinsverse_salvage_chapter_54_the_white_stuff/"
+		},
+		{
+			"title": "That Old Plan",
+			"src": "http://www.reddit.com/r/HFY/comments/2m2oz5/ocjenkinsverse_salvage_chapter_55_that_old_plan/"
+		},
+		{
+			"title": "Pushing Forward",
+			"src": "http://www.reddit.com/r/HFY/comments/2m6ae2/ocjenkinsverse_salvage_chapter_56_pushing_forward/"
+		},
+		{
+			"title": "Turnabout",
+			"src": "http://www.reddit.com/r/HFY/comments/2ma08e/ocjenkinsverse_salvage_chapter_57_turnabout/"
+		},
+		{
+			"title": "Dragons on a Spaceship",
+			"src": "http://www.reddit.com/r/HFY/comments/2md4e9/ocjenkinsverse_salvage_chapter_58_dragons_on_a/"
+		},
+		{
+			"title": "A Time to Bond",
+			"src": "http://www.reddit.com/r/HFY/comments/2mfho8/ocjenkinsverse_salvage_chapter_59_a_time_to_bond/"
+		},
+		{
+			"title": "Red Line Run",
+			"src": "http://www.reddit.com/r/HFY/comments/2mjv7g/ocjenkinsverse_salvage_chapter_60_red_line_run/"
+		},
+		{
+			"title": "The Other Side",
+			"src": "http://www.reddit.com/r/HFY/comments/2mrh08/ocjenkinsverse_salvage_chapter_61_the_other_side/"
+		},
+		{
+			"title": "By The Light",
+			"src": "http://www.reddit.com/r/HFY/comments/2mz9ug/ocjenkinsverse_salvage_chapter_62_by_the_light/"
+		},
+		{
+			"title": "Breach",
+			"src": "http://www.reddit.com/r/HFY/comments/2n5na5/ocjenkinsverse_salvage_chapter_63_breach/"
+		},
+		{
+			"title": "From Ackbar With Love",
+			"src": "http://www.reddit.com/r/HFY/comments/2n9df8/ocjenkinsverse_salvage_chapter_64_from_ackbar/"
+		},
+		{
+			"title": "Beating the Clock",
+			"src": "http://www.reddit.com/r/HFY/comments/2nde3r/ocjenkinsverse_salvage_chapter_65_beating_the/"
+		},
+		{
+			"title": "Russian and Flushin’",
+			"src": "http://www.reddit.com/r/HFY/comments/2ntjpj/ocjenkinsverse_salvage_chapter_66_russian_and/"
+		},
+		{
+			"title": "Washing Up",
+			"src": "http://www.reddit.com/r/HFY/comments/2oxjxj/ocjenkinsverse_salvage_chapter_67_washing_up/"
+		},
+		{
+			"title": "Back Amongst Us",
+			"src": "http://www.reddit.com/r/HFY/comments/2oxyhn/ocjenkinsverse_salvage_chapter_68_back_amongst_us/"
+		},
+		{
+			"title": "New Starts",
+			"src": "http://www.reddit.com/r/HFY/comments/2oy1if/ocjenkinsverse_salvage_chapter_69_new_starts/"
+		},
+		{
+			"title": "Rockets and Robots",
+			"src": "http://www.reddit.com/r/HFY/comments/2pgtpd/ocjenkinsverse_salvage_chapter_70_rockets_and/"
+		},
+		{
+			"title": "Deceit and the Skeet",
+			"src": "http://www.reddit.com/r/HFY/comments/2puycv/ocjenkinsverse_salvage_chapter_71_deceit_and_the/"
+		},
+		{
+			"title": "Grand Theft Starship",
+			"src": "http://www.reddit.com/r/HFY/comments/2q42mq/ocjenkinsverse_salvage_chapter_72_grand_theft"
+		},
+		{
+			"title": "Crashing Through The Snow",
+			"src": "http://www.reddit.com/r/HFY/comments/2qcywi/ocjenkinsverse_salvage_chapter_73_crashing/"
+		},
+		{
+			"title": "Relics of a Bygone Age",
+			"src": "http://www.reddit.com/r/HFY/comments/2s241a/ocjenkinsverse_salvage_chapter_74_relics_of_a/"
+		},
+		{
+			"title": "Blasts from the Past",
+			"src": "http://www.reddit.com/r/HFY/comments/2t1a9j/ocjenkinsverse_salvage_chapter_75_blasts_from_the/"
+		},
+		{
+			"title": "Prisoners",
+			"src": "http://www.reddit.com/r/HFY/comments/2uadf8/ocjenkinsverse_salvage_chapter_76_prisoners/"
+		},
+		{
+			"title": "Shock and Awe",
+			"src": "http://www.reddit.com/r/HFY/comments/2wzff6/ocjenkinsverse_salvage_chapter_77_shock_and_awe/"
+		},
+		{
+			"title": "Going Commando",
+			"src": "http://www.reddit.com/r/HFY/comments/2yfvd6/ocjenkinsverse_salvage_chapter_78_going_commando/"
+		},
+		{
+			"title": "Center of attention",
+			"src": "http://www.reddit.com/r/HFY/comments/2ys7nk/ocjenkinsversesalvage_chapter_79_centre_of/"
+		},
+		{
+			"title": "Behind Black Eyes",
+			"src": "http://www.reddit.com/r/HFY/comments/30db46/ocjenkinsverse_salvage_chapter_80_behind_black/"
+		},
+		{
+			"title": "Crossing Paths",
+			"src": "http://www.reddit.com/r/HFY/comments/37l84a/ocjenkinsverse_salvage_chapter_81_crossing_paths/"
+		},
+		{
+			"title": "Dark Heart",
+			"src": "http://www.reddit.com/r/HFY/comments/3ejber/ocjenkinsverse_salvage_chapter_82_dark_heart/"
+		},
+		{
+			"title": "Revisionist History",
+			"src": "http://www.reddit.com/r/HFY/comments/3ewitt/ocjenkinsverse_salvage_chapter_83_revisionist/"
+		},
+		{
+			"title": "A Little Faith",
+			"src": "http://www.reddit.com/r/HFY/comments/3m1lpw/ocjenkinsverse_salvage_chapter_84_a_little_faith/"
+		},
+		{
+			"title": "Fields of Fire",
+			"src": "http://www.reddit.com/r/HFY/comments/3mnts8/ocjenkinsverse_salvage_chapter_85_fields_of_fire/"
+		},
+		{
+		    "title": "The Flame",
+		    "src": "http://www.reddit.com/r/HFY/comments/3sjco5/ocjenkinsverse_salvage_chapter_86_the_flame/"
+		},
+		{
+		    "title": "Hell of a Kick",
+		    "src": "http://www.reddit.com/r/HFY/comments/3yidvv/ocjenkinsverse_salvage_chapter_87_hell_of_a_kick/"
+		}
+	]
+}

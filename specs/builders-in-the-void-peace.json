@@ -1,0 +1,73 @@
+{
+	"title": "Builders In The Void\nPart 1: Peace",
+	"creator": "DrunkRobot97",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"builders-in-the-void",
+		"typography",
+		"finalize"
+	],
+	"filename": "Builders In The Void 1 - Peace",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Humanity: Builders in the Void",
+			"src": "http://www.reddit.com/r/HFY/comments/200c5g/humanity_builders_in_the_void/"
+		},
+		{
+			"title": "Nischal",
+			"src": "http://www.reddit.com/r/HFY/comments/21qo14/bitv_nischal/"
+		},
+		{
+			"title": "The greatest invasion of all time",
+			"src": "http://www.reddit.com/r/HFY/comments/21s1nw/bitv_the_greatest_invasion_of_all_time/"
+		},
+		{
+			"title": "Aww",
+			"src": "http://www.reddit.com/r/HFY/comments/23fn9k/oc_bitv_aww/"
+		},
+		{
+			"title": "The New Kid",
+			"src": "http://www.reddit.com/r/HFY/comments/23s17g/ocbitv_the_new_kid/"
+		},
+		{
+			"title": "Red Cross",
+			"src": "http://www.reddit.com/r/HFY/comments/248aud/ocbitv_red_cross/"
+		},
+		{
+			"title": "Yuri and Stel",
+			"src": "http://www.reddit.com/r/HFY/comments/2585p1/ocbitv_yuri_and_stel/"
+		},
+		{
+			"title": "Falling",
+			"src": "http://www.reddit.com/r/HFY/comments/268rcn/ocbitv_falling/"
+		},
+		{
+			"title": "A minor error",
+			"src": "http://www.reddit.com/r/HFY/comments/26jqnz/ocbitv_a_minor_error/"
+		},
+		{
+			"title": "Longmaraíodh",
+			"src": "http://www.reddit.com/r/HFY/comments/2aizgp/bitv_longmara%C3%ADodh/"
+		},
+		{
+			"title": "An Old Tale",
+			"src": "http://www.reddit.com/r/HFY/comments/2am8c1/bitv_an_old_tale/"
+		},
+		{
+			"title": "Shoulders of Giants",
+			"src": "http://www.reddit.com/r/HFY/comments/2asixi/bitv_shoulders_of_giants/"
+		},
+		{
+			"title": "The Galactic Café",
+			"src": "http://www.reddit.com/r/HFY/comments/2bfu9h/bitv_the_galactic_caf%C3%A9/"
+		},
+		{
+			"title": "The Slow Chase",
+			"src": "http://www.reddit.com/r/HFY/comments/2caq4p/bitv_the_slow_chase/"
+		}
+	]
+}

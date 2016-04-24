@@ -1,0 +1,105 @@
+{
+	"title": "Chronicles of Clint Stone\nPart 1: Freedom",
+	"creator": "someguynamedted",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"clint-stone-freedom",
+		"typography",
+		"finalize"
+	],
+	"filename": "Chronicles of Clint Stone 1 - Freedom",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Freedom",
+			"src": "http://www.reddit.com/r/HFY/comments/25c0k6/oc_clint_stone_freedom/"
+		},
+		{
+			"title": "Susan",
+			"src": "http://www.reddit.com/r/HFY/comments/25nr97/oc_clint_stone_susan/"
+		},
+		{
+			"title": "Undone",
+			"src": "http://www.reddit.com/r/HFY/comments/26f9ij/oc_clint_stone_undone/"
+		},
+		{
+			"title": "Stranger",
+			"src": "http://www.reddit.com/r/HFY/comments/266lbi/oc_clint_stone_stranger/"
+		},
+		{
+			"title": "Bottoms Up",
+			"src": "http://www.reddit.com/r/HFY/comments/25e7ga/oc_clint_stone_bottoms_up/"
+		},
+		{
+			"title": "The Feast",
+			"src": "http://www.reddit.com/r/HFY/comments/25otea/oc_clint_stone_the_feast/"
+		},
+		{
+			"title": "Greetings",
+			"src": "http://www.reddit.com/r/HFY/comments/26cqap/oc_clint_stone_greetings/"
+		},
+		{
+			"title": "Unarmed",
+			"src": "http://www.reddit.com/r/HFY/comments/25lq17/oc_clint_stone_unarmed/"
+		},
+		{
+			"title": "Fireproof",
+			"src": "http://www.reddit.com/r/HFY/comments/25tllp/ocfire_clint_stone_fireproof/"
+		},
+		{
+			"title": "Children",
+			"src": "http://www.reddit.com/r/HFY/comments/25uaw8/oc_clint_stone_children/"
+		},
+		{
+			"title": "Retribution",
+			"src": "http://www.reddit.com/r/HFY/comments/25wwf9/oc_clint_stone_retribution/"
+		},
+		{
+			"title": "Lost",
+			"src": "http://www.reddit.com/r/HFY/comments/26his6/oc_clint_stone_lost/"
+		},
+		{
+			"title": "Search",
+			"src": "http://www.reddit.com/r/HFY/comments/26j454/oc_clint_stone_search/"
+		},
+		{
+			"title": "Intrusion",
+			"src": "http://www.reddit.com/r/HFY/comments/26kn1u/oc_clint_stone_intrusion/"
+		},
+		{
+			"title": "Trapped",
+			"src": "http://www.reddit.com/r/HFY/comments/26nw51/oc_clint_stone_trapped/"
+		},
+		{
+			"title": "Quest",
+			"src": "http://www.reddit.com/r/HFY/comments/26qzks/oc_clint_stone_quest/"
+		},
+		{
+			"title": "Whole",
+			"src": "http://www.reddit.com/r/HFY/comments/26u1vu/oc_clint_stone_whole/"
+		},
+		{
+			"title": "Hand of War",
+			"src": "http://www.reddit.com/r/HFY/comments/26uol0/oc_clint_stone_hand_of_war/"
+		},
+		{
+			"title": "Owed",
+			"src": "http://www.reddit.com/r/HFY/comments/270hjq/oc_clint_stone_owed/"
+		},
+		{
+			"title": "Darling",
+			"src": "http://www.reddit.com/r/HFY/comments/27306a/oc_clint_stone_darling/"
+		},
+		{
+			"title": "Freed",
+			"src": "http://www.reddit.com/r/HFY/comments/279ade/oc_clint_stone_freed/"
+		},
+		{
+			"title": "Lost Tales",
+			"src": "http://www.reddit.com/r/HFY/comments/25qz77/oc_clint_stone_lost_tales/"
+		}
+	]
+}
