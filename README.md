@@ -9,7 +9,7 @@ Run 'npm install' to install the dependencies, and you should be good to go.
 
 Usage
 -----
-node ebook.js <spec.json>
+node ebook.js path\to\spec.json
 
 PLEASE DO NOT DISTRIBUTE THE RESULTING OUTPUT FILES UNLESS YOU ARE THE AUTHOR OF OR OWNS
 THE RIGHTS TO ALL MATERIAL THEY CONTAIN.
