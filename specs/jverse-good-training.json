@@ -1,0 +1,124 @@
+{
+	"title": "Good Training",
+	"creator": "ctwelve",
+	"filters": {
+		"reddit": [
+			"from-reddit-post",
+			"clean-reddit",
+			"custom-break-to-hr",
+			"no-preamble",
+			"jverse-good-training",
+			"typography",
+			"finalize"
+		],
+		"hfy-archive": [
+			"from-hfy-archive",
+			"clean-reddit",
+			"custom-break-to-hr",
+			"no-preamble",
+			"jverse-good-training",
+			"typography",
+			"finalize"
+		]
+	},
+	"filename": "Good Training",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Fun & Games",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/01-fun-games"
+		},
+		{
+			"title": "Strategies",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/02-strategies"
+		},
+		{
+			"title": "Instinct",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/03-instinct"
+		},
+		{
+			"title": "Crawl",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/04-crawl"
+		},
+		{
+			"title": "Walk",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/05-walk"
+		},
+		{
+			"title": "Friendships & Revelations",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/06-friendships-revelations"
+		},
+		{
+			"title": "Run",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/07-run"
+		},
+		{
+			"title": "Fetch",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/08-fetch"
+		},
+		{
+			"title": "Aftermath",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/09-aftermath"
+		},
+		{
+			"title": "Essayons",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/10-essayons"
+		},
+		{
+			"title": "Shenanigans",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/11-shenanigans"
+		},
+		{
+			"title": "Wargames",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/12-wargames"
+		},
+		{
+			"title": "Adventure Time",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training/13-adventure-time"
+		},
+        {
+            "title": "Saturday Morning Breakfast",
+			"filters": "reddit",
+            "src": "http://www.reddit.com/r/HFY/comments/4aw0mv/jverse_good_training_saturday_morning_breakfast/"
+        },
+		{
+			"title": "The Locals",
+			"filters": "reddit",
+			"src": "http://www.reddit.com/r/HFY/comments/4g6cgw/jverse_good_training_the_locals"
+		},
+		{
+			"title": "The Champions: Prologue",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training-champions-pt-i/prologue"
+		},
+		{
+			"title": "The Champions: Tooth & Claw",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training-champions-pt-i/tooth-claw"
+		},
+		{
+			"title": "The Champions: Longest Prefix Match",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training-champions-pt-i/longest-prefix-match"
+		},
+		{
+			"title": "The Champions: Gametime",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/good-training-champions-pt-i/gametime"
+		}
+	]
+}

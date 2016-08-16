@@ -1,0 +1,48 @@
+{
+	"title": "Guttersnipe",
+	"creator": "Crocodilly_Pontifex",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"jverse-guttersnipe",
+		"typography",
+		"finalize"
+	],
+	"filename": "Guttersnipe",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/2mifpf/ocjenkinsverseguttersnipe_part_1/"
+		},
+		{
+			"title": "Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/2mn776/ocjenkinsverseguttersnipe_part_2/"
+		},
+		{
+			"title": "Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/2nba6h/ocjenkinsverseguttersnipe_part_3/"
+		},
+		{
+			"title": "Part 4",
+			"src": "http://www.reddit.com/r/HFY/comments/2pc6a5/ocjenkinsverseguttersnipe_part_4/"
+		},
+		{
+			"title": "Part 5",
+			"src": "http://www.reddit.com/r/HFY/comments/2pqxj6/ocjenkinsverseguttersnipe_part_5/"
+		},
+		{
+			"title": "Part 6",
+			"src": "http://www.reddit.com/r/HFY/comments/2u65lr/ocjenkinsverseguttersnipe_part_6/"
+		},
+		{
+			"title": "Part 7",
+			"src": "http://www.reddit.com/r/HFY/comments/42vwvd/ocjenkinsverseguttersnipe_part_7/"
+		},
+		{
+			"title": "Part 8",
+			"src": "http://www.reddit.com/r/HFY/comments/43ckj9/ocjenkinsverseguttersnipe_part_8/"
+		}
+	]
+}

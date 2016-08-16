@@ -1,0 +1,376 @@
+{
+	"title": "HFY Anthology",
+	"creator": "Various Authors",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"hfy-anthology",
+		"typography",
+		"finalize"
+	],
+	"filename": "HFY Anthology",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "The Energy Trade",
+			"byline": "Lost_Carcosan",
+			"src": "http://www.reddit.com/r/HFY/comments/3t02im/oc_the_energy_trade/"
+		},
+		{
+			"title": "Invitation",
+			"byline": "EldritchSpawn",
+			"src": "http://www.reddit.com/r/HFY/comments/249hj7/oc_invitation/"
+		},
+		{
+			"title": "A predator subdued",
+			"byline": "FrzrBrn",
+			"src": "http://www.reddit.com/r/HFY/comments/25b89v/oc_a_predator_subdued/"
+		},
+		{
+			"title": "The Network",
+			"byline": "Rythre",
+			"src": "http://www.reddit.com/r/HFY/comments/265xic/oc_the_network/"
+		},
+		{
+			"title": "Fear and Loathing in Power Armor",
+			"byline": "Unknown",
+			"src": "http://www.reddit.com/r/HFY/comments/281rdo/oc_fear_and_loathing_in_power_armor/"
+		},
+		{
+			"title": "Making an omelet",
+			"byline": "dspeyer",
+			"src": "http://www.reddit.com/r/HFY/comments/2bm96k/oc_making_an_omelet/"
+		},
+		{
+			"title": "An Alien Concept",
+			"byline": "Tom1664",
+			"src": "http://www.reddit.com/r/HFY/comments/29za79/an_alien_concept/"
+		},
+		{
+			"title": "An undefended human world",
+			"byline": "dspeyer",
+			"src": "http://www.reddit.com/r/HFY/comments/29mvb1/oc_an_undefended_human_world/"
+		},
+		{
+			"title": "The Wall in the Dark",
+			"byline": "hazbaz",
+			"src": "http://www.reddit.com/r/HFY/comments/2ettjx/oc_the_wall_in_the_dark/"
+		},
+		{
+			"title": "Winging it",
+			"byline": "DrunkRobot97",
+			"src": "http://www.reddit.com/r/HFY/comments/2e66bx/winging_it/"
+		},
+		{
+			"title": "Reinforcements Required",
+			"byline": "Disako",
+			"src": "http://www.reddit.com/r/HFY/comments/2fa0pg/oc_reinforcements_required/"
+		},
+		{
+			"title": "Different Paths",
+			"byline": "DrunkRobot97",
+			"src": "http://www.reddit.com/r/HFY/comments/2huio5/different_paths/"
+		},
+		{
+			"title": "We Are the Gods",
+			"byline": "Hambone3110",
+			"src": "http://www.reddit.com/r/HFY/comments/2k6srf/oc_standalone_we_are_the_gods/"
+		},
+		{
+			"title": "Diplomatic Communiqué",
+			"byline": "cdos93",
+			"src": "http://www.reddit.com/r/HFY/comments/2ms6pp/oc_diplomatic_communiqu%C3%A9/"
+		},
+		{
+			"title": "Humans are not that special",
+			"byline": "Slavaa",
+			"src": "http://www.reddit.com/r/HFY/comments/2qp7ql/humans_are_not_that_special/"
+		},
+		{
+			"title": "Adonis",
+			"byline": "WingAutarch",
+			"src": "http://www.reddit.com/r/HFY/comments/2r701e/oc_adonis/"
+		},
+		{
+			"title": "Little, Black Boxes",
+			"byline": "Swim_Jong_Eel",
+			"src": "http://www.reddit.com/r/HFY/comments/2raxnv/little_black_boxes/"
+		},
+		{
+			"title": "A Difference of 150 nm",
+			"byline": "nine_tailed_smthng",
+			"src": "http://www.reddit.com/r/HFY/comments/2s1yxk/oc_a_difference_of_150_nm/"
+		},
+		{
+			"title": "Four Days",
+			"byline": "LeonardoFibonacci",
+			"src": "http://www.reddit.com/r/HFY/comments/31ptfq/oc_four_days/"
+		},
+		{
+			"title": "The culling pits",
+			"byline": "Harfus",
+			"src": "http://www.reddit.com/r/HFY/comments/30xuli/oc_the_culling_pits/"
+		},
+		{
+			"title": "Every HFY Story Ever",
+			"byline": "Scotscin",
+			"src": "http://www.reddit.com/r/HFY/comments/37dfjd/oc_every_hfy_story_ever/"
+		},
+		{
+			"title": "Humanisation",
+			"byline": "Arch-duke",
+			"src": "http://www.reddit.com/r/HFY/comments/38necc/oc_humanisation/"
+		},
+		{
+			"title": "Holocene Park",
+			"byline": "Luna_LoveWell",
+			"src": "http://www.reddit.com/r/HFY/comments/3bcta8/oc_holocene_park/"
+		},
+		{
+			"title": "Tis but a scratch",
+			"byline": "Havoc_and_Chillisauc",
+			"src": "http://www.reddit.com/r/HFY/comments/3eblj6/tis_but_a_scratch/"
+		},
+		{
+			"title": "What Price a Word",
+			"byline": "radius55",
+			"src": "http://www.reddit.com/r/HFY/comments/3eh9o4/oc_what_price_a_word/"
+		},
+		{
+			"title": "Human Scientific Methods",
+			"byline": "wikingwarrior",
+			"src": "http://www.reddit.com/r/HFY/comments/3h9bz3/human_scientific_methods/"
+		},
+		{
+			"title": "Warning: Hitchhikers May Be Escaping Humans",
+			"byline": "kaiden333",
+			"src": "http://www.reddit.com/r/HFY/comments/3lqkl2/warning_hitchhikers_may_be_escaping_humans/"
+		},
+		{
+			"title": "Hazard Pay",
+			"byline": "Scotscin",
+			"src": "http://www.reddit.com/r/HFY/comments/3un96i/oc_hazard_pay/"
+		},
+		{
+			"title": "A Most Peculiar Prisoner",
+			"byline": "kaiden333",
+			"src": "http://www.reddit.com/r/HFY/comments/3f00gj/a_most_peculiar_prisoner/"
+		},
+		{
+			"title": "Another Most Peculiar Prisoner",
+			"byline": "kaiden333",
+			"src": "http://www.reddit.com/r/HFY/comments/3t7elo/another_most_peculiar_prisoner/"
+		},
+		{
+			"title": "Strategic Buffer Zone",
+			"byline": "LeifRoberts",
+			"src": "http://www.reddit.com/r/HFY/comments/3svm49/oc_strategic_buffer_zone/"
+		},
+		{
+			"title": "A Knife in the Dark",
+			"byline": "nkonrad",
+			"src": "http://www.reddit.com/r/HFY/comments/3ylu6x/a_knife_in_the_dark/"
+		},
+		{
+			"title": "Pancakes",
+			"byline": "stereois",
+			"src": "http://www.reddit.com/r/HFY/comments/27ujw5/oc_pancakes_nsfw/"
+		},
+		{
+			"title": "Monsters",
+			"byline": "dnqxtsck5",
+			"src": "http://www.reddit.com/r/HFY/comments/28u7xw/oc_monsters/"
+		},
+		{
+			"title": "Blue Eyes Shut",
+			"byline": "Unknown",
+			"src": "http://www.reddit.com/r/HFY/comments/28kxkc/ocbest_friend_blue_eyes_shut/"
+		},
+		{
+			"title": "A prayer",
+			"byline": "dspeyer",
+			"src": "http://www.reddit.com/r/HFY/comments/2avlos/oc_a_prayer/"
+		},
+		{
+			"title": "Tattoo",
+			"byline": "NoGoodIDNames",
+			"src": "http://www.reddit.com/r/HFY/comments/2aj3cj/tattoo_oc/"
+		},
+		{
+			"title": "Relentless",
+			"byline": "king_bestestes",
+			"src": "http://www.reddit.com/r/HFY/comments/2kt21i/oc_relentless/"
+		},
+		{
+			"title": "Dead humans rising",
+			"byline": "RegalLegalEagle",
+			"src": "http://www.reddit.com/r/HFY/comments/2jn750/oc_dead_humans_rising/"
+		},
+		{
+			"title": "Star Shift",
+			"byline": "arjunks",
+			"src": "http://www.reddit.com/r/HFY/comments/2m4u93/oc_star_shift/"
+		},
+		{
+			"title": "Crumple Zones",
+			"byline": "peterpacz1",
+			"src": "http://www.reddit.com/r/HFY/comments/2mnmhf/oc_crumple_zones/"
+		},
+		{
+			"title": "Submission",
+			"byline": "WingAutarch",
+			"src": "http://www.reddit.com/r/HFY/comments/2p49rc/oc_submission/"
+		},
+		{
+			"title": "The Myth",
+			"byline": "Aerowatcher",
+			"src": "http://www.reddit.com/r/HFY/comments/2ooqis/the_myth/"
+		},
+		{
+			"title": "Bait and Switch",
+			"byline": "radius55",
+			"src": "http://www.reddit.com/r/HFY/comments/2oich7/oc_bait_and_switch/"
+		},
+		{
+			"title": "See Me In My Office",
+			"byline": "ArgusTheCat",
+			"src": "http://www.reddit.com/r/HFY/comments/2pltjz/oc_see_me_in_my_office/"
+		},
+		{
+			"title": "Civis Romanus Sum",
+			"byline": "Rawjava",
+			"src": "http://www.reddit.com/r/HFY/comments/2pkpjw/oc_civis_romanus_sum/"
+		},
+		{
+			"title": "A God Gets the Bill",
+			"byline": "Ownedby4Labs",
+			"src": "http://www.reddit.com/r/HFY/comments/2rpzjs/a_god_gets_the_bill/"
+		},
+		{
+			"title": "Irresistible",
+			"byline": "daeomec",
+			"src": "http://www.reddit.com/r/HFY/comments/2rkkqz/resubmitted_irresistible/"
+		},
+		{
+			"title": "What makes humans special? Click here to find out!",
+			"byline": "RegalLegalEagle",
+			"src": "http://www.reddit.com/r/HFY/comments/2u4hw5/fresh_start_what_makes_humans_special_click_here/"
+		},
+		{
+			"title": "R&D",
+			"byline": "J334",
+			"src": "http://www.reddit.com/r/HFY/comments/2vjdfe/oc_rd/"
+		},
+		{
+			"title": "The Last Humans",
+			"byline": "captain_cautious",
+			"src": "http://www.reddit.com/r/HFY/comments/2ulq2b/oc_the_last_humans/"
+		},
+		{
+			"title": "Interrogation Transcript 1209",
+			"byline": "politburro",
+			"src": "http://www.reddit.com/r/HFY/comments/2ul1vq/oc_interrogation_transcript_1209/"
+		},
+		{
+			"title": "A Fine Specimen",
+			"byline": "shoguncdn",
+			"src": "http://www.reddit.com/r/HFY/comments/2w8aeg/a_fine_specimen/"
+		},
+		{
+			"title": "Anglinor's Exciting Day",
+			"byline": "NoGoodIDNames",
+			"src": "http://www.reddit.com/r/HFY/comments/2yv2lf/anglinors_exciting_day/"
+		},
+		{
+			"title": "Ask Nicely",
+			"byline": "Blazingfly",
+			"src": "http://www.reddit.com/r/HFY/comments/2yeh7h/ask_nicely/"
+		},
+		{
+			"title": "What the hell did we do?",
+			"byline": "Scotscin",
+			"src": "http://www.reddit.com/r/HFY/comments/30njfr/oc_what_the_hell_did_we_do/"
+		},
+		{
+			"title": "Chief Engineer Moe",
+			"byline": "CoffeePosse",
+			"src": "http://www.reddit.com/r/HFY/comments/3zz6vh/chief_engineer_moe/"
+		},
+		{
+			"title": "Office Perspectives",
+			"byline": "Lost_Carcosan",
+			"src": "http://www.reddit.com/r/HFY/comments/31q7hd/office_perspectives/"
+		},
+		{
+			"title": "Sympathy for the Devil",
+			"byline": "brownoniongravy1",
+			"src": "http://www.reddit.com/r/HFY/comments/3dgt91/sympathy_for_the_devil/"
+		},
+		{
+			"title": "The Myth of Men",
+			"byline": "cdos93",
+			"src": "http://www.reddit.com/r/HFY/comments/3edq3c/the_myth_of_men/"
+		},
+		{
+			"title": "The Human Speciality",
+			"byline": "NPC200",
+			"src": "http://www.reddit.com/r/HFY/comments/3fn6nx/oc_the_human_speciality/"
+		},
+		{
+			"title": "Cells",
+			"byline": "crumjd",
+			"src": "http://www.reddit.com/r/HFY/comments/3ih54e/cells/"
+		},
+		{
+			"title": "The Legend of the Firearms",
+			"byline": "PM_ME_FIREARMS",
+			"src": "http://www.reddit.com/r/HFY/comments/3hrfrf/one_shot_the_legend_of_the_firearms/"
+		},
+		{
+			"title": "I don't believe in humans",
+			"byline": "Disako",
+			"src": "http://www.reddit.com/r/HFY/comments/3qguek/oc_i_dont_believe_in_humans/"
+		},
+		{
+			"title": "Ghostwalkers",
+			"byline": "Chaelek",
+			"src": "http://www.reddit.com/r/HFY/comments/3pv9s0/hallows_ii_ghostwalkers/"
+		},
+		{
+			"title": "Making Headlines",
+			"byline": "IridiusLemming",
+			"src": "http://www.reddit.com/r/HFY/comments/3sr748/making_headlines/"
+		},
+		{
+			"title": "Gun Ready",
+			"byline": "nkonrad",
+			"src": "http://www.reddit.com/r/HFY/comments/3wbust/gun_ready/"
+		},
+		{
+			"title": "A new thing",
+			"byline": "Hambone3110",
+			"src": "http://www.reddit.com/r/HFY/comments/3xovkv/oc_oneshot_a_new_thing/"
+		},
+		{
+			"title": "I Used to Write Horror Stories",
+			"byline": "PodgeWrites",
+			"src": "http://www.reddit.com/r/HFY/comments/3z7f2o/i_used_to_write_horror_stories/"
+		},
+		{
+			"title": "Legend of the Exploding Server",
+			"byline": "Teulisch",
+			"src": "http://www.reddit.com/r/HFY/comments/3zltpe/tales_from_space_tech_support_legend_of_the/"
+		},
+        {
+            "title": "Secondary System Online",
+            "byline": "Ryantific_theory",
+            "src": "http://www.reddit.com/r/HFY/comments/4ka7lc/secondary_system_online/"
+        },
+        {
+            "title": "Six Letters from Earth that will Make You Even More Afraid",
+            "byline": "dspeyer",
+            "src": "http://www.reddit.com/r/HFY/comments/4kcmhs/six_letters_from_earth_that_will_make_you_even/"
+        }
+	]
+}

@@ -64,6 +64,7 @@
 		{
 			"title": "Quarantine",
 			"filters": "reddit",
+			"no-preamble-treshold": 200,
 			"src": "http://www.reddit.com/r/HFY/comments/2inz1g/jenkinsverse_4_quarantine/"
 		},
 		{
@@ -114,11 +115,13 @@
 		{
 			"title": "Only Human",
 			"filters": "reddit",
+			"no-preamble-treshold": 0,
 			"src": "http://www.reddit.com/r/HFY/comments/2nffzi/jenkinsverse_12_only_human/"
 		},
 		{
 			"title": "Tall Tales",
 			"filters": "reddit",
+			"no-preamble-treshold": 500,
 			"src": "http://www.reddit.com/r/HFY/comments/2oxj1e/oc_jenkinsverse_13_tall_tales/"
 		},
 		{
@@ -144,6 +147,7 @@
 		{
 			"title": "Firebird (pt. 1)",
 			"filters": "reddit",
+			"no-preamble-treshold": 200,
 			"src": "http://www.reddit.com/r/HFY/comments/2tsitq/ocjenkinsverse16_firebird_pt_12/"
 		},
 		{
@@ -164,6 +168,7 @@
 		{
 			"title": "Battles (pt. 3)",
 			"filters": "reddit",
+			"no-preamble-treshold": 300,
 			"src": "http://www.reddit.com/r/HFY/comments/2vpp9m/ocjverse_17_battles_part_34/"
 		},
 		{
@@ -179,6 +184,7 @@
 		{
 			"title": "Baggage (pt. 2)",
 			"filters": "reddit",
+			"no-preamble-treshold": 300,
 			"src": "http://www.reddit.com/r/HFY/comments/2ymy1g/ocjverse_18_baggage_part_2_of_4/"
 		},
 		{
@@ -219,11 +225,13 @@
 		{
 			"title": "Exorcisms (pt. 2)",
 			"filters": "reddit",
+			"no-preamble-treshold": 400,
 			"src": "http://www.reddit.com/r/HFY/comments/33avrf/ocjverse_20_exorcisms_part_2_of_5/"
 		},
 		{
 			"title": "Exorcisms (pt. 3)",
 			"filters": "reddit",
+			"no-preamble-treshold": 400,
 			"src": "http://www.reddit.com/r/HFY/comments/33avs9/ocjverse_20_exorcisms_part_3_of_5/"
 		},
 		{
@@ -239,6 +247,7 @@
 		{
 			"title": "Dragon Dreams (pt. 1)",
 			"filters": "reddit",
+			"no-preamble-treshold": 200,
 			"src": "http://www.reddit.com/r/HFY/comments/36m6k0/ocjverse21_dragon_dreams_part_1_of_4/"
 		},
 		{
@@ -249,6 +258,7 @@
 		{
 			"title": "Dragon Dreams (pt. 3)",
 			"filters": "reddit",
+			"no-preamble-treshold": 400,
 			"src": "http://www.reddit.com/r/HFY/comments/36m6mo/ocjverse21_dragon_dreams_part_3_of_4/"
 		},
 		{
@@ -264,6 +274,7 @@
 		{
 			"title": "Warhorse - The Second Year",
 			"filters": "hfy-archive",
+			"no-preamble-treshold": 0,
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/second-year"
 		},
 		{
@@ -295,6 +306,41 @@
 			"title": "Back Down To Earth",
 			"filters": "hfy-archive",
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-23-back-down-earth"
+		},
+		{
+			"title": "An Alien World",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-24-alien-world"
+		},
+		{
+			"title": "Where We Stand",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-25-where-we-stand"
+		},
+		{
+			"title": "Blood and Ash",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-26-blood-and-ash"
+		},
+		{
+			"title": "Playing with Fire",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-27-playing-fire"
+		},
+		{
+			"title": "Misfits",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-28-misfits"
+		},
+		{
+			"title": "Forges",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-29-forges"
+		},
+		{
+			"title": "Hearts and Minds",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-30-hearts-and-minds"
 		}
 	]
 }

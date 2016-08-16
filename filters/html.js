@@ -53,7 +53,7 @@ function apply(params, next)
 	        html += '    <p class="byline">By ' + chap.byline + '</p>\n';
 	    
         html += '    <div class="chapter">\n';
-        html += params.unescape_html(chap.dom.xml()).replace(/^/g, '      ').replace(/\n/g, '\n      ') + '\n';
+        html += chap.dom.xml().replace(/^/g, '      ').replace(/\n/g, '\n      ') + '\n';
         html += '    </div>\n' + (i < spec.contents.length - 1 ? '\n' : '');
     }
 

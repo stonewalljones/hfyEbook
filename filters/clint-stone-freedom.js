@@ -3,12 +3,14 @@ function apply(params, next)
 	var chap = params.chap;
 	var $ = chap.dom;
 	var rem = [];
+	var tr_re = /^translator note:/i;
+	var ct_re = /^continued in comments/i;
 	
 	$('p strong').each(function(i, e)
 	{
 		var el = $(e);
 
-		if(el.text().toLowerCase().indexOf('translator note:') === 0)
+		if(el.text().search(tr_re) === 0)
 			rem.push(el.parent());
 	});
 
@@ -16,7 +18,7 @@ function apply(params, next)
 	{
 		var el = $(e);
 
-		if(el.text().toLowerCase().indexOf('continued in comments') === 0)
+		if(el.text().search(ct_re) === 0)
 			rem.push(el);
 	});
 

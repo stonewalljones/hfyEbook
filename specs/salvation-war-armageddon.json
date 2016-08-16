@@ -1,0 +1,445 @@
+{
+	"title": "The Salvation War\nArmageddon",
+	"creator": "Stuart Slade",
+	"filters": [
+		"from-url",
+		"salvation-war",
+		"typography",
+		"finalize"
+	],
+	"filename": "The Salvation War - Armageddon",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Part 1",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8334&sid=5ab2fbf5dcddbd2b115cc6c9c9317e74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 2",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8334&sid=5ab2fbf5dcddbd2b115cc6c9c9317e74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 3",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8334&sid=5ab2fbf5dcddbd2b115cc6c9c9317e74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 4",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8334&sid=5ab2fbf5dcddbd2b115cc6c9c9317e74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 5",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8334&sid=5ab2fbf5dcddbd2b115cc6c9c9317e74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 6",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8335&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 7",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8335&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 8",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8335&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 9",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8335&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 10",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8335&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 11",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8336&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 12",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8336&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 13",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8336&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 14",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8336&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 15",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8336&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 16",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8337&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 17",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8337&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 18",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8337&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 19",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8337&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 20",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8337&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 21",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8338&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 22",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8338&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 23",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8338&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 24",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8338&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 25",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8338&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 26",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8340&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 27",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8340&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 28",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8340&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 29",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8340&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 30",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8340&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 31",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8341&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 32",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8341&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 33",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8341&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 34",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8341&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 35",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8341&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 36",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8342&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 37",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8342&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 38",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8342&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 39",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8342&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 40",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8342&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 41",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8343&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 42",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8343&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 43",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8343&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 44",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8343&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 45",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8343&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 46",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8345&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 47",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8345&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 48",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8345&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 49",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8345&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 50",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8345&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 51",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8346&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 52",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8346&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 53",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8346&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 54",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8346&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 55",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8346&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 56",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8347&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 57",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8347&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 58",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8347&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 59",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8347&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 60",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8347&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 61",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8348&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 62",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8348&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 63",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8348&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 64",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8348&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 65",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8348&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 66",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8350&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 67",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8350&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 68",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8350&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 69",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8350&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 70",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8350&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 71",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8351&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 72",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8351&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 73",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8351&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 74",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8351&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 75",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8351&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 76",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8354&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 77",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8354&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 78",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8354&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 79",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8354&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 80",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8354&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 81",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 1
+		},
+		{
+			"title": "Part 82",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 2
+		},
+		{
+			"title": "Part 83",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 3
+		},
+		{
+			"title": "Part 84",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 4
+		},
+		{
+			"title": "Part 85",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 5
+		},
+		{
+			"title": "Part 86",
+			"src": "http://www.tboverse.us/HPCAFORUM/phpBB3/viewtopic.php?f=29&t=8355&sid=4417b14fb7f9a501213b97a73567bf74",
+			"sw-part-index": 6
+		}
+	]
+}

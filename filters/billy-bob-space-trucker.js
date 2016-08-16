@@ -25,9 +25,9 @@ function apply(params, next)
 		$('pre').replaceWith($('<p><strong>Billy-Bob Space Trucker</strong></p>\n'));
 	else if(chap.title === 'Trois')
 		$.root().find('p strong').text('Billy-Bob Space Trucker');
-	else if(chap.title === 'Dix-sept')
+	else if(chap.title === 'Dix-Sept')
 		rem.push($($('p:contains("Edit I hates they spelling yarr")')[0]));
-	else if(chap.title === 'Dix-huit')
+	else if(chap.title === 'Dix-Huit')
 	{
 		rem.push($($('p:contains("Edit fix: Got overzealous with copy paste")')[0]));
 		rem.push($($('p:contains("Edit. Thought and FLT")')[0]));
@@ -41,14 +41,14 @@ function apply(params, next)
 	
 	// Filter various pre- and postamble paragraphs.
 	var prune = {
-		'Dix-sept': [0, 1],
-		'Dix-neuf': [0, 1],
-		'Vingt-et-un': [1, 0],
-		'Vingt-deux': [1, 0],
+		'Dix-Sept': [0, 1],
+		'Dix-Neuf': [0, 1],
+		'Vingt-Et-Un': [1, 0],
+		'Vingt-Deux': [1, 0],
 		'Vingt-Six': [0, 1],
 		'Vingt-Sept': [4, 1],
 		'Trente-Cinq première partie': [0, 1],
-		'Trente-cinq deuxième partie': [1, 0]
+		'Trente-Cinq deuxième partie': [1, 0]
 	};
 	
 	if(chap.title in prune)
@@ -64,7 +64,6 @@ function apply(params, next)
 	}
 	
 	params.purge(rem);
-	
 	next();
 }
 

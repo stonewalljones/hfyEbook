@@ -3,19 +3,21 @@ function apply(params, next)
 	var chap = params.chap;
 	var $ = chap.dom;
 	var rem = [];
+	var tr_re = /^translator note:/i;
+	var ct_re = /continued in comments/i;
 	
 	$('p strong').each(function(i, e)
 	{
 		var el = $(e);
 
-		if(el.text().toLowerCase().indexOf('translator note:') === 0)
+		if(el.text().search(tr_re) === 0)
 			rem.push(el.parent());
 	});
 
 	$('p').each(function(i, e)
 	{
 		var el = $(e);
-		var idx = el.text().toLowerCase().indexOf('continued in comments');
+		var idx = el.text().search(ct_re);
 
 		if(idx > -1 && idx < 2)
 			rem.push(el);

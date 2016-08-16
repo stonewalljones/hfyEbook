@@ -11,7 +11,7 @@
 		"finalize"
 	],
 	"filename": "Billy-Bob Space Trucker",
-	"output": ["epub", "latex", "html"],
+	"output": ["epub", "html", "latex"],
 	"contents":
 	[
 		{
@@ -79,15 +79,15 @@
 			"src": "http://www.reddit.com/r/HFY/comments/2ii7qr/oc_billybob_space_trucker_chapitre_seize/"
 		},
 		{
-			"title": "Dix-sept",
+			"title": "Dix-Sept",
 			"src": "http://www.reddit.com/r/HFY/comments/2ilmmj/oc_billybob_space_trucker_chapitre_dixsept/"
 		},
 		{
-			"title": "Dix-huit",
+			"title": "Dix-Huit",
 			"src": "http://www.reddit.com/r/HFY/comments/2ipvvp/oc_billybob_space_trucker_chapitre_dixhuit/"
 		},
 		{
-			"title": "Dix-neuf",
+			"title": "Dix-Neuf",
 			"src": "http://www.reddit.com/r/HFY/comments/2it62x/oc_billybob_space_trucker_chapitre_dixneuf/"
 		},
 		{
@@ -99,11 +99,11 @@
 			"src": "http://www.reddit.com/r/HFY/comments/2iz1qz/oc_falling_from_on_high/"
 		},
 		{
-			"title": "Vingt-et-un",
+			"title": "Vingt-Et-Un",
 			"src": "http://www.reddit.com/r/HFY/comments/2j61i3/oc_billybob_space_trucker_chapitre_vingt_et_un/"
 		},
 		{
-			"title": "Vingt-deux",
+			"title": "Vingt-Deux",
 			"src": "http://www.reddit.com/r/HFY/comments/2j9zl5/oc_billybob_space_trucker_chapitre_vingtdeux/"
 		},
 		{
@@ -159,7 +159,7 @@
 			"src": "http://www.reddit.com/r/HFY/comments/2mui7w/oc_billybob_space_trucker_chapitre_trentecinq/"
 		},
 		{
-			"title": "Trente-cinq deuxième partie",
+			"title": "Trente-Cinq deuxième partie",
 			"src": "http://www.reddit.com/r/HFY/comments/2obnvi/ocbillybob_space_trucker_chapitre_trentecinq/"
 		},
 		{

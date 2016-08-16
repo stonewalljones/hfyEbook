@@ -1,6 +1,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var marked = require('marked');
+var child_process = require('child_process');
 var fs = require('fs');
 
 marked.escape = function(html, encode)
@@ -38,53 +39,42 @@ function getPostMarkdown(json)
     return md.replace(/&amp;/g, '&');
 }
 
-function UriCache()
-{
-    this.cache = [];
-
-    var files = fs.readdirSync(__dirname + '/../cache');
-
-    for(var i = 0; i < files.length; i++)
-        this.cache.push(files[i]);
-}
-
-UriCache.prototype.uriToId = function(uri)
+function uriToId(uri)
 {
     var tokens = uri.split('/');
 
-    return tokens.slice(4, tokens.length - 1).join('_');
+    return decodeURI(tokens.slice(4, tokens.length - 1).join('_'));
 };
 
-UriCache.prototype.get = function(params, callback)
+function get(params, callback)
 {
-    var id = this.uriToId(params.chap.src);
-
-    params.chap.id = id;
-
-    if(this.cache.indexOf(id) > -1)
+    if(params.uri_cache.cache.indexOf(params.chap.id) > -1)
     {
-        console.log('[\033[92mCached\033[0m] ' + id);
-        params.chap.dom = cheerio.load(fs.readFileSync(__dirname + '/../cache/' + id, encoding = 'utf-8'), { decodeEntities: true });
+        console.log('[\033[92mCached\033[0m] ' + params.chap.id);
+        params.chap.dom = cheerio.load(fs.readFileSync(__dirname + '/../cache/' + params.chap.id, encoding = 'utf-8'), params.cheerio_flags);
         callback();
         return;
     }
 
-    request({ uri: params.chap.src + '.json' }, function(parmas, callback, uri_cache) { return function(error, response, body)
+    request({ uri: params.chap.src + '.json' }, function(params, callback, uri_cache) { return function(error, response, body)
     {
-        if(response.statusCode === 503)
+        if(!response || response.statusCode === 503)
         {
             console.log('[\033[91mRetrying\033[0m] ' + params.chap.id);
-            uri_cache.get(params, callback);
+            get(params, callback);
             return;
         }
 
         console.log('[\033[93mFetched\033[0m] ' + params.chap.id);
-        uri_cache.cache.push(params.chap.id);
+        params.uri_cache.cache.push(params.chap.id);
 
         var md = getPostMarkdown(JSON.parse(body));
         var html = marked(md);
 
-        params.chap.dom = cheerio.load(html, { decodeEntities: true });
+        // Handle non-standard Reddit superscript markdown.
+        html = html.replace(/\^\^([^ ]+)/g, '<sup>$1</sup>');
+        
+        params.chap.dom = cheerio.load(html, params.cheerio_flags);
         
         fs.writeFileSync(__dirname + '/../cache/' + params.chap.id, params.chap.dom.html(), encoding = 'utf-8');
         
@@ -94,15 +84,16 @@ UriCache.prototype.get = function(params, callback)
             fs.writeFileSync(__dirname + '/../cache/' + params.chap.id + '.md', md, encoding = 'utf-8');
         }
         
+        child_process.execSync("sleep 1");
         callback();
     }}(params, callback, this));
 };
 
-var uri_cache = new UriCache();
-
 function apply(params, next)
 {
-    uri_cache.get(params, function()
+    params.chap.id = uriToId(params.chap.src);
+
+    get(params, function()
     {
         next();
     });

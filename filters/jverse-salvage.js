@@ -5,10 +5,10 @@ function apply(params, next)
 
     var ps = $('p');
     var fp = $(ps[ps.length - 1]);
-	var is_dark_heart = chap.title === 'Dark Heart';
-	var rem_asterisk = chap.title === 'Positions of Power' ||
-	                   chap.title === 'Prisoners' ||
-	                   chap.title === 'Center of attention';
+	var is_dark_heart = chap.title.indexOf('Dark Heart') > -1;
+	var rem_asterisk = chap.title.indexOf('Positions of Power') > -1 ||
+	                   chap.title.indexOf('Prisoners') > -1 ||
+	                   chap.title.indexOf('Center of attention') > -1;
 		
 	if(is_dark_heart || rem_asterisk)
 	{
@@ -30,6 +30,12 @@ function apply(params, next)
 			}
 		});
 	}
+    
+    if(chap.title.indexOf('The Fittest') > -1)
+    {
+    	$(ps[0]).remove();
+    	$(ps[1]).remove();
+    }
     
     if(fp.text() === 'END OF CHAPTER' || fp.text() === 'Chapter End')
         fp.remove();

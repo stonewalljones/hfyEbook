@@ -1,0 +1,20 @@
+{
+	"title": "Chronicles of Clint Stone\nPart 3: Warpath",
+	"creator": "someguynamedted",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"typography",
+		"finalize"
+	],
+	"filename": "Chronicles of Clint Stone 3 - Warpath",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Spies",
+			"src": "https://www.reddit.com/r/HFY/comments/4w1bqi/clint_stone_spies/d64gcub"
+		}
+	]
+}

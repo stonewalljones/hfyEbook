@@ -5,16 +5,26 @@ var fs = require('fs');
 // NOTES:
 // FBReader does not support text strikethrough (tags: s, del, strike)
 
+function escapeHTML(txt)
+{
+    return txt.replace(/&/g, '&#0038;')
+              .replace(/"/g, '&#0034;')
+              .replace(/'/g, '&#0039;')
+              .replace(/</g, '&#0060;')
+              .replace(/>/g, '&#0062;');
+}
+
 function createContents(spec, uuid)
 {
+    var creator = escapeHTML(spec.creator);
     var xml = [
         '<?xml version="1.0"?>',
         '<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">',
         '  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">',
-        '    <dc:title>' + spec.title + '</dc:title>',
+        '    <dc:title>' + escapeHTML(spec.title) + '</dc:title>',
         '    <dc:language>en</dc:language>',
         '    <dc:identifier id="BookId" opf:scheme="UUID">' + uuid + '</dc:identifier>',
-        '    <dc:creator opf:file-as="' + spec.creator + '" opf:role="aut">' + spec.creator + '</dc:creator>',
+        '    <dc:creator opf:file-as="' + creator + '" opf:role="aut">' + creator + '</dc:creator>',
         '  </metadata>\n'
     ].join('\n');
 
@@ -54,7 +64,7 @@ function createTOC(spec, uuid)
         '    <meta content="0" name="dtb:maxPageNumber"/>',
         '  </head>',
         '  <docTitle>',
-        '    <text>' + spec.title + '</text>',
+        '    <text>' + escapeHTML(spec.title) + '</text>',
         '  </docTitle>',
         '  <navMap>\n'].join('\n');
 
@@ -63,7 +73,7 @@ function createTOC(spec, uuid)
         xml += [
             '    <navPoint id="' + id + '" playOrder="' + ord + '">',
             '      <navLabel>',
-            '        <text>' + title + '</text>',
+            '        <text>' + escapeHTML(title) + '</text>',
             '      </navLabel>',
             '      <content src="' + id + '"/>',
             '    </navPoint>\n'
@@ -84,21 +94,23 @@ function createTOC(spec, uuid)
 
 function createXHTML(params, chap)
 {
+    var title = escapeHTML(chap.title);
     var xml = [
         '<?xml version="1.0" encoding="utf-8"?>',
         '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">',
         '<html xmlns="http://www.w3.org/1999/xhtml">',
         '  <head>',
+        '    <title>' + title + '</title>',
         '    <meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type"/>',
         '    <link href="style.css" rel="stylesheet" type="text/css"/>',
         '  </head>',
         '  <body>',
-        '    <h1>' + chap.title + '</h1>',
+        '    <h1>' + title + '</h1>',
         '    ' + (chap.byline ? '<p class="byline">By ' + chap.byline + '</p>' : '<p><br/></p><p><br/></p>'),
         '    <div class="chapter">\n'
     ].join('\n');
 
-    xml += params.unescape_html(chap.dom.xml());
+    xml += chap.dom.xml();
     xml += [
         '    </div>',
         '  </body>',
@@ -114,7 +126,7 @@ function createTitle(title)
 	var lines = title.split('\n');
 	
 	for(var i = 0; i < lines.length; i++)
-		html += '        <p class="center"><center><div class="title">' + lines[i] + '</div></center></p>\n';
+		html += '        <h1 class="center">' + escapeHTML(lines[i]) + '</h1>\n';
 
 	return html;
 }
@@ -127,6 +139,7 @@ function createCover(params)
 		'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">',
 		'<html xmlns="http://www.w3.org/1999/xhtml">',
 		'    <head>',
+		'        <title>Cover</title>',
 		'        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />',
 		'        <link rel="stylesheet" type="text/css" href="style.css" />',
 		'        <style type="text/css">',
@@ -137,11 +150,11 @@ function createCover(params)
 		'    </head>',
 		'    <body>',
 		createTitle(spec.title),
-		'        <p class="center"><center><div class="author">By ' + spec.creator + '</div></center></p>',
+		'        <h3 class="center">By ' + escapeHTML(spec.creator) + '</h3>',
 	].join('\n');
 
 	if(spec.patreon)
-		html += '        <p class="center"><center><div class="patreon">Donate securely to the author at <a href="' + spec.patreon + '">patreon.com</a></div></center></p>\n';
+		html += '        <p><br/></p><h3 class="center">Donate securely to the author at <a href="' + spec.patreon + '">patreon.com</a></h3>\n';
 	
 	return html + '    </body>\n</html>';
 }

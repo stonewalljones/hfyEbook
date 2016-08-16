@@ -16,7 +16,9 @@ function apply(params, next)
 			
 			if(cr.type === 'text')
 			{
-				if(cr.data.trim() === '')
+				var s = params.decode_crs(cr.data);
+				
+				if(s.trim() === '')
 					p.remove();
 			}
 		}

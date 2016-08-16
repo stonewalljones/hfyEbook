@@ -6,12 +6,18 @@ function apply(params, next)
     if(hrs.length)
     {
         var pa = null;
-
+		var len = 2500;
+		
+		if(params.chap['no-preamble-treshold'] !== undefined)
+			len = params.chap['no-preamble-treshold'];
+		else if(params.spec['no-preamble-treshold'] !== undefined)
+			len = params.spec['no-preamble-treshold'];
+		
         hrs.each(function(i, e)
         {
             var c = $(e).prevAll();
 
-            if(c.text().length <= 2500)
+            if(c.text().length <= len)
                 pa = c;
         });
 

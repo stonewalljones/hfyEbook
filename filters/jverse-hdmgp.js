@@ -4,7 +4,7 @@ function apply(params, next)
     var $ = chap.dom;
 	var rem = [];
 	
-    if(chap.title === 'Humans don\’t make good pets 7')
+    if(chap.title.substr(chap.title.length - 2, 2) === ' 7')
     {
         var ps = $('p');
 

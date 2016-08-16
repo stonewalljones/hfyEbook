@@ -11,6 +11,7 @@
 	],
 	"filename": "Blessed are the Simple",
 	"output": ["epub", "latex", "html"],
+	"no-preamble-treshold": 1000,
 	"contents":
 	[
 		{
@@ -128,6 +129,26 @@
 		{
 			"title": "How I Made It In Time, WOOT!",
 			"src": "http://www.reddit.com/r/HFY/comments/3yzdfy/blessed_are_the_simple_xxix_or_how_i_made_it_in/"
+		},
+		{
+			"title": "I Crave Donuts and Meat. Send Help.",
+			"src": "http://www.reddit.com/r/HFY/comments/426dj3/blessed_are_the_simple_xxx_or_i_crave_donuts_and/"
+		},
+		{
+			"title": "How I Celebrated Valentine's Day Alone and with a Big Bag of Candy",
+			"src": "http://www.reddit.com/r/HFY/comments/46ka80/blessed_are_the_simple_xxxi_or_how_i_celebrated/"
+		},
+		{
+			"title": "How I Forgot The Punchline",
+			"src": "http://www.reddit.com/r/HFY/comments/4lcwbb/blessed_are_the_simple_xxxii_or_how_i_forgot_the/"
+		},
+		{
+			"title": "How I Learned of the Improper Use of Firearms as Blunt Force Applicators",
+			"src": "http://www.reddit.com/r/HFY/comments/4rspkl/blessed_are_the_simple_xxxiii_part_1_or_how_i/"
+		},
+		{
+			"title": "How You're Gonna Carry That Weight",
+			"src": "http://www.reddit.com/r/HFY/comments/4rsr4j/blessed_are_the_simple_xxxiii_part_2_or_how_youre/"
 		}
 	]
 }

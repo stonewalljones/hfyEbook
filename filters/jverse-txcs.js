@@ -11,7 +11,7 @@ function apply(params, next)
     	{
     		var p = $(e);
     		
-    		if(p.text() === '&nbsp')
+    		if(p.text() === '&amp;nbsp')
     			rem.push(p);
     	});
     }

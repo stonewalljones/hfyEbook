@@ -3,9 +3,11 @@ function apply(params, next)
     var chap = params.chap;
 	var $ = chap.dom;
 	var t = chap.title.substr(0, 2);
+	var t2 = chap.title.substr(4, 2); // Fourbags
 	var rem = [];
+	var chap_is = function(n) { var v = '' + n + '.'; return v === t || v === t2 };
 	
-	if(t === '1.')
+	if(chap_is(1))
 	{
 		// Remove double spacing
 	    $('p').each(function(i, e)
@@ -20,14 +22,14 @@ function apply(params, next)
 	            rem.push(el);
 	    });
 	}
-	else if(t === '2.')
+	else if(chap_is(2))
 	{
 		var ps = $('p');
 
 		for(var i = 0; i < 5; i++)
 			rem.push($(ps[i]));
 	}
-	else if(t === '5.' || t === '6.' ||	t === '7.')
+	else if(chap_is(5) || chap_is(6) || chap_is(7))
 	{
 		var ps = $('p');
 

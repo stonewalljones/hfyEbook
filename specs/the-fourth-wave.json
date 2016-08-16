@@ -1,0 +1,454 @@
+{
+	"title": "The Fourth Wave",
+	"creator": "Joel \"semiloki\" Woodard",
+	"patreon": "https://www.patreon.com/jwoodard",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+		"the-fourth-wave",
+		"typography",
+		"finalize"
+	],
+	"filename": "The Fourth Wave",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/30tk8j/pithe_fourth_wave_part_i/"
+		},
+		{
+			"title": "Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/30ujdq/pi_the_fourth_wave_part_ii/"
+		},
+		{
+			"title": "Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/30unnm/pi_the_fourth_wave_part_iii/"
+		},
+		{
+			"title": "Part 4",
+			"src": "http://www.reddit.com/r/HFY/comments/30y92o/pi_the_fourth_wave_part_iv/"
+		},
+		{
+			"title": "Part 5",
+			"src": "http://www.reddit.com/r/HFY/comments/313rxg/pi_the_fourth_wave_part_v/"
+		},
+		{
+			"title": "Part 6",
+			"src": "http://www.reddit.com/r/HFY/comments/3151by/pi_the_fourth_wave_part_vi/"
+		},
+		{
+			"title": "Part 7",
+			"src": "http://www.reddit.com/r/HFY/comments/318bg8/pi_the_fourth_wave_part_vii/"
+		},
+		{
+			"title": "Part 8",
+			"src": "http://www.reddit.com/r/HFY/comments/319010/pi_the_fourth_wave_part_viii/"
+		},
+		{
+			"title": "Part 9",
+			"src": "http://www.reddit.com/r/HFY/comments/31oniv/pi_the_fourth_wave_part_ix/"
+		},
+		{
+			"title": "Part 10",
+			"src": "http://www.reddit.com/r/HFY/comments/31t1up/pi_the_fourth_wave_part_x/"
+		},
+		{
+			"title": "Part 11",
+			"src": "http://www.reddit.com/r/HFY/comments/31u0m6/pi_the_fourth_wave_part_xi/"
+		},
+		{
+			"title": "Part 12",
+			"src": "http://www.reddit.com/r/HFY/comments/323c2w/pi_the_fourth_wave_part_xii/"
+		},
+		{
+			"title": "Part 13",
+			"src": "http://www.reddit.com/r/HFY/comments/329v0v/pi_the_fourth_wave_part_xiii/"
+		},
+		{
+			"title": "Part 14",
+			"src": "http://www.reddit.com/r/HFY/comments/32l6wq/pi_the_fourth_wave_part_xiv/"
+		},
+		{
+			"title": "Part 15",
+			"src": "http://www.reddit.com/r/HFY/comments/32mmxw/pi_the_fourth_wave_part_xv/"
+		},
+		{
+			"title": "Part 16",
+			"src": "http://www.reddit.com/r/HFY/comments/32rr1p/pi_the_fourth_wave_part_xvi/"
+		},
+		{
+			"title": "Part 17",
+			"src": "http://www.reddit.com/r/HFY/comments/32umwc/pi_the_fourth_wave_part_xvii/"
+		},
+		{
+			"title": "Part 18",
+			"src": "http://www.reddit.com/r/HFY/comments/32z84a/pi_the_fourth_wave_part_xviii/"
+		},
+		{
+			"title": "Part 19",
+			"src": "http://www.reddit.com/r/HFY/comments/33bpul/pi_the_fourth_wave_part_xix/"
+		},
+		{
+			"title": "Part 20",
+			"src": "http://www.reddit.com/r/HFY/comments/33fz67/pi_the_fourth_wave_part_xx/"
+		},
+		{
+			"title": "Part 21",
+			"src": "http://www.reddit.com/r/HFY/comments/33mu87/pi_the_fourth_wave_part_xxi/"
+		},
+		{
+			"title": "Part 22",
+			"src": "http://www.reddit.com/r/HFY/comments/33zzj7/pi_the_fourth_wave_part_xxii/"
+		},
+		{
+			"title": "Part 23",
+			"src": "http://www.reddit.com/r/HFY/comments/34377z/pi_the_fourth_wave_part_xxiii/"
+		},
+		{
+			"title": "Part 24",
+			"src": "http://www.reddit.com/r/HFY/comments/348ryl/pi_the_fourth_wave_part_xxiv/"
+		},
+		{
+			"title": "Part 25",
+			"src": "http://www.reddit.com/r/HFY/comments/34c2ar/pi_the_fourth_wave_part_xxv/"
+		},
+		{
+			"title": "Part 26",
+			"src": "http://www.reddit.com/r/HFY/comments/34fcr1/pi_the_fourth_wave_part_xxvi/"
+		},
+		{
+			"title": "Part 27",
+			"src": "http://www.reddit.com/r/HFY/comments/34vo8d/pi_the_fourth_wave_part_xxvii/"
+		},
+		{
+			"title": "Part 28",
+			"src": "http://www.reddit.com/r/HFY/comments/34zmv2/pi_the_fourth_wave_part_xxviii/"
+		},
+		{
+			"title": "Part 29",
+			"src": "http://www.reddit.com/r/HFY/comments/353j0a/pi_the_fourth_wave_part_xxix/"
+		},
+		{
+			"title": "Part 30",
+			"src": "http://www.reddit.com/r/HFY/comments/359j8k/pi_the_fourth_wave_part_xxx/"
+		},
+		{
+			"title": "Part 31",
+			"src": "http://www.reddit.com/r/HFY/comments/35n4m7/pi_the_fourth_wave_part_xxxi/"
+		},
+		{
+			"title": "Part 32",
+			"src": "http://www.reddit.com/r/HFY/comments/35rosw/pi_the_fourth_wave_part_xxxiii/"
+		},
+		{
+			"title": "Part 33",
+			"src": "http://www.reddit.com/r/HFY/comments/364zcs/pi_the_fourth_wave_part_xxxiii_fo_real_baby/"
+		},
+		{
+			"title": "Part 34",
+			"src": "http://www.reddit.com/r/HFY/comments/3686as/pi_the_fourth_wave_part_xxxiv/"
+		},
+		{
+			"title": "Part 35",
+			"src": "http://www.reddit.com/r/HFY/comments/36bsl1/pi_the_fourth_wave_part_xxxv/"
+		},
+		{
+			"title": "Part 36",
+			"src": "http://www.reddit.com/r/HFY/comments/36f1ux/pi_the_fourth_wave_part_xxxvi/"
+		},
+		{
+			"title": "Part 37",
+			"src": "http://www.reddit.com/r/HFY/comments/36ju5p/pi_the_fourth_wave_part_xxxvii/"
+		},
+		{
+			"title": "Part 38",
+			"src": "http://www.reddit.com/r/HFY/comments/36ogyw/pi_the_fourth_wave_part_xxxviii/"
+		},
+		{
+			"title": "Part 39",
+			"src": "http://www.reddit.com/r/HFY/comments/36xfxg/pi_the_fourth_wave_part_xxxiv/"
+		},
+		{
+			"title": "Part 40",
+			"src": "http://www.reddit.com/r/HFY/comments/37ix2t/pi_the_fourth_wave_part_xlxxxx40/"
+		},
+		{
+			"title": "Part 41",
+			"src": "http://www.reddit.com/r/HFY/comments/37nkbj/pi_the_fourth_wave_part_41/"
+		},
+		{
+			"title": "Part 42",
+			"src": "http://www.reddit.com/r/HFY/comments/37ti42/pi_the_fourth_wave_part_42_is_this_the_answer_to/"
+		},
+		{
+			"title": "Part 43",
+			"src": "http://www.reddit.com/r/HFY/comments/38fomj/pi_the_fourth_wave_part_43/"
+		},
+		{
+			"title": "Part 44",
+			"src": "http://www.reddit.com/r/HFY/comments/393lxs/pi_the_fourth_wave_part_44/"
+		},
+		{
+			"title": "Part 45",
+			"src": "http://www.reddit.com/r/HFY/comments/39ojco/pi_the_fourth_wave_part_45/"
+		},
+		{
+			"title": "Part 46",
+			"src": "http://www.reddit.com/r/HFY/comments/3as7o0/pi_the_fourth_wave_part_46/"
+		},
+		{
+			"title": "Part 47",
+			"src": "http://www.reddit.com/r/HFY/comments/3aw2yi/pi_the_fourth_wave_part_47/"
+		},
+		{
+			"title": "Part 48",
+			"src": "http://www.reddit.com/r/HFY/comments/3b14dp/pi_the_fourth_wave_part_48/"
+		},
+		{
+			"title": "Part 49",
+			"src": "http://www.reddit.com/r/HFY/comments/3b56bz/pi_the_fourth_wave_part_49/"
+		},
+		{
+			"title": "Part 50",
+			"src": "http://www.reddit.com/r/HFY/comments/3b98k3/pi_the_fourth_wave_part_50/"
+		},
+		{
+			"title": "Part 51",
+			"src": "http://www.reddit.com/r/HFY/comments/3bq6fk/pi_the_fourth_wave_part_51/"
+		},
+		{
+			"title": "Part 52",
+			"src": "http://www.reddit.com/r/HFY/comments/3by0bl/pi_the_fourth_wave_part_52/"
+		},
+		{
+			"title": "Part 53",
+			"src": "http://www.reddit.com/r/HFY/comments/3cd5jl/pi_the_fourth_wave_part_53/"
+		},
+		{
+			"title": "Part 54",
+			"src": "http://www.reddit.com/r/HFY/comments/3d7ugv/pi_the_fourth_wave_part_54/"
+		},
+		{
+			"title": "Part 55",
+			"src": "http://www.reddit.com/r/HFY/comments/3dogx4/pi_the_fourth_wave_part_55/"
+		},
+		{
+			"title": "Part 56",
+			"src": "http://www.reddit.com/r/HFY/comments/3e4f5g/pi_the_fourth_wave_part_56/"
+		},
+		{
+			"title": "Part 57",
+			"src": "http://www.reddit.com/r/HFY/comments/3e9jc8/pi_the_fourth_wave_part_57/"
+		},
+		{
+			"title": "Part 58",
+			"src": "http://www.reddit.com/r/HFY/comments/3ed9v3/pi_the_fourth_wave_part_58/"
+		},
+		{
+			"title": "Part 59",
+			"src": "http://www.reddit.com/r/HFY/comments/3f39nx/pi_the_fourth_wave_part_59/"
+		},
+		{
+			"title": "Part 60",
+			"src": "http://www.reddit.com/r/HFY/comments/3gxgkv/pi_the_fourth_wave_part_60/"
+		},
+		{
+			"title": "Part 61",
+			"src": "http://www.reddit.com/r/HFY/comments/3hs2qj/pi_the_fourth_wave_part_61/"
+		},
+		{
+			"title": "Part 62",
+			"src": "http://www.reddit.com/r/HFY/comments/3hwtfi/pi_the_fourth_wave_part_62/"
+		},
+		{
+			"title": "Part 63",
+			"src": "http://www.reddit.com/r/HFY/comments/3i9jtr/pi_the_fourth_wave_part_63/"
+		},
+		{
+			"title": "Part 64",
+			"src": "http://www.reddit.com/r/HFY/comments/3idxky/pi_the_fourth_wave_part_64/"
+		},
+		{
+			"title": "Part 65",
+			"src": "http://www.reddit.com/r/HFY/comments/3ijh64/pi_the_fourth_wave_part_65/"
+		},
+		{
+			"title": "Part 66",
+			"src": "http://www.reddit.com/r/HFY/comments/3in4nf/pi_the_fourth_wave_part_66/"
+		},
+		{
+			"title": "Part 67",
+			"src": "http://www.reddit.com/r/HFY/comments/3irsox/pi_the_fourth_wave_part_67/"
+		},
+		{
+			"title": "Part 68",
+			"src": "http://www.reddit.com/r/HFY/comments/3jjea4/pi_the_fourth_wave_part_68/"
+		},
+		{
+			"title": "Part 69",
+			"src": "http://www.reddit.com/r/HFY/comments/3kafji/pi_the_fourth_wave_part_69/"
+		},
+		{
+			"title": "Part 70",
+			"src": "http://www.reddit.com/r/HFY/comments/3kgb45/pi_the_fourth_wave_part_70/"
+		},
+		{
+			"title": "Part 71",
+			"src": "http://www.reddit.com/r/HFY/comments/3klr0h/pi_the_fourth_wave_part_71/"
+		},
+		{
+			"title": "Part 72",
+			"src": "http://www.reddit.com/r/HFY/comments/3kyhsr/pi_the_fourth_wave_part_72/"
+		},
+		{
+			"title": "Part 73",
+			"src": "http://www.reddit.com/r/HFY/comments/3m8zqx/pi_the_fourth_wave_part_73/"
+		},
+		{
+			"title": "Part 74",
+			"src": "http://www.reddit.com/r/HFY/comments/3nug4p/pithe_fourth_wave_part_74/"
+		},
+		{
+			"title": "Part 75",
+			"src": "http://www.reddit.com/r/HFY/comments/3oj2sj/pi_the_fourth_wave_part_75/"
+		},
+		{
+			"title": "Part 76",
+			"src": "http://www.reddit.com/r/HFY/comments/3pp5ss/pi_the_fourth_wave_part_76/"
+		},
+		{
+			"title": "Part 77",
+			"src": "http://www.reddit.com/r/HFY/comments/3py6pi/pi_the_fourth_wave_part_77/"
+		},
+		{
+			"title": "Part 78",
+			"src": "http://www.reddit.com/r/HFY/comments/3qcaa1/pi_the_fourth_wave_part_78/"
+		},
+		{
+			"title": "Part 79",
+			"src": "http://www.reddit.com/r/HFY/comments/3qhfde/pi_the_fourth_wave_part_79/"
+		},
+		{
+			"title": "Part 80",
+			"src": "http://www.reddit.com/r/HFY/comments/3qnr27/pi_the_fourth_wave_part_80/"
+		},
+		{
+			"title": "Part 81",
+			"src": "http://www.reddit.com/r/HFY/comments/3qrx3x/pi_the_fourth_wave_part_81/"
+		},
+		{
+			"title": "Part 82",
+			"src": "http://www.reddit.com/r/HFY/comments/3raaca/pi_the_fourth_wave_part_82/"
+		},
+		{
+			"title": "Part 83",
+			"src": "http://www.reddit.com/r/HFY/comments/3rphjf/pi_the_fourth_wave_part_83/"
+		},
+		{
+			"title": "Part 84",
+			"src": "http://www.reddit.com/r/HFY/comments/3sd8ml/pi_the_fourth_wave_part_84/"
+		},
+		{
+			"title": "Part 85",
+			"src": "http://www.reddit.com/r/HFY/comments/3t8y57/pi_the_fourth_wave_part_85/"
+		},
+		{
+			"title": "Part 86",
+			"src": "http://www.reddit.com/r/HFY/comments/3thqf4/pi_the_fourth_wave_part_86/"
+		},
+		{
+			"title": "Part 87",
+			"src": "http://www.reddit.com/r/HFY/comments/3u3hh0/pi_the_fourth_wave_part_87/"
+		},
+		{
+			"title": "Part 88",
+			"src": "http://www.reddit.com/r/HFY/comments/3ua4qv/pi_the_fourth_wave_part_88_100_nazi_free_despite/"
+		},
+		{
+			"title": "Part 89",
+			"src": "http://www.reddit.com/r/HFY/comments/3v739v/pi_the_fourth_wave_part_89/"
+		},
+		{
+			"title": "Part 90",
+			"src": "http://www.reddit.com/r/HFY/comments/3vhhkq/pi_the_fourth_wave_part_90/"
+		},
+		{
+			"title": "Part 91",
+			"src": "http://www.reddit.com/r/HFY/comments/3wbnuv/pi_the_fourth_wave_part_91/"
+		},
+		{
+			"title": "Part 92",
+			"src": "http://www.reddit.com/r/HFY/comments/3wwjlq/pi_the_fourth_wave_part_92/"
+		},
+		{
+			"title": "Part 93",
+			"src": "http://www.reddit.com/r/HFY/comments/3xns9l/pi_the_fourth_wave_part_93/"
+		},
+		{
+			"title": "Part 94",
+			"src": "http://www.reddit.com/r/HFY/comments/3y88hh/pi_the_fourth_wave_part_94/"
+		},
+		{
+			"title": "Part 95",
+			"src": "http://www.reddit.com/r/HFY/comments/3ysut0/pi_the_fourth_wave_part_95/"
+		},
+		{
+			"title": "Part 96",
+			"src": "http://www.reddit.com/r/HFY/comments/3zxreo/pi_the_fourth_wave_part_96/"
+		},
+		{
+			"title": "Part 97",
+			"src": "http://www.reddit.com/r/HFY/comments/40pzrx/pi_the_fourth_wave_part_97/"
+		},
+		{
+			"title": "Part 98",
+			"src": "http://www.reddit.com/r/HFY/comments/427f87/pi_the_fourth_wave_part_98/"
+		},
+		{
+			"title": "Part 99",
+			"src": "http://www.reddit.com/r/HFY/comments/42u5c4/pi_the_fourth_wave_part_99/"
+		},
+		{
+			"title": "Part 100",
+			"src": "http://www.reddit.com/r/HFY/comments/433o1x/pi_the_fourth_wave_part_100/"
+		},
+		{
+			"title": "Part 101",
+			"src": "http://www.reddit.com/r/HFY/comments/43wl2b/pi_the_fourth_wave_part_101/"
+		},
+		{
+			"title": "Part 102",
+			"src": "http://www.reddit.com/r/HFY/comments/46apy6/pi_the_fourth_wave_part_102/"
+		},
+		{
+			"title": "Part 103",
+			"src": "http://www.reddit.com/r/HFY/comments/46nguy/the_fourth_wave_part_103/"
+		},
+		{
+			"title": "Part 104",
+			"src": "http://www.reddit.com/r/HFY/comments/47rb17/the_fourth_wave_part_104/"
+		},
+		{
+			"title": "Part 105",
+			"src": "http://www.reddit.com/r/HFY/comments/49vwe5/pi_the_fourth_wave_part_105/"
+		},
+		{
+			"title": "Part 106",
+			"src": "http://www.reddit.com/r/HFY/comments/4bt4ev/pi_the_fourth_wave_part_106/"
+		},
+		{
+			"title": "Part 107",
+			"src": "http://www.reddit.com/r/HFY/comments/4chvzc/pi_the_fourth_wave_part_107/"
+		},
+		{
+			"title": "Part 108",
+			"src": "http://www.reddit.com/r/HFY/comments/4dy204/pi_the_fourth_wave_part_108/"
+		},
+		{
+			"title": "Part 109",
+			"src": "http://www.reddit.com/r/HFY/comments/4dyc5a/pi_the_fourth_wave_part_109/"
+		}
+	]
+}

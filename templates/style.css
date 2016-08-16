@@ -8,7 +8,7 @@ body
 	text-align: left;
 	text-indent: 0em;
 	border: 0 none;
-	margin: 0em;
+	margin: 2%;
 	padding: 1em;
 	text-align: left;
 	-epub-word-break: keep-all;
@@ -19,7 +19,7 @@ body
 
 .chapter
 {
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: 6em;
 }
 
@@ -28,6 +28,26 @@ h1
 	font-size: 1.5em;
 	line-height: 1em;
 	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: 0.1em;
+	text-align: left;
+}
+
+h2
+{
+	font-size: 1.25em;
+	line-height: 1em;
+	font-weight: bold;
+	margin-top: 0em;
+	margin-bottom: 0.1em;
+	text-align: left;
+}
+
+h3
+{
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: normal;
 	margin-top: 0em;
 	margin-bottom: 0.1em;
 	text-align: left;
@@ -96,6 +116,7 @@ div
 center
 {
 	text-align: center;
+	margin: auto; 
 }
 
 a, a:link, a:visited

@@ -6,6 +6,7 @@ var fs = require('fs');
 // Linux Libertine
 // Linux Biolinum
 var typeface = 'Liberation Serif';
+var typeface_mono = 'Liberation Mono';
 
 function l_esc(txt)
 {
@@ -20,56 +21,53 @@ function l_esc(txt)
 
 function filter(p, txt)
 {
-	return l_esc(p.unescape_html(txt).replace(/&lt;/g, '<')
-	                                 .replace(/&gt;/g, '>')
-	                                 .replace(/&nbsp;/g, ' ')
-	                                 .replace(/&mdash;/g, '---')
-	                                 .replace(/&ndash;/g, '-'))
-	                                 	 .replace(/\\([^%\$#_\{\}&])/gm, '{\\textbackslash}$1')
-	                                 	 .replace(/\\$/g, '{\\textbackslash}')
-							             .replace(/~/g, '{\\textasciitilde}')
-							             .replace(/\^/g, '{\\textasciicircum}')
-                                         .replace(/…/g, '{\\ldots}')
-                                         .replace(/\.\.\./g, '{\\ldots}');
+	return l_esc(p.unescape_html(txt).replace(/—/g, '---')
+	                                 .replace(/–/g, '-'))
+	                                 .replace(/\\([^%\$#_\{\}&])/gm, '{\\textbackslash}$1')
+	                                 .replace(/\\$/g, '{\\textbackslash}')
+							         .replace(/~/g, '{\\textasciitilde}')
+							         .replace(/\^/g, '{\\textasciicircum}')
+                                     .replace(/…/g, '{\\ldots}');
 }
 
 function tolatex(p, $, e, brk)
 {
 	var latex = '';
-	
+
 	e.contents().each(function(i, el)
 	{
 		var elem = $(el);
-		
+
 		// console.log(id + el.type);
-		
+
 		if(el.type === 'text')
 			latex += filter(p, el.data);
 		else if(el.type === 'tag')
 		{
-			if(el.name === 'center')
-			{
-				var sl = tolatex(p, $, elem);
-				
-				if(sl === '⁂')
-					latex += '\\asterism\n';
-				else
-					latex += '\\begin{center}' + sl + '\\end{center}';
-			}
-			else if(el.name === 'em')
+			if(el.name === 'em')
 				latex += '\\textit{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'strong')
 				latex += '\\textbf{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'pre' || el.name === 'code')
-				latex += '\\texttt{' + tolatex(p, $, elem).replace(/\n/g, '\\\\*') + '}';
+				latex += '\\monosp{' + tolatex(p, $, elem).replace(/\n/g, '\\\\*') + '}';
 			else if(el.name === 'a')
 				latex += '\\href{' + l_esc(el.attribs['href']) + '}{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'p')
 			{
 				var t = tolatex(p, $, elem);
-				
-				latex += t + (t.indexOf('\\star') > -1 ? '' : '\n');
+
+				if(elem.attr('class') === 'center')
+				{
+				    if(t === '&#0038;')
+					    latex += '\\asterism\n';
+				    else
+					    latex += '\\begin{center}' + t + '\\end{center}';
+				}
+				else
+				    latex += t + (t.indexOf('\\star') > -1 ? '' : '\n');
 			}
+            else if(el.name === 'blockquote')
+                latex += '\\begin{displayquote}\n' + tolatex(p, $, elem) + '\n\\end{displayquote}';
 			else if(el.name === 'span')
 				latex += tolatex(p, $, elem);
 			else if(el.name === 'li')
@@ -82,6 +80,8 @@ function tolatex(p, $, e, brk)
 				latex += '\\\\*\n';
 			else if(el.name === 's' || el.name === 'del' || el.name === 'strike')
 				latex += '\\sout{' + tolatex(p, $, elem) + '}';
+			else if(el.name === 'sup')
+				latex += '\\textsuperscript{' + tolatex(p, $, elem) + '}';
 			else
 			{
 				console.log('LaTeX: Unhandled tag: ' + el.name);
@@ -89,7 +89,7 @@ function tolatex(p, $, e, brk)
 			}
 		}
 	});
-	
+
 	return latex;
 }
 
@@ -97,59 +97,71 @@ function apply(params, next)
 {
     var spec = params.spec;
     var oname = 'output/' + spec.filename + '.tex';
+    var title = l_esc(spec.title);
+    var creator = l_esc(spec.creator);
+    var n_re = /\n/g;
+    var d_str = (new Date()).toUTCString();
     var latex = [
 		'\\documentclass[a4paper,10pt]{article}',
 		'',
 		'\\usepackage{fontspec,xunicode}',
-		'\\usepackage{ifxetex}',
 		'\\usepackage[normalem]{ulem}',
 		'\\usepackage{tocloft}',
-		'\\usepackage{stackengine}',
-		'\\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, pdfborder = {0 0 0}]{hyperref}',
+		'\\usepackage{hyperref}',
+		'\\usepackage{csquotes}',
 		'',
-		'\\ifxetex',
-		'  \\usepackage{fontspec}',
-		'  \\defaultfontfeatures{Ligatures=TeX}',
-		'  \\setromanfont{' + typeface + '}',
-		'\\else',
-		'  \\usepackage[T1]{fontenc}',
-		'  \\usepackage[utf8]{inputenc}',	
-		'\\fi',
+		'\\title{' + title.replace(n_re, '\\\\\n') + '}',
+		'\\author{By ' + creator + (spec.patreon ? '\\\\ Donate securely to the author at \\href{' + l_esc(spec.patreon) + '}{Patreon}' : '') + '}',
+		'\\date{}',
 		'',
-		'\\def\\asterism{\\par\\begin{center}\\scalebox{2}{$\\cdots$}\\end{center}}',
+		'\\hypersetup{',
+		'  pdftitle = {' + title.replace(n_re, ' - ') + '},',
+		'  pdfauthor = {' + spec.creator + '},',
+        '  pdfproducer = {EbookJS},',
+        '  colorlinks = true,',
+        '  linkcolor = [rgb]{0.09,0.15,0.588},',
+        '  urlcolor = [rgb]{0.09,0.15,0.588},',
+        '  pdfborder = {0 0 0}',
+		'}',
 		'',
 		'\\setlength{\\parskip}{\\baselineskip}',
 		'\\setlength{\\parindent}{0pt}',
 		'\\linespread{1.2}',
 		'\\raggedright',
+		'\\defaultfontfeatures{Ligatures=TeX}',
+		'\\setromanfont{' + typeface + '}',
+		'\\setmonofont[Scale=0.85]{' + typeface_mono + '}',
 		'',
-		'\\renewcommand{\\cftsecfont}{}',
-		'\\renewcommand{\\cftsecpagefont}{}',
+		'\\def\\asterism{\\par\\begin{center}\\scalebox{2}{$\\cdots$}\\end{center}}',
+		'',
+		'\\newcommand{\\monosp}[1]{\\texttt{{#1}}\\vspace{5mm}}',
+		'\\renewcommand{\\cftsecfont}{\\normalfont}',
+		'\\renewcommand{\\cftsecpagefont}{\\normalfont}',
 		'\\renewcommand{\\cftsecpresnum}{\\begin{lrbox}{\\@tempboxa}}',
 		'\\renewcommand{\\cftsecaftersnum}{\\end{lrbox}}',
 		'\\renewcommand{\\cftsecleader}{\\cftdotfill{\\cftdotsep}}',
-		'\\renewcommand{\\contentsname}{Table of contents\\linebreak}',
+		'\\renewcommand{\\contentsname}{Contents\\linebreak}',
 		'\\setcounter{secnumdepth}{-2}',
 		'',
 		'\\begin{document}',
+        '\\pagestyle{plain}',
 		'',
-		'\\title{' + l_esc(spec.title).replace(/\n/g, '\\\\\n') + '}',
-		'\\author{' + l_esc(spec.creator) + (spec.patreon ? '\\\\ Donate securely to the author at \\href{' + l_esc(spec.patreon) + '}{Patreon}' : '') + '}',
-		'\\date{}',
-		'',
+        '\\addcontentsline{toc}{section}{\\protect{Title}}',
+        '\\sectionmark{Title}',
 		'\\maketitle',
-		'\\pagestyle{empty}',
 		'\\thispagestyle{empty}',
-		'',
 		'\\vfill',
+		'\\begin{center}Automatically typeset in\\\\' + typeface + ' and ' + typeface_mono + '\\\\by EbookJS on ' + d_str.substr(5, d_str.length) + '\\end{center}',
 		'',
-		'\\begin{center}Set in ' + typeface + '\\end{center}',
 		'\\clearpage',
+        '\\pagenumbering{Roman}',
 		'\\tableofcontents',
+		'',
 		'\\clearpage',
-		'\\pagestyle{plain}',
-		'\\pagenumbering{arabic}',
-		''
+        '\\newcounter{storedpage}',
+        '\\setcounter{storedpage}{\\value{page}}',
+        '\\pagenumbering{arabic}',
+        '\\setcounter{page}{\\value{storedpage}}'
 	].join('\n');
 
     console.log('Building ' + oname);
@@ -157,12 +169,13 @@ function apply(params, next)
     for(var i = 0; i < spec.contents.length; i++)
     {
         var chap = spec.contents[i];
+        var title = l_esc(chap.title);
 
-        latex += '\\clearpage\n\\section{' + l_esc(chap.title) + '}\n';
-        
+        latex += '\n\\clearpage\n\\section{' + title + '}\n';
+
         if(chap.byline)
-        	latex += '\\vspace{-2em}By ' + chap.byline + '\\vspace{1em}\n';
-        
+        	latex += '\\vspace{-2em}By ' + l_esc(chap.byline) + '\\vspace{1em}\\\\*\n';
+
         latex += tolatex(params, chap.dom, chap.dom.root());
     }
 

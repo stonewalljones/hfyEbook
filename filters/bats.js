@@ -4,13 +4,14 @@ function apply(params, next)
 	var $ = chap.dom;
 	var ps = $('p');
 	var rem = [];
+	var cmt_re = /^continued in (the )*comments/gi;
 	
 	ps.each(function(i, e)
 	{
 		var el = $(e);
-		var t = el.text().toLowerCase();
+		var t = el.text();
 
-		if(t.indexOf('continued in comments') === 0 || t.indexOf('continued in the comments') === 0)
+		if(t.search(cmt_re) === 0)
 			rem.push(el);
 	});
 

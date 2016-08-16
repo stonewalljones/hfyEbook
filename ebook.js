@@ -69,6 +69,16 @@ function purge(set)
 	}
 }
 
+function UriCache()
+{
+    this.cache = [];
+
+    var files = fs.readdirSync(__dirname + '/cache');
+
+    for(var i = 0; i < files.length; i++)
+        this.cache.push(files[i]);
+}
+
 function FilterManager()
 {
     this.filters = {};
@@ -123,12 +133,12 @@ function Finalize(params)
     }
 }
 
-function Sequence(ops, params)
+function Sequence(ops, params, cb)
 {
     if(ops.length < 2)
         throw new Exception(ERROR_TAG + 'Cannot create a sequence of less than two operations.');
 
-    var last = function(params) { return function() { Finalize(params); }; }(params);
+    var last = function(params, cb) { return function() { Finalize(params); if(cb) cb(); }; }(params, cb);
 
     for(var i = ops.length - 1; i >= 0; i--)
         last = function(cur, nxt) { return function() { cur(params, nxt); }; }(ops[i], last);
@@ -138,6 +148,8 @@ function Sequence(ops, params)
 
 // Load the spec. Start processing.
 var spec = JSON.parse(fs.readFileSync(__dirname + '/' + process.argv[2]));
+var sched = {};
+var uri_cache = new UriCache();
 
 spec.loaded = 0;
 
@@ -148,7 +160,10 @@ for(var i = 0; i < spec.contents.length; i++)
         spec: spec,
         chap: chap,
     	unescape_html: unescape_html,
-    	purge: purge
+    	decode_crs: decode_crs,
+    	purge: purge,
+    	uri_cache: uri_cache,
+    	cheerio_flags: { decodeEntities: false }
     };
 
     if(typeof(chap.title) !== 'string')
@@ -200,5 +215,27 @@ for(var i = 0; i < spec.contents.length; i++)
 		return;
 	}
 		
-    Sequence(ops, params);
+    if(chap.src in sched)
+    	sched[chap.src].push([ops, params]);
+ 	else
+ 		sched[chap.src] = [[ops, params]];
+}
+
+for(var src in sched)
+{
+	if(!sched.hasOwnProperty(src))
+		continue;
+	
+	var chapters = sched[src];
+	
+	if(chapters.length === 1)
+		Sequence(chapters[0][0], chapters[0][1]);
+	else
+	{
+		Sequence(chapters[0][0], chapters[0][1], function(chapters) { return function()
+		{
+			for(var ci = 1; ci < chapters.length; ci++)
+				Sequence(chapters[ci][0], chapters[ci][1]);
+		}}(chapters));
+	}
 }

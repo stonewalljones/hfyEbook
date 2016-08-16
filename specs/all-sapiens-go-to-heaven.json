@@ -1,0 +1,88 @@
+{
+	"title": "All Sapiens Go To Heaven",
+	"creator": "colie_o",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"all-sapiens-go-to-heaven",
+		"typography",
+		"finalize"
+	],
+	"filename": "All Sapiens Go To Heaven",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Part 1",
+			"src": "http://www.reddit.com/r/HFY/comments/3ir9p3/all_sapiens_go_to_heaven_part_1/"
+		},
+		{
+			"title": "Part 2",
+			"src": "http://www.reddit.com/r/HFY/comments/3jmjwp/all_sapiens_go_to_heaven_part_2/"
+		},
+		{
+			"title": "Part 3",
+			"src": "http://www.reddit.com/r/HFY/comments/3kzbl3/all_sapiens_go_to_heaven_part_3/"
+		},
+		{
+			"title": "Part 4",
+			"src": "http://www.reddit.com/r/HFY/comments/3lhgx4/all_sapiens_go_to_heaven_part_4/"
+		},
+		{
+			"title": "Part 5",
+			"src": "http://www.reddit.com/r/HFY/comments/3o56b6/all_sapiens_go_to_heaven_part_5/"
+		},
+		{
+			"title": "Part 6",
+			"src": "http://www.reddit.com/r/HFY/comments/3qflqn/all_sapiens_go_to_heaven_part_6/"
+		},
+		{
+			"title": "Part 7",
+			"src": "http://www.reddit.com/r/HFY/comments/3rirla/all_sapiens_go_to_heaven_part_7/"
+		},
+		{
+			"title": "Part 8",
+			"src": "http://www.reddit.com/r/HFY/comments/3t2oay/all_sapiens_go_to_heaven_part_8/"
+		},
+		{
+			"title": "Part 9",
+			"src": "http://www.reddit.com/r/HFY/comments/3v15mj/all_sapiens_go_to_heaven_part_9/"
+		},
+		{
+			"title": "Part 10",
+			"src": "http://www.reddit.com/r/HFY/comments/3zh18l/all_sapiens_go_to_heaven_part_10/"
+		},
+		{
+			"title": "Part 11",
+			"src": "http://www.reddit.com/r/HFY/comments/40j6pd/all_sapiens_go_to_heaven_part_11/"
+		},
+		{
+			"title": "Part 12",
+			"src": "http://www.reddit.com/r/HFY/comments/422eyt/all_sapiens_go_to_heaven_part_12/"
+		},
+		{
+			"title": "Part 13",
+			"src": "http://www.reddit.com/r/HFY/comments/45ba3r/all_sapiens_go_to_heaven_part_13/"
+		},
+		{
+			"title": "Part 14",
+			"src": "http://www.reddit.com/r/HFY/comments/4bnvqj/all_sapiens_go_to_heaven_part_14/"
+		},
+		{
+			"title": "Part 15",
+			"src": "http://www.reddit.com/r/HFY/comments/4gfl71/all_sapiens_go_to_heaven_part_15/"
+		},
+		{
+			"title": "Part 16",
+			"src": "http://www.reddit.com/r/HFY/comments/4n1hgw/all_sapiens_go_to_heaven_part_16/"
+		},
+		{
+			"title": "Part 17",
+			"src": "http://www.reddit.com/r/HFY/comments/4p0x0i/all_sapiens_go_to_heaven_part_17/"
+		},
+		{
+			"title": "Part 18",
+			"src": "http://www.reddit.com/r/HFY/comments/4ur236/all_sapiens_go_to_heaven_part_18/"
+		}
+	]
+}

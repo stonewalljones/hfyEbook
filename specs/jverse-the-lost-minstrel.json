@@ -1,0 +1,82 @@
+{
+	"title": "The Lost Minstrel",
+	"creator": "doules1071",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"custom-break-to-hr",
+		"no-preamble",
+		"jverse-the-lost-minstrel",
+		"typography",
+		"finalize"
+	],
+	"filename": "The Lost Minstrel",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+        {
+            "title": "The Lost Minstrel - 1",
+            "src": "http://www.reddit.com/r/HFY/comments/40zzqk/ocjverse_the_lost_minstrel/"
+        },
+        {
+            "title": "The Lost Minstrel - 2",
+            "src": "http://www.reddit.com/r/HFY/comments/41ks02/ocjverse_the_lost_minstrel_2/"
+        },
+        {
+            "title": "The Lost Minstrel - 3",
+            "src": "http://www.reddit.com/r/HFY/comments/41v9i9/ocjverse_the_lost_minstrel_3/"
+        },
+        {
+            "title": "The Lost Minstrel - 4",
+            "src": "http://www.reddit.com/r/HFY/comments/41yyz0/ocjverse_the_lost_minstrel_4/"
+        },
+        {
+            "title": "The Lost Minstrel - 5",
+            "src": "http://www.reddit.com/r/HFY/comments/42aiko/ocjverse_the_lost_minstrel_5/"
+        },
+        {
+            "title": "The Lost Minstrel - 6",
+            "src": "http://www.reddit.com/r/HFY/comments/42mh2k/ocjverse_the_lost_minstrel_6/"
+        },
+        {
+            "title": "The Lost Minstrel - 7",
+            "src": "http://www.reddit.com/r/HFY/comments/42xum5/ocjverse_the_lost_minstrel_7/"
+        },
+        {
+            "title": "The Lost Minstrel - 8",
+            "src": "http://www.reddit.com/r/HFY/comments/43z0eb/oc_jverse_the_lost_minstrel_8/"
+        },
+        {
+            "title": "The Lost Minstrel - 9",
+            "src": "http://www.reddit.com/r/HFY/comments/44ixdf/jverse_the_lost_minstrel_9/"
+        },
+        {
+            "title": "The Lost Minstrel - 10",
+            "src": "http://www.reddit.com/r/HFY/comments/4520mv/ocjverse_the_lost_minstrel_10/"
+        },
+        {
+            "title": "The Lost Minstrel - 11",
+            "src": "http://www.reddit.com/r/HFY/comments/4623n9/ocjverse_the_lost_minstrel_11/"
+        },
+        {
+            "title": "The Lost Minstrel - 12",
+            "src": "http://www.reddit.com/r/HFY/comments/47cpc2/ocjverse_the_lost_minstrel_12/"
+        },
+        {
+            "title": "The Lost Minstrel - 13",
+            "src": "http://www.reddit.com/r/HFY/comments/48cj01/ocjverse_the_lost_minstrel_13/"
+        },
+        {
+            "title": "The Lost Minstrel - 14",
+            "src": "http://www.reddit.com/r/HFY/comments/49t99f/ocjverse_the_lost_minstrel_14/"
+        },
+        {
+            "title": "The Lost Minstrel - 15",
+            "src": "http://www.reddit.com/r/HFY/comments/4bmo8r/ocjverse_the_lost_minstrel_15/"
+        },
+        {
+            "title": "The Lost Minstrel - 16",
+            "src": "http://www.reddit.com/r/HFY/comments/4f617y/ocjverse_the_lost_minstrel_16/"
+        }
+	]
+}
