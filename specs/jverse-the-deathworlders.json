@@ -341,6 +341,11 @@
 			"title": "Hearts and Minds",
 			"filters": "hfy-archive",
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-30-hearts-and-minds"
+		},
+		{
+			"title": "Touching Down",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down"
 		}
 	]
 }
