@@ -1669,6 +1669,60 @@
             "src": "http://www.reddit.com/r/HFY/comments/4g6cgw/jverse_good_training_the_locals/",
             "byline": "ctwelve",
             "filters": "gt"
+        },
+        {
+        	"title": "Misfits",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-28-misfits",
+            "byline": "Hambone3110",
+            "filters": "deathworlders-hfya"
+        },
+        {
+            "title": "The Lost Minstrel - 17",
+            "src": "https://www.reddit.com/r/HFY/comments/4n8544/ocjverse_the_lost_minstrel_17/",
+            "byline": "doules1071",
+            "filters": "tlm"
+        },
+        {
+            "title": "MIA 27. Silence",
+            "src": "https://www.reddit.com/r/HFY/comments/4njpz1/ocjenkinsverse_mia_chapter_27_silence/",
+            "byline": "GoingAnywhereButHere",
+            "filters": "mia"
+        },
+        {
+        	"title": "Forges",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-29-forges",
+            "byline": "Hambone3110",
+            "filters": "deathworlders-hfya"
+        },
+        {
+            "title": "The Lost Minstrel - 18",
+            "src": "https://www.reddit.com/r/HFY/comments/4tktdb/ocjversethe_lost_minstrel_18/",
+            "byline": "doules1071",
+            "filters": "tlm"
+        },
+        {
+            "title": "Humans Don't Make Good Pets part 32",
+            "src": "https://www.reddit.com/r/HFY/comments/4tv7le/humans_dont_make_good_pets_xxxii/",
+            "byline": "guidosbestfriend",
+            "filters": "hdmgp"
+        },
+        {
+            "title": "Good Training: The Champions, Pt I",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/prologue",
+            "byline": "ctwelve",
+            "filters": "gt-hfy"
+        },
+        {
+        	"title": "Hearts and Minds",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-30-hearts-and-minds",
+            "byline": "Hambone3110",
+            "filters": "deathworlders-hfya"
+        },
+        {
+        	"title": "Touching Down",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down",
+            "byline": "Hambone3110",
+            "filters": "deathworlders-hfya"
         }
     ]
 }
