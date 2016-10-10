@@ -348,9 +348,9 @@
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down"
 		},
         {   
-            "title": Deep Wounds,
-            "filters": hfy-archive,
-            "src": http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds
+            "title": "Deep Wounds",
+            "filters": "hfy-archive",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds"
         }  
 	]
 }
