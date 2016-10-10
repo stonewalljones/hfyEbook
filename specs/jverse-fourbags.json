@@ -1723,6 +1723,13 @@
             "src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down",
             "byline": "Hambone3110",
             "filters": "deathworlders-hfya"
-        }
+        },
+ 		{ 
+            "title": Deep Wounds,
+        ¦   "src": http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds,
+        ¦   "byline": Hambone3110,
+        ¦   "filters": deathworlders-hfya
+         }
+
     ]
 }
