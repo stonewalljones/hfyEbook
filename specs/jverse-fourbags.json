@@ -1707,10 +1707,24 @@
             "filters": "hdmgp"
         },
         {
-            "title": "Good Training: The Champions, Pt I",
-            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/prologue",
-            "byline": "ctwelve",
-            "filters": "gt-hfy"
+            "title": "The Champions Pt I: Prologue",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/prologue"
+        },
+        {
+            "title": "The Champions Pt I: Tooth & Claw",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/tooth-claw"
+        },
+        {
+            "title": "The Champions Pt I: Longest Prefix Match",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/longest-prefix-match"
+        },
+        {
+            "title": "The Champions Pt I: Gametime",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-i/gametime"
         },
         {
         	"title": "Hearts and Minds",
