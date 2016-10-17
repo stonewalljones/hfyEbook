@@ -1729,7 +1729,47 @@
             "src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds",
             "byline": "Hambone3110",
             "filters": "deathworlders-hfya"
-         }
+         },
+         {
+            "title": "The Champions Pt II: Pounce",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/1-pounce"
+        },
+        {
+            "title": "The Champions Pt II: Kin and Clan",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/2-kin-and-clan"
+        },
+        {
+            "title": "The Champions Pt II: Tall Tales",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/3-tall-tales"
+        },
+        {
+            "title": "The Champions Pt II: The First Ring",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/4-first-ring"
+        },
+        {
+            "title": "The Champions Pt II: Plans and Plots",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/5-plans-and-plots"
+        },
+        {
+            "title": "The Champions Pt II: Beginnings and Endings",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/6-beginnings-and-endings"
+        },
+        {
+            "title": "The Champions Pt II: Doom and Gloom",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/7-doom-and-gloom"
+        },
+        {
+            "title": "The Champions Pt II: Tidying Up",
+            "filters": "gt-hfy",
+            "src": "http://hfy-archive.org/book/good-training-champions-pt-ii/8-tidying"
+        }
 
     ]
 }
