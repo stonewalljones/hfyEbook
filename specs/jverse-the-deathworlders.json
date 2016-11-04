@@ -351,6 +351,11 @@
             "title": "Deep Wounds",
             "filters": "hfy-archive",
             "src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds"
+        },
+        {   
+            "title": "Metadyskolia",
+            "filters": "hfy-archive",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-33-metadyskolia"
         }  
 	]
 }
