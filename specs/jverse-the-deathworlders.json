@@ -347,20 +347,25 @@
 			"filters": "hfy-archive",
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down"
 		},
-        {   
-            "title": "Deep Wounds",
-            "filters": "hfy-archive",
-            "src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds"
-        },
-        {   
-            "title": "Metadyskolia",
-            "filters": "hfy-archive",
-            "src": "http://hfy-archive.org/book/deathworlders/chapter-33-metadyskolia"
-        },
-        {   
-            "title": "States of Mind",
-            "filters": "hfy-archive",
-            "src": "http://hfy-archive.org/book/deathworlders/chapter-34-states-mind"
-        }
+		{
+			"title": "Deep Wounds",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds"
+		},
+		{
+			"title": "Metadyskolia",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-33-metadyskolia"
+		},
+		{
+			"title": "States of Mind",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-34-states-mind"
+		},
+		{
+			"title": "Event Horizons",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-35-event-horizons"
+		}
 	]
 }
