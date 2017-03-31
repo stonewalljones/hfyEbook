@@ -366,6 +366,11 @@
 			"title": "Event Horizons",
 			"filters": "hfy-archive",
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-35-event-horizons"
+		},
+				{
+			"title": "Consequences",
+			"filters": "hfy-archive",
+			"src": "http://hfy-archive.org/book/deathworlders/chapter-36-consequences"
 		}
 	]
 }
