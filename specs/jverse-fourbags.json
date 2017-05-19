@@ -1820,11 +1820,23 @@
             "filters": "deathworlders-hfya",
             "src": "http://hfy-archive.org/book/deathworlders/chapter-35-event-horizons"
         },
-	{
+        {
             "title": "Consequences",
             "byline": "Hambone3110",
             "filters": "deathworlders-hfya",
             "src": "http://hfy-archive.org/book/deathworlders/chapter-36-consequences"
+        },
+        {
+            "title": "Good Training: April Fool's",
+            "src": "https://www.reddit.com/r/HFY/comments/62x6gt/jverse_good_training_april_fools/",
+            "byline": "ctwelve",
+            "filters": "gt"
+        },
+        {
+            "title": "Grounded",
+            "byline": "Hambone3110",
+            "filters": "deathworlders-hfya",
+            "src": "http://hfy-archive.org/book/deathworlders/chapter-37-grounded"
         }
 
     ]
