@@ -71,14 +71,14 @@
             "typography",
             "finalize"
         ],
-		"gt-hfy": [
-			"from-hfy-archive",
-			"clean-reddit",
-			"custom-break-to-hr",
-			"no-preamble",
-			"jverse-good-training",
-			"typography",
-			"finalize"
+	"gt-hfy": [
+		"from-hfy-archive",
+		"clean-reddit",
+		"custom-break-to-hr",
+		"no-preamble",
+		"jverse-good-training",
+		"typography",
+		"finalize"
 		],
         "tcotg": [
             "from-reddit-post",
