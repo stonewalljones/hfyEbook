@@ -376,6 +376,11 @@
 			"title": "Grounded",
 			"filters": "hfy-archive",
 			"src": "http://hfy-archive.org/book/deathworlders/chapter-37-grounded"
+        },
+        {
+                        "title": "The Nirvana Cage",
+                        "filters": "hfy-archive",
+                        "src": "http://hfy-archive.org/book/deathworlders/chapter-39-nirvana-cage"
         }
 	]
 }
