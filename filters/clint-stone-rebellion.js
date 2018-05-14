@@ -1,50 +1,55 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-	var chap = params.chap;
-	var $ = chap.dom;
-	var rem = [];
-	var tr_re = /^translator note:/i;
-	var ct_re = /continued in comments/i;
+	const chap = params.chap;
+	const $ = chap.dom;
+	const rem = [];
+
+	utils.removeMatching($, rem, 'p strong', /^translator note:/i);
+    utils.removeMatching($, rem, 'p', /continued in comments/i);
+
+	const rem_last_p = [
+	    'The Pit', 
+	    'Purpose', 
+	    'Sister', 
+	    'Home Run', 
+	    'Crazy Bastard', 
+	    'Marooned', 
+	    'Brother Mine', 
+	    'Dark', 
+	    'Puzzles', 
+	    'Family Values', 
+	    'Rebellion of Skuar', 
+	    'Enlisted', 
+	    'Acceptable', 
+	    'Training Mission', 
+	    'Liberated', 
+	    'Break', 
+	    'Breakfast'
+	];
 	
-	$('p strong').each(function(i, e)
-	{
-		var el = $(e);
+	const rem_last_p2 = [
+	    'Purpose', 
+	    'Crazy Bastard'
+	];
+	
+	const ps = $('p');
 
-		if(el.text().search(tr_re) === 0)
-			rem.push(el.parent());
-	});
-
-	$('p').each(function(i, e)
-	{
-		var el = $(e);
-		var idx = el.text().search(ct_re);
-
-		if(idx > -1 && idx < 2)
-			rem.push(el);
-	});
-
-	var rem_last_p = ['The Pit', 'Purpose', 'Sister', 'Home Run', 'Crazy Bastard', 'Marooned', 'Brother Mine', 'Dark', 'Puzzles', 'Family Values', 'Rebellion of Skuar', 'Enlisted', 'Acceptable', 'Training Mission', 'Liberated', 'Break', 'Breakfast'];
-	var rem_last_p2 = ['Purpose', 'Crazy Bastard'];
-	var ps = $('p');
-
-	if(rem_last_p.indexOf(chap.title) > -1)
+	if(rem_last_p.includes(chap.title))
 		rem.push($(ps[ps.length - 1]));
 
-	if(rem_last_p2.indexOf(chap.title) > -1)
+	if(rem_last_p2.includes(chap.title))
 		rem.push($(ps[ps.length - 2]));
 
-	if(chap.title === 'Evaluation' ||
-	   chap.title === 'Captive' || 
-	   chap.title === 'Behold')
+	if(['Evaluation', 'Captive', 'Behold'].includes(chap.title))
 	{
-		for(var i = 0; i < 2; i++)
+		for(let i = 0; i < 2; i++)
 			rem.push($(ps[ps.length - (i + 1)]));
 	}
-	
-	if(chap.title === 'Broken' || 
-	   chap.title === 'The Lives We Lived')
+	else if(['Broken', 'The Lives We Lived'].includes(chap.title))
 	{
-		for(var i = 0; i < 3; i++)
+		for(let i = 0; i < 3; i++)
 			rem.push($(ps[ps.length - (i + 1)]));
 	}
 

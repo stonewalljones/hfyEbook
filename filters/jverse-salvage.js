@@ -1,45 +1,63 @@
+function processText($, fn)
+{
+    $('p').each(function(idx, e)
+    {
+        const cont = $(e).contents();
+        
+        for(let i = 0; i < cont.length; i++)
+        {
+            const c = cont[i];
+            
+            if(c.type === 'text')
+                fn(c); 
+        }
+    });
+}
+
 function apply(params, next)
 {
-    var chap = params.chap;
-    var $ = chap.dom;
-
-    var ps = $('p');
-    var fp = $(ps[ps.length - 1]);
-	var is_dark_heart = chap.title.indexOf('Dark Heart') > -1;
-	var rem_asterisk = chap.title.indexOf('Positions of Power') > -1 ||
-	                   chap.title.indexOf('Prisoners') > -1 ||
-	                   chap.title.indexOf('Center of attention') > -1;
-		
-	if(is_dark_heart || rem_asterisk)
+    const chap = params.chap;
+    const $ = chap.dom;
+    
+	if(chap.title === 'Dark Heart')
 	{
-		ps.each(function(idx, e)
-		{
-			var cont = $(e).contents();
-		
-			for(var i = 0; i < cont.length; i++)
-			{
-				var c = cont[i];
-			
-				if(c.type === 'text')
-				{
-					if(is_dark_heart && c.data.charCodeAt(0) === 0x2003)
-						c.data = c.data.substr(2, c.data.length-2);
-					else if(rem_asterisk && c.data.indexOf('*') > -1)
-						c.data = c.data.replace(/\*/, '');
-				}
-			}
-		});
+	    processText($, function(c)
+	    {
+	        if(c.data.charCodeAt(0) === 0x2003)
+		        c.data = c.data.substr(2, c.data.length-2);
+	    });
+	}
+	else if(['Positions of Power', 'Prisoners', 'Center of attention'].includes(chap.title))
+	{
+	    processText($, function(c)
+	    {
+	        if(c.data.indexOf('*') > -1)
+		        c.data = c.data.replace(/\*/, '');
+	    });
 	}
     
-    if(chap.title.indexOf('The Fittest') > -1)
+    const rem = [];
+    const ps = $('p');
+    const prune_chapter = [
+        'The Fittest',
+        'The Rabbit Hole',
+        'Solve for X-plosion',
+        'Going Without',
+        'Lost Futures'
+    ].includes(chap.title);
+    
+    if(prune_chapter)
     {
-    	$(ps[0]).remove();
-    	$(ps[1]).remove();
+        for(let i = 0; i < 2; i++)
+            rem.push($(ps[i]));
     }
     
-    if(fp.text() === 'END OF CHAPTER' || fp.text() === 'Chapter End')
-        fp.remove();
+    const fp = $(ps[ps.length - 1]);
+
+    if(fp.text() === 'END OF CHAPTER' || fp.text() === 'End of Chapter' || fp.text() === 'Chapter End')
+        rem.push(fp);
     
+    params.purge(rem);    
     next();
 }
 

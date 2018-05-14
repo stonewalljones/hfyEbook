@@ -1,3 +1,17 @@
+About
+-----
+
+Ebook.JS is a flexible E-book processing pipeline. It can automatically compile 
+local or online material in HTML or MarkDown to any or all of:
+
+    * EPUB, which is convenient for people consuming the material using small form-factor
+      devices like smartphones, dedicated ebook readers or smaller tablets.
+    
+    * HTML for online self-publishing, embedding and interchange.
+    
+    * LaTeX for creation of high-quality PDF output with LuaLaTex or XeLaTeX.
+
+
 Installation
 ------------
 
@@ -25,7 +39,7 @@ MIT
 Bugs and Suggestions
 --------------------
 
-PM either to https://www.reddit.com/user/b3iAAoLZOH9Y265cujFh/
+Send a PM with the details to https://www.reddit.com/user/b3iAAoLZOH9Y265cujFh/
 
 I'm only around infrequently. If you do not receive an immediate response, it's not because
 you're being ignored. I'll be getting back to you as soon as I see your message.
@@ -37,8 +51,8 @@ Configuration
 All input files are expected to be encoded as UTF-8. Similarly, intermediary and output
 data is also encoded as UTF-8.
 
-This script will generate one or more ebooks when given a simple JSON file. These
-files will be referred to as 'specs', and have the following format:
+This script will generate one or more ebooks when given a simple JSON specification 
+file (henceforth referred to as 'specs' for brewity). They have the following format:
 
 "title" (string):
     Used as the book title and as the basis for the output filename.
@@ -58,6 +72,11 @@ files will be referred to as 'specs', and have the following format:
     The following filters are included:
 
     SOURCES:
+        
+        Source filters that fetch online resources cache the downloaded data in the
+        'cache' directory. Clear the 'cache' directory to redownload the source material.
+        
+        Local files are not cached.
     
 		* "from-local-html"
 		    Read the chapter data from a local (X)HTML file, given a filename relative
@@ -88,6 +107,7 @@ files will be referred to as 'specs', and have the following format:
 			with subsequent filters, if desired.
 
 	FILTERS:
+	
 		* "clean-reddit"
 		    Removes HTML comment elements, CSS classes on any other element and
 		    replaces any HTTP/HTTPS link to reddit with its text. Links to other
@@ -129,24 +149,32 @@ files will be referred to as 'specs', and have the following format:
 		    all EPUB readers have problems rendering these correctly. Conversely,
 		    not using entites can be correctly handled by all modern browsers.
 
-		* Series-specific filters for the following (not all series in the current corpus
-		  requires additional or custom filtering):
+		* Series-specific filters for the following:
 
 		    * All Sapiens Go To Heaven
 		    * Billy-Bob Space Trucker
 		    * Blessed Are The Simple
 		    * Builders In The Void: Peace / War
+		    * Chrysalis
 		    * Client Stone: Freedom / Rebellion
+		    * Corridors
+		    * Deathworld Origins
+		    * Good Training
+		    * Guttersnipe
 		    * Henosis
+		    * HFY Anthology
 		    * Humans Don't Make Good Pets
+		    * Memories of Creature 88
 		    * MIA
-		    * Perspective
+		    * Pact
 		    * QED
 		    * Salvage
 		    * The Deathworlders
 		    * The Fourth Wave
-		    * The Salvation War
+		    * The Lost Minstrel
+		    * The Salvation War: Amageddon / Pantheocide
 		    * The Xiu Chang Saga
+		    * Worm
 
 "filename" (string):
 	Specifies the base name for emitted output files. Omits extension, since that
@@ -165,9 +193,7 @@ files will be referred to as 'specs', and have the following format:
 
         * latex:
             Emits a TEX file with the name [title].tex. The format is optimized for
-            processing with xelatex, but pdflatex can be used. If a Patreon link is
-            included in the cover XHTML file, it is automatically extracted and added
-            to the cover page and thus also included in generated PDFs.
+            processing with lualatex, but xelatex can be used.
             
         * html:
             Emits a HTML file in the root directory with the name [title].html. The
@@ -175,8 +201,8 @@ files will be referred to as 'specs', and have the following format:
             as-is.
 
 "content" (array of objects):
-    Each element of the array is an object describing a chapter. Each of these
-    instances contains the following fields:
+    Each element of the array is an object describing a chapter. Each can contain the
+    following fields:
 
         * "title" (string):
             The chapter title. Used to generate headings and when building TOCs.
@@ -253,7 +279,7 @@ Thus, a minimal valid filter implementation is:
     };
 
 Any subsequent filter will not be applied until the preceding filter
-calls its supplied "next" function. Consequently, the following is valid:
+calls its supplied "next()" function. Consequently, the following is valid:
 
     function apply(params, next)
     {
@@ -327,15 +353,3 @@ To wit:
         close to identical across all supported output formats.
     </p>
 </DOM>
-
-
-Performance
------------
-
-Pretty good. On my hardware (i7, 4 cores @ 1.60GHz), the current test-corpus (8053 pages when
-typeset as PDF) can be retrieved from cache, filterred, typeset and emitted to finished EPUB,
-LaTeX and HTML in 59 seconds. A 2-pass build of pdf files takes an additional 1 minute and
-30 seconds using XeTeX, resulting in a total of 52.5Mb of output data in 64 files.
-
-In short, unless you require sustained throughput of more than three average length books
-per minute, pretty much any reasonably modern computer will run this just fine.

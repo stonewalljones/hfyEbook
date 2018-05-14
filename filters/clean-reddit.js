@@ -11,21 +11,21 @@ function removeComments($, el)
 
 function startsWith(s, r)
 {
-    return s.substring(0, r.length) === r;
+    return s.substr(0, r.length) === r;
 }
 
 // The Reddit JSON API seems to have a general bug in its handling of entity
 // encoding in 'code' and 'pre' tags, e.g. monospaced blocks.
 function fixMonoEntities($)
 {
-    var pt = /&amp;(.*;)/g;
-    var replaceAmps = function(i, e)
+    const pt = /&amp;(.*;)/g;
+    const replaceAmps = function(i, e)
     {
-        var cont = $(e).contents();
+        const cont = $(e).contents();
 
-        for(var i = 0; i < cont.length; i++)
+        for(let i = 0; i < cont.length; i++)
         {
-            var c = cont[i];
+            const c = cont[i];
 
             if(c.type === 'text')
             {
@@ -41,7 +41,7 @@ function fixMonoEntities($)
 
 function apply(params, next)
 {
-    var $ = params.chap.dom;
+    const $ = params.chap.dom;
 
     // Remove all comments
     removeComments($, $.root());

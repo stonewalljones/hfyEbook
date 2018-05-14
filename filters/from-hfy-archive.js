@@ -1,11 +1,10 @@
-var request = require('request');
-var cheerio = require('cheerio');
-var child_process = require('child_process');
-var fs = require('fs');
+const request = require('request');
+const cheerio = require('cheerio');
+const fs = require('fs');
 
 function uriToId(uri)
 {
-    var tokens = uri.split('/');
+    const tokens = uri.split('/');
 
     return 'HFYA_' + decodeURI(tokens.slice(tokens.length-2, tokens.length).join('_'));
 };
@@ -32,8 +31,8 @@ function get(params, callback)
         console.log('[\033[93mFetched\033[0m] ' + params.chap.id);
         params.uri_cache.cache.push(params.chap.id);
 
-        var $ = cheerio.load(body, params.cheerio_flags);
-        var content = $('div.node-content div[property]').contents();
+        const $ = cheerio.load(body, params.cheerio_flags);
+        let   content = $('div.node-content div[property]').contents();
         
         $.root().children().remove();
         $.root().append(content);
@@ -41,9 +40,9 @@ function get(params, callback)
 		
         content = $.root().contents();
         
-        for(var i = 0; i < content.length; i++)
+        for(let i = 0; i < content.length; i++)
         {
-        	var e = content[i];
+        	const e = content[i];
         	
         	if(e.type === 'text' && e.data === '\n\n')
         		e.data = '\n';
@@ -53,7 +52,6 @@ function get(params, callback)
         
         fs.writeFileSync(__dirname + '/../cache/' + params.chap.id, params.chap.dom.xml(), encoding = 'utf-8');
         
-        child_process.execSync("sleep 1");
         callback();
     }}(params, callback, this));
 };

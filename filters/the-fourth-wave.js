@@ -1,10 +1,10 @@
 function apply(params, next)
 {
-    var chap = params.chap;
-	var $ = chap.dom;
-	var rem = [];
+    const chap = params.chap;
+	const $ = chap.dom;
+	const rem = [];
 	
-	var pats = [
+	const pats = [
 		/^last chapter$/i,
 		/^all chapters/i,
 		/^next chapter/i,
@@ -13,21 +13,21 @@ function apply(params, next)
 		/^table of contents$/i
 	];
 	
-	var ps = $('p');
+	const ps = $('p');
 	
 	ps.each(function(i, e)
 	{
-		var el = $(e);
-		var txt = el.text();
+		const el = $(e);
+		const txt = el.text();
 		
-		for(var c = 0; c < pats.length; c++)
+		for(let c = 0; c < pats.length; c++)
 		{
 			if(txt.search(pats[c]) > -1)
 				rem.push(el);
 		}
 	});
 	
-	var lp_rem = 0;
+	let lp_rem = 0;
 	
 	if(chap.title === 'Part 50')
 		rem.push($(ps[2]));
@@ -44,15 +44,15 @@ function apply(params, next)
 	else if(chap.title === 'Part 96')
 		lp_rem = 21;
 	
-	if(lp_rem)
+	if(lp_rem > 0)
 	{
-		for(var i = ps.length - lp_rem; i < ps.length; i++)
+		for(let i = ps.length - lp_rem; i < ps.length; i++)
 			rem.push($(ps[i]));
 	}
 	
 	$('a').each(function(i, e)
 	{
-		var el = $(e);
+		const el = $(e);
 		
 		if(el.text().toLowerCase() === 'contribute to the happy meal fund')
 			rem.push(el.parent());

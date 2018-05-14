@@ -1,0 +1,1228 @@
+{
+	"title": "Worm",
+	"creator": "wildbow",
+	"patreon": "https://www.patreon.com/Wildbow",
+	"filters": [
+		"from-url",
+		"worm",
+		"typography",
+		"finalize"
+	],
+	"filename": "Worm",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+        {
+	        "title": "1.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-01/"
+        },
+        {
+	        "title": "1.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-02/"
+        },
+        {
+	        "title": "1.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-03/"
+        },
+        {
+	        "title": "1.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-04/"
+        },
+        {
+	        "title": "1.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-05/"
+        },
+        {
+	        "title": "1.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-06/"
+        },
+        {
+	        "title": "1.x (Interlude; Danny)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-x-interlude/"
+        },
+        {
+	        "title": "2.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-01/"
+        },
+        {
+	        "title": "2.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-02/"
+        },
+        {
+	        "title": "2.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-03/"
+        },
+        {
+	        "title": "2.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-04/"
+        },
+        {
+	        "title": "2.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-05/"
+        },
+        {
+	        "title": "2.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-06/"
+        },
+        {
+	        "title": "2.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-07/"
+        },
+        {
+	        "title": "2.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-08/"
+        },
+        {
+	        "title": "2.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-09/"
+        },
+        {
+	        "title": "2.x (Interlude; Victoria)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-2-insinuation/2-x-interlude/"
+        },
+        {
+	        "title": "3.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-01/"
+        },
+        {
+	        "title": "3.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-02/"
+        },
+        {
+	        "title": "3.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-03/"
+        },
+        {
+	        "title": "3.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-04/"
+        },
+        {
+	        "title": "3.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-05/"
+        },
+        {
+	        "title": "3.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-06/"
+        },
+        {
+	        "title": "3.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-07/"
+        },
+        {
+	        "title": "3.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-08/"
+        },
+        {
+	        "title": "3.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-09/"
+        },
+        {
+	        "title": "3.10",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-10/"
+        },
+        {
+	        "title": "3.11",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-11/"
+        },
+        {
+	        "title": "3.12",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-12/"
+        },
+        {
+	        "title": "3.x (Interlude; Wards)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-3-agitation/3-x-interlude/"
+        },
+        {
+	        "title": "4.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-01/"
+        },
+        {
+	        "title": "4.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-02/"
+        },
+        {
+	        "title": "4.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-03/"
+        },
+        {
+	        "title": "4.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-04/"
+        },
+        {
+	        "title": "4.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-05/"
+        },
+        {
+	        "title": "4.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-06/"
+        },
+        {
+	        "title": "4.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-07/"
+        },
+        {
+	        "title": "4.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-08/"
+        },
+        {
+	        "title": "4.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-09/"
+        },
+        {
+	        "title": "4.10",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-10/"
+        },
+        {
+	        "title": "4.11",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-11/"
+        },
+        {
+	        "title": "4.x (Apology Interlude; Purity)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-x-bonus-interlude/"
+        },
+        {
+	        "title": "4.x (Interlude; Brutus)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-4-shell/4-x-interlude/"
+        },
+        {
+	        "title": "5.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-01/"
+        },
+        {
+	        "title": "5.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-02/"
+        },
+        {
+	        "title": "5.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-03/"
+        },
+        {
+	        "title": "5.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-04/"
+        },
+        {
+	        "title": "5.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-05/"
+        },
+        {
+	        "title": "5.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-06/"
+        },
+        {
+	        "title": "5.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-07/"
+        },
+        {
+	        "title": "5.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-08/"
+        },
+        {
+	        "title": "5.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-09/"
+        },
+        {
+	        "title": "5.10",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-10/"
+        },
+        {
+	        "title": "5.x (Interlude; Gregor the Snail)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-5-hive/5-x-interlude/"
+        },
+        {
+	        "title": "6.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-01/"
+        },
+        {
+	        "title": "6.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-02/"
+        },
+        {
+	        "title": "6.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-03/"
+        },
+        {
+	        "title": "6.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-04/"
+        },
+        {
+	        "title": "6.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-05/"
+        },
+        {
+	        "title": "6.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-06/"
+        },
+        {
+	        "title": "6.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-07/"
+        },
+        {
+	        "title": "6.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-08/"
+        },
+        {
+	        "title": "6.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-09/"
+        },
+        {
+	        "title": "6.x (Interlude; Canary)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-6-tangle/6-x-interlude/"
+        },
+        {
+	        "title": "7.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-01/"
+        },
+        {
+	        "title": "7.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-02/"
+        },
+        {
+	        "title": "7.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-03/"
+        },
+        {
+	        "title": "7.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-04/"
+        },
+        {
+	        "title": "7.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-05/"
+        },
+        {
+	        "title": "7.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-06/"
+        },
+        {
+	        "title": "7.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-07/"
+        },
+        {
+	        "title": "7.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-08/"
+        },
+        {
+	        "title": "7.09",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-09/"
+        },
+        {
+	        "title": "7.10",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-10/"
+        },
+        {
+	        "title": "7.11",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-11/"
+        },
+        {
+	        "title": "7.12",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-12/"
+        },
+        {
+	        "title": "7.x (Interlude; Hannah)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-7-buzz/7-x-interlude-arc-7-buzz/"
+        },
+        {
+	        "title": "8.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-1/"
+        },
+        {
+	        "title": "8.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-2/"
+        },
+        {
+	        "title": "8.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-3/"
+        },
+        {
+	        "title": "8.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-4/"
+        },
+        {
+	        "title": "8.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-5/"
+        },
+        {
+	        "title": "8.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-6/"
+        },
+        {
+	        "title": "8.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-7/"
+        },
+        {
+	        "title": "8.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-8/"
+        },
+        {
+	        "title": "8.x (Donation Interlude; Lisa)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-x-bonus-interlude/"
+        },
+        {
+	        "title": "8.x (Interlude; Coil)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-8-extermination/8-x-interlude/"
+        },
+        {
+	        "title": "9.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-1/"
+        },
+        {
+	        "title": "9.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-2/"
+        },
+        {
+	        "title": "9.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-3/"
+        },
+        {
+	        "title": "9.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-4/"
+        },
+        {
+	        "title": "9.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-5/"
+        },
+        {
+	        "title": "9.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/arc-9-sentinel-interludes/9-6/"
+        },
+        {
+	        "title": "10.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-1/"
+        },
+        {
+	        "title": "10.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-2/"
+        },
+        {
+	        "title": "10.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-3/"
+        },
+        {
+	        "title": "10.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-4/"
+        },
+        {
+	        "title": "10.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-5/"
+        },
+        {
+	        "title": "10.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-6/"
+        },
+        {
+	        "title": "10.x (Interlude; Alec)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-x-interlude/"
+        },
+        {
+	        "title": "10.x (Donation Interlude; Dragon)",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-1-10/%c2%ad-arc-10-parasite/10-x-bonus-interlude/"
+        },
+        {
+	        "title": "11.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-01/"
+        },
+        {
+	        "title": "11.02",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-02/"
+        },
+        {
+	        "title": "11.03",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-03/"
+        },
+        {
+	        "title": "11.04",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-04/"
+        },
+        {
+	        "title": "11.05",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-05/"
+        },
+        {
+	        "title": "11.06",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-06/"
+        },
+        {
+	        "title": "11.07",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-07/"
+        },
+        {
+	        "title": "11.08",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-08-arc-11-infestation/"
+        },
+        {
+	        "title": "11.a",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-a/"
+        },
+        {
+	        "title": "11.b",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-b/"
+        },
+        {
+	        "title": "11.c",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-c/"
+        },
+        {
+	        "title": "11.d",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-d-arc-11-infestation/"
+        },
+        {
+	        "title": "11.e",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-e/"
+        },
+        {
+	        "title": "11.f",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-f/"
+        },
+        {
+	        "title": "11.g",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-g/"
+        },
+        {
+	        "title": "11.h",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-11-infestation-stories-arcs-11/11-h/"
+        },
+        {
+	        "title": "12.01",
+	        "src":"http://parahumans.wordpress.com/category/stories-arcs-11/arc-12-plague/12-01/"
+        },
+        {
+	        "title": "12.02",
+	        "src":"http://parahumans.wordpress.com/2012/06/30/plague-12-2/"
+        },
+        {
+	        "title": "12.03",
+	        "src":"http://parahumans.wordpress.com/2012/07/03/plague-12-3/"
+        },
+        {
+	        "title": "12.04",
+	        "src":"http://parahumans.wordpress.com/2012/07/07/plague-12-4/"
+        },
+        {
+	        "title": "12.05",
+	        "src":"http://parahumans.wordpress.com/2012/07/10/plague-12-5/"
+        },
+        {
+	        "title": "12.06",
+	        "src":"http://parahumans.wordpress.com/2012/07/14/plague-12-6/"
+        },
+        {
+	        "title": "12.07",
+	        "src":"http://parahumans.wordpress.com/2012/07/17/plague-12-7/"
+        },
+        {
+	        "title": "12.08",
+	        "src":"http://parahumans.wordpress.com/2012/07/21/plague-12-8/"
+        },
+        {
+	        "title": "12.x (Interlude; Jack)",
+	        "src":"http://parahumans.wordpress.com/2012/07/24/interlude-12/"
+        },
+        {
+	        "title": "12.x (Donation Interlude; Jamie)",
+	        "src":"http://parahumans.wordpress.com/2012/07/26/interlude-12½/"
+        },
+        {
+	        "title": "13.01",
+	        "src":"http://parahumans.wordpress.com/2012/07/28/snare-13-1/"
+        },
+        {
+	        "title": "13.02",
+	        "src":"http://parahumans.wordpress.com/2012/07/31/snare-13-2/"
+        },
+        {
+	        "title": "13.x (Donation Interlude; Aisha)",
+	        "src":"http://parahumans.wordpress.com/2012/08/02/interlude-13%C2%BD-donation-bonus/"
+        },
+        {
+	        "title": "13.03",
+	        "src":"http://parahumans.wordpress.com/2012/08/04/snare-13-3/"
+        },
+        {
+	        "title": "13.04",
+	        "src":"http://parahumans.wordpress.com/2012/08/07/snare-13-4/"
+        },
+        {
+	        "title": "13.05",
+	        "src":"http://parahumans.wordpress.com/2012/08/11/snare-13-5/"
+        },
+        {
+	        "title": "13.06",
+	        "src":"http://parahumans.wordpress.com/2012/08/14/snare-13-6/"
+        },
+        {
+	        "title": "13.07",
+	        "src":"http://parahumans.wordpress.com/2012/08/18/snare-13-7/"
+        },
+        {
+	        "title": "13.08",
+	        "src":"http://parahumans.wordpress.com/2012/08/21/snare-13-8/"
+        },
+        {
+	        "title": "13.09",
+	        "src":"http://parahumans.wordpress.com/2012/08/25/snare-13-09/"
+        },
+        {
+	        "title": "13.10",
+	        "src":"http://parahumans.wordpress.com/2012/08/28/snare-13-10/"
+        },
+        {
+	        "title": "13.x (Interlude; Piggot)",
+	        "src":"http://parahumans.wordpress.com/2012/09/01/interlude-13/"
+        },
+        {
+	        "title": "14.1",
+	        "src":"http://parahumans.wordpress.com/2012/09/04/prey-14-1/"
+        },
+        {
+	        "title": "14.2",
+	        "src":"http://parahumans.wordpress.com/2012/09/08/prey-14-2/"
+        },
+        {
+	        "title": "14.3",
+	        "src":"http://parahumans.wordpress.com/2012/09/11/prey-14-3/"
+        },
+        {
+	        "title": "14.4",
+	        "src":"http://parahumans.wordpress.com/2012/09/15/prey-14-4/"
+        },
+        {
+	        "title": "14.5",
+	        "src":"http://parahumans.wordpress.com/2012/09/18/prey-14-5/"
+        },
+        {
+	        "title": "14.6",
+	        "src":"http://parahumans.wordpress.com/2012/09/22/prey-14-6/"
+        },
+        {
+	        "title": "14.7",
+	        "src":"http://parahumans.wordpress.com/2012/09/25/prey-14-7/"
+        },
+        {
+	        "title": "14.8",
+	        "src":"http://parahumans.wordpress.com/2012/09/29/prey-14-8/"
+        },
+        {
+	        "title": "14.9",
+	        "src":"http://parahumans.wordpress.com/2012/10/02/prey-14-9/"
+        },
+        {
+	        "title": "14.10",
+	        "src":"http://parahumans.wordpress.com/2012/10/06/prey-14-10/"
+        },
+        {
+	        "title": "14.11",
+	        "src":"http://parahumans.wordpress.com/2012/10/09/prey-14-11/"
+        },
+        {
+	        "title": "14.x (Interlude; Sierra)",
+	        "src":"http://parahumans.wordpress.com/2012/10/11/interlude-14/"
+        },
+        {
+	        "title": "14.y (Donation Interlude; Legend)",
+	        "src":"http://parahumans.wordpress.com/2012/10/13/interlude-14-5-bonus-interlude/"
+        },
+        {
+	        "title": "15.1",
+	        "src":"http://parahumans.wordpress.com/2012/10/16/colony-15-1/"
+        },
+        {
+	        "title": "15.x (Donation Interlude #1; Carol)",
+	        "src":"http://parahumans.wordpress.com/2012/10/18/interlude-15-donation-bonus/"
+        },
+        {
+	        "title": "15.2",
+	        "src":"http://parahumans.wordpress.com/2012/10/20/colony-15-2/"
+        },
+        {
+	        "title": "15.3",
+	        "src":"http://parahumans.wordpress.com/2012/10/23/colony-15-3/"
+        },
+        {
+	        "title": "15.y (Donation Interlude #2; A guy with the second trigger event)",
+	        "src":"http://parahumans.wordpress.com/2012/10/25/interlude-15-donation-bonus-2/"
+        },
+        {
+	        "title": "15.4",
+	        "src":"http://parahumans.wordpress.com/2012/10/27/colony-15-4/"
+        },
+        {
+	        "title": "15.5",
+	        "src":"http://parahumans.wordpress.com/2012/10/30/colony-15-5/"
+        },
+        {
+	        "title": "15.6",
+	        "src":"http://parahumans.wordpress.com/2012/11/03/colony-15-6/"
+        },
+        {
+	        "title": "15.7",
+	        "src":"http://parahumans.wordpress.com/2012/11/06/colony-15-7/"
+        },
+        {
+	        "title": "15.z (Donation Interlude #3; Alexandria)",
+	        "src":"http://parahumans.wordpress.com/2012/11/08/interlude-15-donation-bonus-3/"
+        },
+        {
+	        "title": "15.8",
+	        "src":"http://parahumans.wordpress.com/2012/11/10/colony-15-8/"
+        },
+        {
+	        "title": "15.9",
+	        "src":"http://parahumans.wordpress.com/2012/11/13/colony-15-9/"
+        },
+        {
+	        "title": "15.10",
+	        "src":"http://parahumans.wordpress.com/2012/11/17/colony-15-10/"
+        },
+        {
+	        "title": "15.x (Interlude; Rory Christner)",
+	        "src":"http://parahumans.wordpress.com/2012/11/20/interlude-15/"
+        },
+        {
+	        "title": "16.1",
+	        "src":"http://parahumans.wordpress.com/2012/11/24/monarch-16-1/"
+        },
+        {
+	        "title": "16.2",
+	        "src":"http://parahumans.wordpress.com/2012/11/27/monarch-16-2/"
+        },
+        {
+	        "title": "16.x (Donation Interlude 1; PRT Squad)",
+	        "src":"http://parahumans.wordpress.com/2012/11/29/interlude-16-donation-bonus/"
+        },
+        {
+	        "title": "16.3",
+	        "src":"http://parahumans.wordpress.com/2012/12/01/monarch-16-3/"
+        },
+        {
+	        "title": "16.4",
+	        "src":"http://parahumans.wordpress.com/2012/12/04/monarch-16-4/"
+        },
+        {
+	        "title": "16.5",
+	        "src":"http://parahumans.wordpress.com/2012/12/08/monarch-16-5/"
+        },
+        {
+	        "title": "16.6",
+	        "src":"http://parahumans.wordpress.com/2012/12/11/monarch-16-6/"
+        },
+        {
+	        "title": "16.y (Donation Interlude #2; Defiant)",
+	        "src":"http://parahumans.wordpress.com/2012/12/13/interlude-16-donation-bonus-2/"
+        },
+        {
+	        "title": "16.7",
+	        "src":"http://parahumans.wordpress.com/2012/12/15/monarch-16-7/"
+        },
+        {
+	        "title": "16.8",
+	        "src":"http://parahumans.wordpress.com/2012/12/18/monarch-16-8/"
+        },
+        {
+	        "title": "16.9",
+	        "src":"http://parahumans.wordpress.com/2012/12/22/monarch-16-9/"
+        },
+        {
+	        "title": "16.10",
+	        "src":"http://parahumans.wordpress.com/2012/12/25/monarch-16-10/"
+        },
+        {
+	        "title": "16.z (Donation Interlude #3; Marquis)",
+	        "src":"http://parahumans.wordpress.com/2012/12/27/interlude-16-donation-bonus-3/"
+        },
+        {
+	        "title": "16.11",
+	        "src":"http://parahumans.wordpress.com/2012/12/29/monarch-16-11/"
+        },
+        {
+	        "title": "16.12",
+	        "src":"http://parahumans.wordpress.com/2013/01/01/monarch-16-12/"
+        },
+        {
+	        "title": "16.13",
+	        "src":"http://parahumans.wordpress.com/2013/01/05/monarch-16-13/"
+        },
+        {
+	        "title": "17.1",
+	        "src":"http://parahumans.wordpress.com/2013/01/08/migration-17-1/"
+        },
+        {
+	        "title": "17.2",
+	        "src":"http://parahumans.wordpress.com/2013/01/09/migration-17-2/"
+        },
+        {
+	        "title": "17.3",
+	        "src":"http://parahumans.wordpress.com/2013/01/10/migration-17-3/"
+        },
+        {
+	        "title": "17.4",
+	        "src":"http://parahumans.wordpress.com/2013/01/11/migration-17-4/"
+        },
+        {
+	        "title": "17.5",
+	        "src":"http://parahumans.wordpress.com/2013/01/12/migration-17-5/"
+        },
+        {
+	        "title": "17.6",
+	        "src":"http://parahumans.wordpress.com/2013/01/13/migration-17-6/"
+        },
+        {
+	        "title": "17.7",
+	        "src":"http://parahumans.wordpress.com/2013/01/14/migration-17-7/"
+        },
+        {
+	        "title": "17.8",
+	        "src":"http://parahumans.wordpress.com/2013/01/15/migration-17-8/"
+        },
+        {
+	        "title": "18.1",
+	        "src":"http://parahumans.wordpress.com/2013/01/19/queen-18-1/"
+        },
+        {
+	        "title": "18.2",
+	        "src":"http://parahumans.wordpress.com/2013/01/22/queen-18-2/"
+        },
+        {
+	        "title": "18.x (Donation Interlude #1; The Most Powerful Man in the World)",
+	        "src":"http://parahumans.wordpress.com/2013/01/24/interlude-18x/"
+        },
+        {
+	        "title": "18.3",
+	        "src":"http://parahumans.wordpress.com/2013/01/26/queen-18-3/"
+        },
+        {
+	        "title": "18.4",
+	        "src":"http://parahumans.wordpress.com/2013/01/29/queen-18-4/"
+        },
+        {
+	        "title": "18.y (Donation Interlude #2; Crusader)",
+	        "src":"http://parahumans.wordpress.com/2013/01/31/interlude-18-donation-bonus-2/"
+        },
+        {
+	        "title": "18.5",
+	        "src":"http://parahumans.wordpress.com/2013/02/02/queen-18-5/"
+        },
+        {
+	        "title": "18.6",
+	        "src":"http://parahumans.wordpress.com/2013/02/05/monarch-18-6/"
+        },
+        {
+	        "title": "18.z (Donation Interlude #3; Jessica Yamada, Therapist)",
+	        "src":"http://parahumans.wordpress.com/2013/02/07/interlude-18-donation-bonus-3/"
+        },
+        {
+	        "title": "18.7",
+	        "src":"http://parahumans.wordpress.com/2013/02/09/queen-18-7/"
+        },
+        {
+	        "title": "18.8",
+	        "src":"http://parahumans.wordpress.com/2013/02/12/queen-18-8/"
+        },
+        {
+	        "title": "18.z (Donation Interlude #4; Faultline)",
+	        "src":"http://parahumans.wordpress.com/2013/02/14/interlude-18-donation-bonus-4/"
+        },
+        {
+	        "title": "18.z (Interlude; Echidna)",
+	        "src":"http://parahumans.wordpress.com/2013/02/16/interlude-18/"
+        },
+        {
+	        "title": "19.1",
+	        "src":"http://parahumans.wordpress.com/2013/02/19/scourge-19-1/"
+        },
+        {
+	        "title": "19.2",
+	        "src":"http://parahumans.wordpress.com/2013/02/23/scourge-19-2/"
+        },
+        {
+	        "title": "19.3",
+	        "src":"http://parahumans.wordpress.com/2013/02/26/scourge-19-3/"
+        },
+        {
+	        "title": "19.x (Donation Interlude #1; Blasto)",
+	        "src":"http://parahumans.wordpress.com/2013/02/28/interlude-19-donation-bonus-1/"
+        },
+        {
+	        "title": "19.4",
+	        "src":"http://parahumans.wordpress.com/2013/03/02/scourge-19-4/"
+        },
+        {
+	        "title": "19.5",
+	        "src":"http://parahumans.wordpress.com/2013/03/05/scourge-19-5/"
+        },
+        {
+	        "title": "19.6",
+	        "src":"http://parahumans.wordpress.com/2013/03/09/scourge-19-6/"
+        },
+        {
+	        "title": "19.7",
+	        "src":"http://parahumans.wordpress.com/2013/03/12/scourge-19-7/"
+        },
+        {
+	        "title": "19.y (Donation Interlude #2; Parahumans Online)",
+	        "src":"http://parahumans.wordpress.com/2013/03/16/interlude-19-y/"
+        },
+        {
+	        "title": "19.z (Interlude; Emma)",
+	        "src":"http://parahumans.wordpress.com/2013/03/19/interlude-19/"
+        },
+        {
+	        "title": "20.1",
+	        "src":"http://parahumans.wordpress.com/2013/03/21/chrysalis-20-1/"
+        },
+        {
+	        "title": "20.2",
+	        "src":"http://parahumans.wordpress.com/2013/03/23/chrysalis-20-2/"
+        },
+        {
+	        "title": "20.3",
+	        "src":"http://parahumans.wordpress.com/2013/03/26/chrysalis-20-3/"
+        },
+        {
+	        "title": "20.4",
+	        "src":"http://parahumans.wordpress.com/2013/03/30/chrysalis-20-4/"
+        },
+        {
+	        "title": "20.5",
+	        "src":"http://parahumans.wordpress.com/2013/04/02/chrysalis-20-5/"
+        },
+        {
+	        "title": "20.x (Donation Interlude #1; Stan)",
+	        "src":"http://parahumans.wordpress.com/2013/04/04/interlude-20-donation-bonus-1/"
+        },
+        {
+	        "title": "20.y (Interlude; Accord)",
+	        "src":"http://parahumans.wordpress.com/2013/04/06/interlude-20/"
+        },
+        {
+	        "title": "21.1",
+	        "src":"http://parahumans.wordpress.com/2013/04/09/imago-21-1/"
+        },
+        {
+	        "title": "21.2",
+	        "src":"http://parahumans.wordpress.com/2013/04/13/imago-21-2/"
+        },
+        {
+	        "title": "21.3",
+	        "src":"http://parahumans.wordpress.com/2013/04/16/imago-21-3/"
+        },
+        {
+	        "title": "21.4",
+	        "src":"http://parahumans.wordpress.com/2013/04/18/imago-21-4/"
+        },
+        {
+	        "title": "21.5",
+	        "src":"http://parahumans.wordpress.com/2013/04/20/imago-21-5/"
+        },
+        {
+	        "title": "21.6",
+	        "src":"http://parahumans.wordpress.com/2013/04/23/imago-21-6/"
+        },
+        {
+	        "title": "21.7",
+	        "src":"http://parahumans.wordpress.com/2013/04/25/imago-21-7/"
+        },
+        {
+	        "title": "21.x (Donation Interlude #1; Number Man)",
+	        "src":"http://parahumans.wordpress.com/2013/04/27/interlude-21-donation-bonus-1/"
+        },
+        {
+	        "title": "21.y (Interlude, Parian)",
+	        "src":"http://parahumans.wordpress.com/2013/04/30/interlude-21/"
+        },
+        {
+	        "title": "22.1",
+	        "src":"http://parahumans.wordpress.com/2013/05/04/cell-22-1/"
+        },
+        {
+	        "title": "22.2",
+	        "src":"http://parahumans.wordpress.com/2013/05/07/cell-22-2/"
+        },
+        {
+	        "title": "22.3",
+	        "src":"http://parahumans.wordpress.com/2013/05/09/cell-22-3/"
+        },
+        {
+	        "title": "22.4",
+	        "src":"http://parahumans.wordpress.com/2013/05/11/cell-22-4"
+        },
+        {
+	        "title": "22.5",
+	        "src":"http://parahumans.wordpress.com/2013/05/14/cell-22-5/"
+        },
+        {
+	        "title": "22.6",
+	        "src":"http://parahumans.wordpress.com/2013/05/16/cell-22-6/"
+        },
+        {
+	        "title": "22.x (Interlude, Charlotte)",
+	        "src":"http://parahumans.wordpress.com/2013/05/18/interlude-22/"
+        },
+        {
+	        "title": "22.y (Donation Interlude; Lung)",
+	        "src":"http://parahumans.wordpress.com/2013/05/21/interlude-22-donation-bonus-1/"
+        },
+        {
+	        "title": "23.1",
+	        "src":"http://parahumans.wordpress.com/2013/05/25/drone-23-1/"
+        },
+        {
+	        "title": "23.2",
+	        "src":"http://parahumans.wordpress.com/2013/05/28/drone-23-2/"
+        },
+        {
+	        "title": "23.3",
+	        "src":"http://parahumans.wordpress.com/2013/05/30/drone-23-3/"
+        },
+        {
+	        "title": "23.4",
+	        "src":"http://parahumans.wordpress.com/2013/06/01/drone-23-4/"
+        },
+        {
+	        "title": "23.5",
+	        "src":"http://parahumans.wordpress.com/2013/06/04/drone-23-5/"
+        },
+        {
+	        "title": "23.x (Interlude; Number Thirty-Six)",
+	        "src":"http://parahumans.wordpress.com/2013/06/06/interlude-23/"
+        },
+        {
+	        "title": "24.1",
+	        "src":"http://parahumans.wordpress.com/2013/06/08/crushed-24-1/"
+        },
+        {
+	        "title": "24.2",
+	        "src":"http://parahumans.wordpress.com/2013/06/11/crushed-24-2/"
+        },
+        {
+	        "title": "24.3",
+	        "src":"http://parahumans.wordpress.com/2013/06/15/crushed-24-3/"
+        },
+        {
+	        "title": "24.4",
+	        "src":"http://parahumans.wordpress.com/2013/06/18/crushed-24-4/"
+        },
+        {
+	        "title": "24.5",
+	        "src":"http://parahumans.wordpress.com/2013/06/20/crushed-24-5/"
+        },
+        {
+	        "title": "24.x (Interlude, Chevalier)",
+	        "src":"http://parahumans.wordpress.com/2013/06/22/interlude-24/"
+        },
+        {
+	        "title": "24.y (Interlude 2, Aftermath)",
+	        "src":"http://parahumans.wordpress.com/2013/06/25/interlude-24-donation-bonus-1/"
+        },
+        {
+	        "title": "25.1",
+	        "src":"http://parahumans.wordpress.com/2013/06/29/scarab-25-1/"
+        },
+        {
+	        "title": "25.2",
+	        "src":"http://parahumans.wordpress.com/2013/07/02/scarab-25-2/"
+        },
+        {
+	        "title": "25.3",
+	        "src":"http://parahumans.wordpress.com/2013/07/06/scarab-25-3/"
+        },
+        {
+	        "title": "25.4",
+	        "src":"http://parahumans.wordpress.com/2013/07/09/scarab-25-4/"
+        },
+        {
+	        "title": "25.5",
+	        "src":"http://parahumans.wordpress.com/2013/07/11/scarab-25-5/"
+        },
+        {
+	        "title": "25.6",
+	        "src":"http://parahumans.wordpress.com/2013/07/13/scarab-25-6/"
+        },
+        {
+	        "title": "25.x (Interlude, Bonesaw)",
+	        "src":"http://parahumans.wordpress.com/2013/07/16/interlude-25/"
+        },
+        {
+	        "title": "26.1",
+	        "src":"http://parahumans.wordpress.com/2013/07/18/sting-26-1/"
+        },
+        {
+	        "title": "26.2",
+	        "src":"http://parahumans.wordpress.com/2013/07/20/sting-26-2/"
+        },
+        {
+	        "title": "26.3",
+	        "src":"http://parahumans.wordpress.com/2013/07/23/sting-26-3/"
+        },
+        {
+	        "title": "26.x (Donation Interlude; Saint)",
+	        "src":"http://parahumans.wordpress.com/2013/07/25/interlude-26-donation-bonus-1/"
+        },
+        {
+	        "title": "26.4",
+	        "src":"http://parahumans.wordpress.com/2013/07/27/sting-26-4/"
+        },
+        {
+	        "title": "26.5",
+	        "src":"http://parahumans.wordpress.com/2013/07/30/sting-26-5/"
+        },
+        {
+	        "title": "26.6",
+	        "src":"http://parahumans.wordpress.com/2013/08/03/sting-26-6/"
+        },
+        {
+	        "title": "26.a (Interlude A, Golem part 1)",
+	        "src":"http://parahumans.wordpress.com/2013/08/06/interlude-26a/"
+        },
+        {
+	        "title": "26.b (Interlude B, Golem part 2)",
+	        "src":"http://parahumans.wordpress.com/2013/08/08/interlude-26b/"
+        },
+        {
+	        "title": "26.x (Interlude, …)",
+	        "src":"http://parahumans.wordpress.com/2013/08/10/interlude-26/"
+        },
+        {
+	        "title": "27.1",
+	        "src":"http://parahumans.wordpress.com/2013/08/13/extinction-27-1/"
+        },
+        {
+	        "title": "27.2",
+	        "src":"http://parahumans.wordpress.com/2013/08/17/extinction-27-2/"
+        },
+        {
+	        "title": "27.3",
+	        "src":"http://parahumans.wordpress.com/2013/08/20/extinction-27-3/"
+        },
+        {
+	        "title": "27.4",
+	        "src":"http://parahumans.wordpress.com/2013/08/22/extinction-27-4/"
+        },
+        {
+	        "title": "27.5",
+	        "src":"http://parahumans.wordpress.com/2013/08/24/extinction-27-5/"
+        },
+        {
+	        "title": "27.x (Interlude, Eidolon)",
+	        "src":"http://parahumans.wordpress.com/2013/08/27/interlude-27/"
+        },
+        {
+	        "title": "27.y (Interlude, Addendum)",
+	        "src":"http://parahumans.wordpress.com/2013/08/29/interlude-27b/"
+        },
+        {
+	        "title": "28.1",
+	        "src":"http://parahumans.wordpress.com/2013/08/31/cockroaches-28-1/"
+        },
+        {
+	        "title": "28.2",
+	        "src":"http://parahumans.wordpress.com/2013/09/03/cockroaches-28-2/"
+        },
+        {
+	        "title": "28.3",
+	        "src":"http://parahumans.wordpress.com/2013/09/05/cockroaches-28-3/"
+        },
+        {
+	        "title": "28.4",
+	        "src":"http://parahumans.wordpress.com/2013/09/07/cockroaches-28-4/"
+        },
+        {
+	        "title": "28.5",
+	        "src":"http://parahumans.wordpress.com/2013/09/10/cockroaches-28-5/"
+        },
+        {
+	        "title": "28.6",
+	        "src":"http://parahumans.wordpress.com/2013/09/14/cockroaches-28-6/"
+        },
+        {
+	        "title": "28.x (Interlude)",
+	        "src":"http://parahumans.wordpress.com/2013/09/17/interlude-28/"
+        },
+        {
+	        "title": "29.1",
+	        "src":"http://parahumans.wordpress.com/2013/09/19/venom-29-1/"
+        },
+        {
+	        "title": "29.2",
+	        "src":"http://parahumans.wordpress.com/2013/09/21/venom-29-2/"
+        },
+        {
+	        "title": "29.3",
+	        "src":"http://parahumans.wordpress.com/2013/09/24/venom-29-3/"
+        },
+        {
+	        "title": "29.4",
+	        "src":"http://parahumans.wordpress.com/2013/09/26/venom-29-4/"
+        },
+        {
+	        "title": "29.5",
+	        "src":"http://parahumans.wordpress.com/2013/09/28/venom-29-5/"
+        },
+        {
+	        "title": "29.6",
+	        "src":"http://parahumans.wordpress.com/2013/10/01/venom-29-6/"
+        },
+        {
+	        "title": "29.7",
+	        "src":"http://parahumans.wordpress.com/2013/10/03/venom-29-7/"
+        },
+        {
+	        "title": "29.8",
+	        "src":"http://parahumans.wordpress.com/2013/10/05/venom-29-8/"
+        },
+        {
+	        "title": "29.9",
+	        "src":"http://parahumans.wordpress.com/2013/10/08/venom-29-9/"
+        },
+        {
+	        "title": "29.x (Interlude; Fortuna)",
+	        "src":"http://parahumans.wordpress.com/2013/10/12/interlude-29/"
+        },
+        {
+	        "title": "30.1",
+	        "src":"http://parahumans.wordpress.com/2013/10/15/speck-30-1/"
+        },
+        {
+	        "title": "30.2",
+	        "src":"http://parahumans.wordpress.com/2013/10/17/speck-30-2/"
+        },
+        {
+	        "title": "30.3",
+	        "src":"http://parahumans.wordpress.com/2013/10/19/speck-30-3/"
+        },
+        {
+	        "title": "30.4",
+	        "src":"http://parahumans.wordpress.com/2013/10/22/speck-30-4/"
+        },
+        {
+	        "title": "30.5",
+	        "src":"http://parahumans.wordpress.com/2013/10/24/speck-30-5/"
+        },
+        {
+	        "title": "30.6",
+	        "src":"http://parahumans.wordpress.com/2013/10/26/speck-30-6/"
+        },
+        {
+	        "title": "30.7",
+	        "src":"http://parahumans.wordpress.com/2013/10/29/30-7/"
+        },
+        {
+	        "title": "E.1",
+	        "src":"http://parahumans.wordpress.com/2013/11/02/teneral-e-1/"
+        },
+        {
+	        "title": "E.3",
+	        "src":"http://parahumans.wordpress.com/2013/11/09/teneral-e-3/"
+        },
+        {
+	        "title": "E.4",
+	        "src":"http://parahumans.wordpress.com/2013/11/12/teneral-e-4/"
+        },
+        {
+	        "title": "E.5",
+	        "src":"http://parahumans.wordpress.com/2013/11/16/teneral-e-5/"
+        },
+        {
+	        "title": "E.x (Interlude: End)",
+	        "src":"http://parahumans.wordpress.com/2013/11/19/interlude-end/"
+        }
+	]
+}

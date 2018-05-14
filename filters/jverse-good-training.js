@@ -1,32 +1,27 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-    var chap = params.chap;
-	var $ = chap.dom;
-	var rem = [];
-	var ps = $('p');
+    const chap = params.chap;
+	const $ = chap.dom;
+	const rem = [];
 
-	$('h2').each(function(i, e)
+	utils.removeAll($, rem, 'h2');
+
+	if(chap.title === 'The Locals')
 	{
-		rem.push($(e));
+		utils.removeFirst($, rem, 'p', 2);
+	    utils.removeSingle($, rem, 'p:contains("CONTINUED IN COMMENTS BELOW")'); 
+	    utils.removeSingle($, rem, 'p:contains("I felt like adding more. Have an epilogue!")'); 
+	    utils.removeAll($, rem, 'h1');
+	}
+	
+	utils.pruneParagraphs(chap, rem, {
+	    'Saturday Morning Breakfast': [2, 1],
+	    'The Champions Pt II: Tidying Up': [0, 1],
+	    'Good Training: Pecking Order': [5, 0],
+	    'Good Training: April Fool\'s': [2, 0]
 	});
-
-	/*$('blockquote').each(function(i, e)
-	{
-        e.name = 'pre';
-	});*/
-
-	if(chap.title === 'The Locals' || chap.title === 'Good Training: The Locals')
-	{
-		rem.push($(ps[0]));
-		rem.push($(ps[1]));
-	    rem.push($('p:contains("CONTINUED IN COMMENTS BELOW")'));
-	    rem.push($('p:contains("I felt like adding more. Have an epilogue!")'));
-	}
-	else if(chap.title === 'Saturday Morning Breakfast' || chap.title === 'Good Training: Saturday Morning Breakfast')
-	{
-		rem.push($(ps[0]));
-		rem.push($(ps[1]));
-	}
 
     if(rem.length)
 	    params.purge(rem);

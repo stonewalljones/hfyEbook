@@ -1,12 +1,12 @@
 function apply(params, next)
 {
-    var $ = params.chap.dom;
-    var hrs = $('hr');
+    const $ = params.chap.dom;
+    const hrs = $('hr');
 	
     if(hrs.length)
     {
-        var pa = null;
-		var len = 2500;
+        let pa = null;
+		let len = 2500;
 		
 		if(params.chap['no-preamble-treshold'] !== undefined)
 			len = params.chap['no-preamble-treshold'];
@@ -15,7 +15,7 @@ function apply(params, next)
 		
         hrs.each(function(i, e)
         {
-            var c = $(e).prevAll();
+            const c = $(e).prevAll();
 
             if(c.text().length <= len)
                 pa = c;
@@ -23,9 +23,9 @@ function apply(params, next)
 
         if(pa)
         {
-        	var rem = [];
+        	const rem = [];
         	
-        	for(var i = 0; i < pa.length; i++)
+        	for(let i = 0; i < pa.length; i++)
         		rem.push($(pa[i]));
         	
         	params.purge(rem);

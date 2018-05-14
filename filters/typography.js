@@ -1,21 +1,21 @@
-var ENT_LQUOT = '&#x201C;';
-var ENT_RQUOT = '&#x201D;';
-var ENT_SQUOR = '&#x2019;';
-var ENT_SQUOL = '&#x2018;';
-var ENT_NDASH = '&#x2013;';
-var ENT_MDASH = '&#x2014;';
-var ENT_ASTER = '&#x2042;';
-var ENT_ELLIP = '&#x2026;';
-var ENT_LTHAN = '&#x003C;';
-var ENT_GTHAN = '&#x003E;';
-var ENT_AMPER = '&#x0026;';
+const ENT_LQUOT = '&#x201C;';
+const ENT_RQUOT = '&#x201D;';
+const ENT_SQUOR = '&#x2019;';
+const ENT_SQUOL = '&#x2018;';
+const ENT_NDASH = '&#x2013;';
+const ENT_MDASH = '&#x2014;';
+const ENT_ASTER = '&#x2042;';
+const ENT_ELLIP = '&#x2026;';
+const ENT_LTHAN = '&#x003C;';
+const ENT_GTHAN = '&#x003E;';
+const ENT_AMPER = '&#x0026;';
 
 function apply(params, next)
 {
-    var $ = params.chap.dom;
-    var last_open = false;
-    var last_open_s = false;
-    var last_char = '';
+    const $ = params.chap.dom;
+    let last_open = false;
+    let last_open_s = false;
+    let last_char = '';
 
     $('*').each(function(i1, e1)
     {
@@ -24,8 +24,8 @@ function apply(params, next)
             if(e2.type !== 'text' || !e2.data)
                 return;
 
-            var is = e2.data;
-            var os = '';
+            let is = e2.data;
+            let os = '';
 
             // If the source text contains any named entities, replace them
             // with their numerical equivalents before further processing.
@@ -47,9 +47,9 @@ function apply(params, next)
 
             // Replace ordinary single and double quotes with their typographical
             // equivalents. This approach assumes english content.
-            for(var i = 0; i < is.length; i++)
+            for(let i = 0; i < is.length; i++)
             {
-                var c = is[i];
+                const c = is[i];
 
                 if(c === '"')
                 {
@@ -81,9 +81,7 @@ function apply(params, next)
                 }
                 else if(c === '&')
                 {
-                    var ss = is.substr(i, 20);
-
-                    if(!ss.match(/^&.*;/))
+                    if(!is.substr(i, 20).match(/^&.*;/))
                         os += ENT_AMPER;
                     else
                         os += '&';
@@ -106,10 +104,10 @@ function apply(params, next)
     });
 
 	// Flatten nested monospace tags
-    var flatten_mono = function(i, e)
+    const flatten_mono = function(i, e)
     {
-        var el = $(e);
-        var parent = el.parent();
+        const el = $(e);
+        const parent = el.parent();
 
         parent.text(el.text());
         el.remove();
@@ -119,8 +117,7 @@ function apply(params, next)
     $('code > pre').each(flatten_mono);
 
     // Remove redundant horizontal rules
-    var brem = false;
-	var rem = [];
+    let brem = false;
 
     $.root().children().each(function(i, e)
     {
@@ -135,10 +132,12 @@ function apply(params, next)
             brem = false;
     });
 
+	const rem = [];
+
     // Replace horizontal rules with nice breaks
     $('hr').each(function(i, e)
     {
-        var el = $(e);
+        const el = $(e);
 
         // Don't insert break as the first or last element
         if(el.prevAll().length < 1 || el.nextAll().length < 1)

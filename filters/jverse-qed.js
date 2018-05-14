@@ -1,15 +1,15 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-    var $ = params.chap.dom;
-    var ps = $('p');
-	var rem = [];
+    const $ = params.chap.dom;
+	const rem = [];
 	
-    for(var i = 0; i < 3; i++)
-        rem.push($(ps[i]));
+    utils.removeFirst($, rem, 'p', 3);
 
     $('li p').each(function(i, e)
     {
-    	var el = $(e);
+    	const el = $(e);
     	
     	el.parent().append(el.contents());
     	el.remove();
