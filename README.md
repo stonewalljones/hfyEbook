@@ -1,40 +1,58 @@
-# hfyEbook
-A tool to create Ebooks from Reddit posts. Created by /u/b3iAAoLZOH9Y265cujFh 
+About
+-----
+
+Ebook.JS is a flexible E-book processing pipeline. It can automatically compile 
+local or online material in HTML or MarkDown to any or all of:
+
+    * EPUB, which is convenient for people consuming the material using small form-factor
+      devices like smartphones, dedicated ebook readers or smaller tablets.
+    
+    * HTML for online self-publishing, embedding and interchange.
+    
+    * LaTeX for creation of high-quality PDF output with LuaLaTex or XeLaTeX.
 
 
 Installation
 ------------
+
 Run 'npm install' to install the dependencies, and you should be good to go.
 
 
 Usage
 -----
-node ebook.js 'path\to\spec.json'
+node ebook.js 'spec.json'
 
-PLEASE DO NOT DISTRIBUTE THE RESULTING OUTPUT FILES UNLESS YOU ARE THE AUTHOR OF OR OWNS
-THE RIGHTS TO ALL MATERIAL THEY CONTAIN.
+
+Feel free to enjoy the resulting output files for personal consumption and to share any
+book specifications or filters you author with other users of this tool, but:
+
+PLEASE DO NOT DISTRIBUTE THE RESULTING OUTPUT FILES UNLESS YOU ARE THE AUTHOR OR OWNER
+OF THE RIGHTS TO ALL MATERIAL THEY CONTAIN, I.E. DON'T BE A... BAD PERSON.
 
 
 Licence:
 --------
+
 MIT
 
 
 Bugs and Suggestions
 --------------------
-PM either to https://www.reddit.com/user/b3iAAoLZOH9Y265cujFh/
+
+Send a PM with the details to https://www.reddit.com/user/b3iAAoLZOH9Y265cujFh/
 
 I'm only around infrequently. If you do not receive an immediate response, it's not because
-you're being ignored. I'll be getting back to you at the earliest available opportunity.
+you're being ignored. I'll be getting back to you as soon as I see your message.
 
 
 Configuration
 -------------
+
 All input files are expected to be encoded as UTF-8. Similarly, intermediary and output
 data is also encoded as UTF-8.
 
-This script will generate one or more ebooks when given a simple JSON file. These
-files will be referred to as 'specs', and have the following format:
+This script will generate one or more ebooks when given a simple JSON specification 
+file (henceforth referred to as 'specs' for brewity). They have the following format:
 
 "title" (string):
     Used as the book title and as the basis for the output filename.
@@ -54,6 +72,11 @@ files will be referred to as 'specs', and have the following format:
     The following filters are included:
 
     SOURCES:
+        
+        Source filters that fetch online resources cache the downloaded data in the
+        'cache' directory. Clear the 'cache' directory to redownload the source material.
+        
+        Local files are not cached.
     
 		* "from-local-html"
 		    Read the chapter data from a local (X)HTML file, given a filename relative
@@ -63,6 +86,10 @@ files will be referred to as 'specs', and have the following format:
 		    Read the chapter data from a local Markdown file, given a filename relative
 		    to the root directory.
 
+		* "from-hfy-archive"
+		    Downloads and caches the chapter contents from a HFY Archive post given
+		    a source URL.
+	
 		* "from-reddit-post"
 		    Downloads and caches the chapter contents from a Reddit post given a source
 		    URL. Since Reddits JSON API is used - so that post tagged NSFW can be
@@ -72,12 +99,15 @@ files will be referred to as 'specs', and have the following format:
 
 		    Submission continuations in comments are automatically detected and
 		    concatenated with the main submission text before further processing.
+		
+		* "from-url"
+			Downloads and caches the full response from an arbitrary URL. It is the
+			responsibility of the user to insert additional filters in the processing
+			chain that extracts the content, and presents it as a DOM that is useable
+			with subsequent filters, if desired.
 
-		* "from-hfy-archive"
-		    Downloads and caches the chapter contents from a HFY Archive post given
-		    a source URL.
-	
 	FILTERS:
+	
 		* "clean-reddit"
 		    Removes HTML comment elements, CSS classes on any other element and
 		    replaces any HTTP/HTTPS link to reddit with its text. Links to other
@@ -99,8 +129,12 @@ files will be referred to as 'specs', and have the following format:
 		* "no-preamble"
 		    Removes any post content preceding the first horizontal rule, if the total
 		    length of the content does not exceed 2500 characters. The threshold value
-		    has been determined empirically and is known to correctly filter author
-		    preambles from all chapters in the current corpus with no false positives.
+		    has been determined empirically and works for most of the content in the
+		    test corpus.
+		    The default maximum preable length can be changed with the parameter
+		    "no-preamble-threshold", which can be specified for either the spec, one or
+		    more chapters, or both. If both are specified, the chapter parameter takes
+		    precedence (used by BatS).
 
 		* "print-dom"
 			Makes no changes, but displays a visual representation of the DOM at the
@@ -115,20 +149,32 @@ files will be referred to as 'specs', and have the following format:
 		    all EPUB readers have problems rendering these correctly. Conversely,
 		    not using entites can be correctly handled by all modern browsers.
 
-		* Series-specific filters for the following (not all series in the current corpus
-		  requires additional or custom filtering):
+		* Series-specific filters for the following:
 
+		    * All Sapiens Go To Heaven
 		    * Billy-Bob Space Trucker
 		    * Blessed Are The Simple
 		    * Builders In The Void: Peace / War
+		    * Chrysalis
 		    * Client Stone: Freedom / Rebellion
+		    * Corridors
+		    * Deathworld Origins
+		    * Good Training
+		    * Guttersnipe
+		    * Henosis
+		    * HFY Anthology
 		    * Humans Don't Make Good Pets
+		    * Memories of Creature 88
 		    * MIA
-		    * Perspective
+		    * Pact
 		    * QED
 		    * Salvage
 		    * The Deathworlders
+		    * The Fourth Wave
+		    * The Lost Minstrel
+		    * The Salvation War: Amageddon / Pantheocide
 		    * The Xiu Chang Saga
+		    * Worm
 
 "filename" (string):
 	Specifies the base name for emitted output files. Omits extension, since that
@@ -147,9 +193,7 @@ files will be referred to as 'specs', and have the following format:
 
         * latex:
             Emits a TEX file with the name [title].tex. The format is optimized for
-            processing with xelatex, but pdflatex can be used. If a Patreon link is
-            included in the cover XHTML file, it is automatically extracted and added
-            to the cover page and thus also included in generated PDFs.
+            processing with lualatex, but xelatex can be used.
             
         * html:
             Emits a HTML file in the root directory with the name [title].html. The
@@ -157,8 +201,8 @@ files will be referred to as 'specs', and have the following format:
             as-is.
 
 "content" (array of objects):
-    Each element of the array is an object describing a chapter. Each of these
-    instances contains the following fields:
+    Each element of the array is an object describing a chapter. Each can contain the
+    following fields:
 
         * "title" (string):
             The chapter title. Used to generate headings and when building TOCs.
@@ -176,10 +220,23 @@ files will be referred to as 'specs', and have the following format:
 			If a set of filter chains have been specified, this reference to a chain
 			by name is mandatory. This feature can be used to support multi-source
 			or variably filtered content.
+	
+	NOTE: It is possible to add aditional user-defined parameters to each chapter,
+	      which can be used to influence the operation of filters in the relevant
+	      processing chain. This has many potential uses, notably to sub-select
+	      chapter content in situations where content for multiple chapters
+	      originates from the same source URL. For an example of this, see the
+	      spec and content filter implementation for The Salvation War.
+
+When a specification contains multiple chapters that use the same source URL, the execution
+of all but the first chapter using a given source will block automatically until processing
+of the first instance completes. This prevents redundant fetching of that URL when the content
+has not yet been cached. Chapters using different source URLs still process in parallel.
 
 
 Authoring Filters
 -----------------
+
 Each filter is implemented as a Node.JS module, and placed in the "filters"
 directory. Each filter module must export exactly one function:
 
@@ -222,7 +279,7 @@ Thus, a minimal valid filter implementation is:
     };
 
 Any subsequent filter will not be applied until the preceding filter
-calls its supplied "next" function. Consequently, the following is valid:
+calls its supplied "next()" function. Consequently, the following is valid:
 
     function apply(params, next)
     {
@@ -248,12 +305,51 @@ its name should begin with 'from-', and it has two additional responsibilities:
     }
  
     
-Performance
------------
-Pretty good. On my hardware (i7, 4 cores @ 1.60GHz), the current corpus (5645 pages when
-typeset af PDF) can be retrieved from cache, filterred, typeset and emitted to finished epub,
-latex and html in 36 seconds. A 2-pass build of pdf files takes an additional 1 minute and
-15 seconds using XeTeX, resulting in a total of 40.7Mb of output data in 56 files.
+DOM structure
+-------------
 
-In short, unless you require sustained throughput of more than three average length books
-per minute, pretty much any reasonably modern computer will run this just fine.
+Almost all intermediary filters and all output filters expects a constrained DOM layout. It is
+the responsibility of any input filter (or a specialised intermediary filter) to harmonise any
+input data to conform to the following convention:
+
+The DOM operated on by filters is a HTML fragment, not a full document. It should consist of
+nothing but a series of paragraphs, possibly interdispersed by one or more horizontal rules.
+
+Text in each paragraph can be bolded by using nested <strong> tags and italisized by using
+<em>. Fixed width blocks can be included by using either <pre> or <code>. Ordered and unordered
+lists are supported via <ol> and <ul> respectively, linebreaks can be introduced with <br> but
+are strongly discouraged. Empty lines are NOT supported. Struck out text can use either <s>,
+<del> or <strike> and text can be centered with the <center> tag,
+
+The only tag permitted outside an enclosing root-level paragraph are horizontal rules which
+will be converted to a section break appropriate for each type of output file. Paragraphs should
+never be nested.
+
+All styling information, scripts, comments and meta-data should be stripped. Unsupported tags
+should be converted to the closest supported tag or discarded.
+
+To wit:
+
+<DOM>
+    <p>The first paragraph of the text.</p>
+    <p>This paragraph will be followed by additional spacing and an asterism:</p>
+    <hr/>
+    <p>
+        <pre>
+            DISCLAIMER: This is not a exhaustive example.
+        </pre>
+        You're free to use <strong>bold</strong> or <em>italic</em> text. On the
+        other hand, you <strike>can</strike> cannot use:
+        <ul>
+            <li>Headings</li>
+            <li>Font tags or any other styling markup or attributes</li>
+            <li>HTML entities and character references. Both should be converted to their
+                utf-8 encoded equivalents.
+            </li>
+        </ul>
+        While this may seem restrictive, it has proved sufficient to faithfully represent
+        the current test corpus, while keeping all filters interoperable and the implementational
+        complexity relatively low. It also helps to ensure that the same material is visually
+        close to identical across all supported output formats.
+    </p>
+</DOM>
