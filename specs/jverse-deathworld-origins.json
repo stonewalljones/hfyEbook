@@ -1,0 +1,48 @@
+{
+	"title": "Deathworld Origins",
+	"creator": "captainmeta4",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit", 
+		"jverse-do",
+		"typography",
+		"finalize"
+	],
+	"filename": "Deathworld Origins",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter I",
+			"src": "http://www.reddit.com/r/HFY/comments/6n8o20/jverse_deathworld_origins_chapter_i/"
+		},
+		{
+			"title": "Chapter II",
+			"src": "http://www.reddit.com/r/HFY/comments/6nfccr/jverse_deathworld_origins_chapter_ii/"
+		},
+		{
+			"title": "Chapter III",
+			"src": "http://www.reddit.com/r/HFY/comments/6nlp4x/jverse_deathworld_origins_chapter_iii/"
+		},
+		{
+			"title": "Chapter IV",
+			"src": "http://www.reddit.com/r/HFY/comments/6ns9x0/jverse_deathworld_origins_chapter_iv/"
+		},
+		{
+			"title": "Chapter V",
+			"src": "http://www.reddit.com/r/HFY/comments/6nzxv6/jverse_deathworld_origins_chapter_v/"
+		},
+		{
+			"title": "Chapter VI",
+			"src": "http://www.reddit.com/r/HFY/comments/6o7lds/jverse_deathworld_origins_chapter_vi/"
+		},
+		{
+			"title": "Chapter VII",
+			"src": "http://www.reddit.com/r/HFY/comments/6ofhj5/jverse_deathworld_origins_chapter_vii/"
+		},
+		{
+			"title": "Chapter VIII",
+			"src": "https://www.reddit.com/r/HFY/comments/6on7ye/jverse_deathworld_origins_chapter_viii/"
+		}
+	]
+}

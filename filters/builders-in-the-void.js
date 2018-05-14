@@ -1,9 +1,12 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-    var chap = params.chap;
-	var $ = chap.dom;
-	var rem = [];
-	var prune = {
+    const chap = params.chap;
+	const $ = chap.dom;
+	const rem = [];
+	
+	utils.pruneParagraphs(chap, rem, {
 		// Peace
 		'Humanity: Builders in the Void': [0, 8],
 		'Nischal': [3, 4],
@@ -33,22 +36,10 @@ function apply(params, next)
 		'Remembrance': [0, 4],
 		'The Wolves': [0, 5],
 		'The Generals life': [0, 1]
-	};
-	
-	if(chap.title in prune)
-	{
-		var pr = prune[chap.title];
-		var ps = $('p');
-	
-		for(var i = 0; i < pr[0]; i++)
-			rem.push($(ps[i]));
-		
-		for(var i = ps.length - pr[1]; i < ps.length; i++)
-			rem.push($(ps[i]));
-	}
+	});
 	
 	if(chap.title === 'An Old Tale')
-		rem.push($('h2'));
+	    utils.removeAll($, rem, 'h2');
 	
 	params.purge(rem);
 	next();

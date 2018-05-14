@@ -64,6 +64,7 @@
         },
         {
             "title": "The Lost Minstrel - 13",
+			"no-preamble-treshold": 0,
             "src": "http://www.reddit.com/r/HFY/comments/48cj01/ocjverse_the_lost_minstrel_13/"
         },
         {
@@ -76,19 +77,8 @@
         },
         {
             "title": "The Lost Minstrel - 16",
+			"no-preamble-treshold": 0,
             "src": "http://www.reddit.com/r/HFY/comments/4f617y/ocjverse_the_lost_minstrel_16/"
-        },
-        {
-            "title": "The Lost Minstrel - 17",
-            "src": "https://www.reddit.com/r/HFY/comments/4n8544/ocjverse_the_lost_minstrel_17/"
-        },
-        {
-            "title": "The Lost Minstrel - 18",
-            "src": "https://www.reddit.com/r/HFY/comments/4tktdb/ocjversethe_lost_minstrel_18/"
-        },
-        {
-            "title": "The Lost Minstrel - 19",
-            "src": "https://www.reddit.com/r/HFY/comments/5n773r/ocjversethe_lost_minstrel_19/"
         }
 	]
 }

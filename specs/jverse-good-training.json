@@ -6,7 +6,6 @@
 			"from-reddit-post",
 			"clean-reddit",
 			"custom-break-to-hr",
-			"no-preamble",
 			"jverse-good-training",
 			"typography",
 			"finalize"
@@ -15,7 +14,6 @@
 			"from-hfy-archive",
 			"clean-reddit",
 			"custom-break-to-hr",
-			"no-preamble",
 			"jverse-good-training",
 			"typography",
 			"finalize"
@@ -163,12 +161,12 @@
 		{
 			"title": "Good Training: Pecking Order",
 			"filters": "reddit",
-			"src": "https://www.reddit.com/r/HFY/comments/5bqqxo/jverse_good_training_pecking_order/"
+			"src": "http://www.reddit.com/r/HFY/comments/5bqqxo/jverse_good_training_pecking_order/"
 		},
 		{
 			"title": "Good Training: April Fool's",
 			"filters": "reddit",
-			"src": "https://www.reddit.com/r/HFY/comments/62x6gt/jverse_good_training_april_fools/"
+			"src": "http://www.reddit.com/r/HFY/comments/62x6gt/jverse_good_training_april_fools/"
 		}
 	]
 }

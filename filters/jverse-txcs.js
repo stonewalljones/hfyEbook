@@ -1,22 +1,22 @@
 function apply(params, next)
 {
-    var chap = params.chap;
-    var $ = chap.dom;
-	var ps = $('p');
-	var rem = [];
+    const chap = params.chap;
+    const $ = chap.dom;
+	const ps = $('p');
+	const rem = [];
 	
     if(chap.title === 'Monkeys Reaches Stars')
     {
     	ps.each(function(i, e)
     	{
-    		var p = $(e);
+    		const p = $(e);
     		
     		if(p.text() === '&amp;nbsp')
     			rem.push(p);
     	});
     }
     
-    var lp = $(ps[ps.length-1]);
+    const lp = $(ps[ps.length-1]);
     
     if(lp.text().match(/^Part \w+$/))
     	rem.push(lp);

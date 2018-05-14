@@ -1,0 +1,125 @@
+{
+	"title": "Corridors",
+	"creator": "Nanoprober",
+	"patreon": "https://www.patreon.com/user?u=3737690",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"corridors", 
+		"typography",
+		"finalize"
+	],
+	"filename": "Corridors",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter 1: Pilot",
+			"src": "http://www.reddit.com/r/HFY/comments/2n4vge/oc_corridors_part_1/"
+		},
+		{
+			"title": "Chapter 2: Haggling",
+			"src": "http://www.reddit.com/r/HFY/comments/2n89fw/oc_corridors_part_2_haggling/"
+		},
+		{
+			"title": "Chapter 3: Incursion",
+			"src": "http://www.reddit.com/r/HFY/comments/2ngajq/oc_corridors_part_3_incursion/"
+		},
+		{
+			"title": "Chapter 4: Home",
+			"src": "http://www.reddit.com/r/HFY/comments/2nmzm3/oc_corridors_part_4_home/"
+		},
+		{
+			"title": "Chapter 5: Intelligence",
+			"src": "http://www.reddit.com/r/HFY/comments/2ntcwl/oc_corridors_part_5_intelligence/"
+		},
+		{
+			"title": "Chapter 6: Hermes",
+			"src": "http://www.reddit.com/r/HFY/comments/2obg54/oc_corridors_part_6_hermes/"
+		},
+		{
+			"title": "Chapter 7: Lifeline",
+			"src": "http://www.reddit.com/r/HFY/comments/2pjxey/oc_corridors_part_7_lifeline/"
+		},
+		{
+			"title": "Chapter 8: Beachhead",
+			"src": "http://www.reddit.com/r/HFY/comments/2qbezf/oc_corridors_part_8_beachhead/"
+		},
+		{
+			"title": "Chapter 9: Promises",
+			"src": "http://www.reddit.com/r/HFY/comments/2qqcpc/oc_corridors_part_9_promises/"
+		},
+		{
+			"title": "Chapter 10: Memories",
+			"src": "http://www.reddit.com/r/HFY/comments/2rz7m7/oc_corridors_part_10_memories/"
+		},
+		{
+			"title": "Chapter 11: Metaphor",
+			"src": "http://www.reddit.com/r/HFY/comments/2tmufz/oc_corridors_chapter_11_metaphor/"
+		},
+		{
+			"title": "Chapter 12: Invasion",
+			"src": "https://www.reddit.com/r/HFY/comments/2vhd3o/oc_corridors_chapter_12_invasion/"
+		},
+		{
+			"title": "Chapter 13: Blitzkrieg",
+			"src": "http://www.reddit.com/r/HFY/comments/2wmf91/oc_corridors_chapter_13_blitzkrieg/"
+		},
+		{
+			"title": "Chapter 14: Patterns",
+			"src": "http://www.reddit.com/r/HFY/comments/2y8r0g/oc_corridors_chapter_14_patterns/"
+		},
+		{
+			"title": "Chapter 15: Sentinel",
+			"src": "http://www.reddit.com/r/HFY/comments/33to2l/oc_corridors_chapter_15_sentinel/"
+		},
+		{
+			"title": "Chapter 16: Whispers",
+			"src": "https://www.reddit.com/r/HFY/comments/3amchx/oc_corridors//"
+		},
+		{
+			"title": "Chapter 17: Revelations",
+			"src": "https://www.reddit.com/r/HFY/comments/3gduxo/oc_corridors_chapter_17_revelations/"
+		},
+		{
+			"title": "Chapter 18: Flight (Part 1)",
+			"src": "https://www.reddit.com/r/HFY/comments/3oia4n/oc_corridors_chapter_18_flight_part_1/"
+		},
+		{
+			"title": "Chapter 18: Flight (Part 2)",
+			"src": "https://www.reddit.com/r/HFY/comments/3oidvr/oc_corridors_chapter_18_flight_part_2/"
+		},
+		{
+			"title": "Chapter 19: Maneuvers (Part 1)",
+			"src": "https://www.reddit.com/r/HFY/comments/3zt4m4/oc_corridors_chapter_19_maneuvers_part_1/"
+		},
+		{
+			"title": "Chapter 19: Maneuvers (Part 2)",
+			"src": "https://www.reddit.com/r/HFY/comments/3zt66z/oc_corridors_chapter_19_maneuvers_part_2/"
+		},
+		{
+			"title": "Chapter 20: Fracture",
+			"src": "https://www.reddit.com/r/HFY/comments/4gdqt4/oc_corridors_chapter_20_fracture/"
+		},
+		{
+			"title": "Chapter 21: Homecoming",
+			"src": "https://www.reddit.com/r/HFY/comments/4uihsr/oc_corridors_chapter_21_homecoming/"
+		},
+		{
+			"title": "Chapter 22: Exodus (Part 1)",
+			"src": "https://www.reddit.com/r/HFY/comments/59zba5/oc_corridors_chapter_22_exodus_part_1/"
+		},
+		{
+			"title": "Chapter 22: Exodus (Part 2)",
+			"src": "https://www.reddit.com/r/HFY/comments/59zbo7/oc_corridors_chapter_22_exodus_part_2/"
+		},
+		{
+			"title": "Chapter 23: Schism (Part 1)",
+			"src": "https://www.reddit.com/r/HFY/comments/5voa5l/oc_corridors_chapter_23_schism_part_1/"
+		},
+		{
+			"title": "Chapter 23: Schism (Part 2)",
+			"src": "https://www.reddit.com/r/HFY/comments/5voamn/oc_corridors_chapter_23_schism_part_2/"
+		}
+	]
+}

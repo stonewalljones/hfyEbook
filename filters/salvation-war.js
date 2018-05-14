@@ -1,21 +1,21 @@
 function to_html($, el, ctx)
 {
-	var cont = el.contents();
-	var html = '';
+	const cont = el.contents();
+	let   html = '';
 		
-	for(var i = 0; i < cont.length; i++)
+	for(let i = 0; i < cont.length; i++)
 	{
-		var c = cont[i];
+		const c = cont[i];
 		
 		if(c.type === 'tag')
 		{
 			if(c.name === 'br')
 			{
-				var nxt_is_br = false;
+				let nxt_is_br = false;
 				
 				if(i < cont.length - 1)
 				{
-					var nxt = cont[i + 1];
+					const nxt = cont[i + 1];
 					
 					nxt_is_br = nxt.type === 'tag' && nxt.name === 'br';
 				}
@@ -32,8 +32,8 @@ function to_html($, el, ctx)
 			}
 			else if(c.name === 'span')
 			{
-				var e = $(c);
-				var s = e.attr('style');
+				const e = $(c);
+				const s = e.attr('style');
 				
 				if(s === 'font-style: italic')
 					html += '<em>' + to_html($, e, ctx) + '</em>';
@@ -43,12 +43,12 @@ function to_html($, el, ctx)
 		}
 		else if(c.type === 'text')
 		{
-			var txt = c.data.replace(/[\t]/g, '')
-	                        .replace(/[\n]/g, ' ')
-	                        .replace(/  +/g, ' ')
-	                        .replace(/[….][….][….]+/g, '...')
-	                        .replace(/\"\"/g, '"')
-	                        .replace(/\[\/?i\]/g, '');
+			const txt = c.data.replace(/[\t]/g, '')
+	                          .replace(/[\n]/g, ' ')
+	                          .replace(/  +/g, ' ')
+	                          .replace(/[….][….][….]+/g, '...')
+	                          .replace(/\"\"/g, '"')
+	                          .replace(/\[\/?i\]/g, '');
 			
 			html += txt;
 			ctx.have_text = txt.length > 0;
@@ -60,17 +60,17 @@ function to_html($, el, ctx)
 
 function apply(params, next)
 {
-    var $ = params.chap.dom;
-    var partidx = params.chap['sw-part-index'] + 1;
-	var table = $($('#pagecontent > table')[partidx]);
-	var trs = table.children();
-	var c_row = $(trs[trs.length > 4 ? 2 : 1]);
-	var content = $($($(c_row.children()[1]).find('td')[0]).find('div')[0]);
+    const $ = params.chap.dom;
+    const partidx = params.chap['sw-part-index'] + 1;
+	const table = $($('#pagecontent > table')[partidx]);
+	const trs = table.children();
+	const c_row = $(trs[trs.length > 4 ? 2 : 1]);
+	const content = $($($(c_row.children()[1]).find('td')[0]).find('div')[0]);
 	
 	$($.root().contents()).remove();
 	
-	var html = '<p>\n';
-	var ctx =
+	let html = '<p>\n';
+	const ctx =
 	{
 		have_text: false
 	};

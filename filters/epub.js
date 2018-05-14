@@ -1,6 +1,5 @@
-var uuid = require('node-uuid');
-var zip = require('node-zip');
-var fs = require('fs');
+const uuid = require('node-uuid');
+const fs = require('fs');
 
 // NOTES:
 // FBReader does not support text strikethrough (tags: s, del, strike)
@@ -16,8 +15,9 @@ function escapeHTML(txt)
 
 function createContents(spec, uuid)
 {
-    var creator = escapeHTML(spec.creator);
-    var xml = [
+    const creator = escapeHTML(spec.creator);
+    
+    let xml = [
         '<?xml version="1.0"?>',
         '<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">',
         '  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">',
@@ -33,11 +33,11 @@ function createContents(spec, uuid)
     xml += '    <item id="style" href="style.css" media-type="text/css" />\n';
     xml += '    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />\n';
 
-    var itm_xml = '', ref_xml = '';
+    let itm_xml = '', ref_xml = '';
     
-    for(var i = 0; i < spec.contents.length; i++)
+    for(let i = 0; i < spec.contents.length; i++)
     {
-        var chap = spec.contents[i];
+        const chap = spec.contents[i];
 
         itm_xml += '    <item id="' + chap.id + '" href="' + chap.id + '.xhtml" media-type="application/xhtml+xml" />\n';
         ref_xml += '    <itemref idref="' + chap.id + '" />\n';
@@ -54,7 +54,7 @@ function createContents(spec, uuid)
 
 function createTOC(spec, uuid)
 {
-    var xml = [
+    let xml = [
         '<?xml version="1.0" encoding="utf-8"?>',
         '<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">',
         '  <head>',
@@ -68,7 +68,7 @@ function createTOC(spec, uuid)
         '  </docTitle>',
         '  <navMap>\n'].join('\n');
 
-    var add_np = function(id, title, ord)
+    const add_np = function(id, title, ord)
     {
         xml += [
             '    <navPoint id="' + id + '" playOrder="' + ord + '">',
@@ -82,9 +82,9 @@ function createTOC(spec, uuid)
 
     add_np('cover.xhtml', 'Cover', 0);
 
-    for(var i = 0; i < spec.contents.length; i++)
+    for(let i = 0; i < spec.contents.length; i++)
     {
-        var chap = spec.contents[i];
+        const chap = spec.contents[i];
 
         add_np(chap.id + '.xhtml', chap.title, i + 1);
     }
@@ -94,8 +94,9 @@ function createTOC(spec, uuid)
 
 function createXHTML(params, chap)
 {
-    var title = escapeHTML(chap.title);
-    var xml = [
+    const title = escapeHTML(chap.title);
+    
+    let xml = [
         '<?xml version="1.0" encoding="utf-8"?>',
         '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">',
         '<html xmlns="http://www.w3.org/1999/xhtml">',
@@ -122,10 +123,10 @@ function createXHTML(params, chap)
 
 function createTitle(title)
 {
-	var html = '';
-	var lines = title.split('\n');
+	let   html = '';
+	const lines = title.split('\n');
 	
-	for(var i = 0; i < lines.length; i++)
+	for(let i = 0; i < lines.length; i++)
 		html += '        <h1 class="center">' + escapeHTML(lines[i]) + '</h1>\n';
 
 	return html;
@@ -133,8 +134,9 @@ function createTitle(title)
 
 function createCover(params)
 {
-	var spec = params.spec;
-	var html = [
+	const spec = params.spec;
+	
+	let html = [
 		'<?xml version="1.0" encoding="utf-8"?>',
 		'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">',
 		'<html xmlns="http://www.w3.org/1999/xhtml">',
@@ -161,10 +163,10 @@ function createCover(params)
 
 function apply(params, next)
 {
-    var spec = params.spec;
-    var uid = uuid.v4();
-    var zip = require('node-zip')();
-    var oname = 'output/' + spec.filename + '.epub';
+    const spec = params.spec;
+    const uid = uuid.v4();
+    const zip = require('node-zip')();
+    const oname = 'output/' + spec.filename + '.epub';
 
     console.log('Building ' + oname);
 
@@ -177,9 +179,9 @@ function apply(params, next)
     zip.file('OEBPS/style.css', fs.readFileSync('templates/style.css', 'utf-8'), { compression: 'DEFLATE' });
     zip.file('OEBPS/cover.xhtml', createCover(params), { compression: 'DEFLATE' });
 
-    for(var ci = 0; ci < spec.contents.length; ci++)
+    for(let ci = 0; ci < spec.contents.length; ci++)
     {
-        var chap = spec.contents[ci];
+        const chap = spec.contents[ci];
 
         zip.file('OEBPS/' + chap.id + '.xhtml', createXHTML(params, chap), { compression: 'DEFLATE' });
     }

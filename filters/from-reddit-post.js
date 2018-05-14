@@ -1,8 +1,7 @@
-var request = require('request');
-var cheerio = require('cheerio');
-var marked = require('marked');
-var child_process = require('child_process');
-var fs = require('fs');
+const request = require('request');
+const cheerio = require('cheerio');
+const marked = require('marked');
+const fs = require('fs');
 
 marked.escape = function(html, encode)
 {
@@ -12,13 +11,13 @@ marked.escape = function(html, encode)
 function getContinuations(set, author)
 {
     // Recursively search through comments, looking for plausible continuations
-    for(var key in set)
+    for(let key in set)
     {
-        var c = set[key].data;
+        const c = set[key].data;
 
         if(c.author === author && c.body_html.length > 1000)
         {
-            var html = '\n\n\n------\n\n\n' + c.body;
+            let html = '\n\n\n------\n\n\n' + c.body;
 
             if(c.replies.data)
                 html += getContinuations(c.replies.data.children, author);
@@ -32,16 +31,16 @@ function getContinuations(set, author)
 
 function getPostMarkdown(json)
 {
-    var post = json[0].data.children[0].data;
-    var author = post.author;
-    var md = post.selftext + getContinuations(json[1].data.children, author);
+    const post = json[0].data.children[0].data;
+    const author = post.author;
+    const md = post.selftext + getContinuations(json[1].data.children, author);
 
     return md.replace(/&amp;/g, '&');
 }
 
 function uriToId(uri)
 {
-    var tokens = uri.split('/');
+    const tokens = uri.split('/');
 
     return decodeURI(tokens.slice(4, tokens.length - 1).join('_'));
 };
@@ -68,8 +67,8 @@ function get(params, callback)
         console.log('[\033[93mFetched\033[0m] ' + params.chap.id);
         params.uri_cache.cache.push(params.chap.id);
 
-        var md = getPostMarkdown(JSON.parse(body));
-        var html = marked(md);
+        const md = getPostMarkdown(JSON.parse(body));
+        let   html = marked(md);
 
         // Handle non-standard Reddit superscript markdown.
         html = html.replace(/\^\^([^ ]+)/g, '<sup>$1</sup>');
@@ -84,7 +83,6 @@ function get(params, callback)
             fs.writeFileSync(__dirname + '/../cache/' + params.chap.id + '.md', md, encoding = 'utf-8');
         }
         
-        child_process.execSync("sleep 1");
         callback();
     }}(params, callback, this));
 };

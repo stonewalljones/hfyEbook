@@ -1,19 +1,21 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-    var chap = params.chap;
-	var $ = chap.dom;
-	var c_re = /^ *Chapitre [a-z,A-Z,-]*\.*\n*/g;
-	var rem = [];
+    const chap = params.chap;
+	const $ = chap.dom;
+	const c_re = /^ *Chapitre [a-z,A-Z,-]*\.*\n*/g;
+	const rem = [];
 	
 	// Remove spurious chapter headings without removing body text that may
 	// share an enclosing paragraph with the heading.
 	$('p').each(function(i, e)
  	{
-		var cont = $(e).contents();
+		const cont = $(e).contents();
 		
-		for(var i = 0; i < cont.length; i++)
+		for(let i = 0; i < cont.length; i++)
 		{
-			var c = cont[i];
+			const c = cont[i];
 			
 			if(c.type === 'text' && c.data.search(c_re) > -1)
 				c.data = c.data.replace(c_re, '');
@@ -21,26 +23,26 @@ function apply(params, next)
  	});
  		
 	// Harmonize catch-phrase formatting.
-	if(chap.title === 'Un' || chap.title === 'Deux')
+	if(['Un', 'Deux'].includes(chap.title))
 		$('pre').replaceWith($('<p><strong>Billy-Bob Space Trucker</strong></p>\n'));
 	else if(chap.title === 'Trois')
 		$.root().find('p strong').text('Billy-Bob Space Trucker');
 	else if(chap.title === 'Dix-Sept')
-		rem.push($($('p:contains("Edit I hates they spelling yarr")')[0]));
+	    utils.removeSingle($, rem, 'p:contains("Edit I hates they spelling yarr")');
 	else if(chap.title === 'Dix-Huit')
 	{
-		rem.push($($('p:contains("Edit fix: Got overzealous with copy paste")')[0]));
-		rem.push($($('p:contains("Edit. Thought and FLT")')[0]));
+	    utils.removeSingle($, rem, 'p:contains("Edit fix: Got overzealous with copy paste")');
+		utils.removeSingle($, rem, 'p:contains("Edit. Thought and FLT")');
 	}
 	else if(chap.title === 'Falling from on high')
 	{
-		var fp = $('p').first();
+		const fp = $('p').first();
 		
 		fp.text(fp.text().replace(/Falling from on high\n/, ''));
 	}
 	
 	// Filter various pre- and postamble paragraphs.
-	var prune = {
+	utils.pruneParagraphs(chap, rem, {
 		'Dix-Sept': [0, 1],
 		'Dix-Neuf': [0, 1],
 		'Vingt-Et-Un': [1, 0],
@@ -49,19 +51,7 @@ function apply(params, next)
 		'Vingt-Sept': [4, 1],
 		'Trente-Cinq première partie': [0, 1],
 		'Trente-Cinq deuxième partie': [1, 0]
-	};
-	
-	if(chap.title in prune)
-	{
-		var pr = prune[chap.title];
-		var ps = $('p');
-	
-		for(var i = 0; i < pr[0]; i++)
-			rem.push($(ps[i]));
-		
-		for(var i = ps.length - pr[1]; i < ps.length; i++)
-			rem.push($(ps[i]));
-	}
+	});
 	
 	params.purge(rem);
 	next();
