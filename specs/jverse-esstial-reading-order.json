@@ -20,6 +20,17 @@
       "jverse-the-deathworlders",
       "typography",
       "finalize"
+    ],
+    "reddit-to-deathworlders":[
+      "from-reddit-post",
+      "reddit-to-deathworlders",
+      "from-hfy-archive",
+      "clean-reddit",
+      "custom-break-to-hr",
+      "no-preamble",
+      "jverse-the-deathworlders",
+      "typography",
+      "finalize"
     ]
   },
   "filename": "The Deathworlders essential reading order",
@@ -811,53 +822,53 @@
     },
     {
       "title": "Grounded",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/68ac07/ocjversethe_deathworlders_37_grounded/"
     },
     {
       "title": "Paroxysm",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/6dokzr/ocjversethe_deathworlders_38_paroxysm/"
     },
     {
       "title": "The Nirvana Cage",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/6kiba1/ocjversethe_deathworlders_39_the_nirvana_cage/"
     },
     {
       "title": "War on Two Worlds pt.1 - Instigation",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/6q79su/ocjversethe_deathworlders_40_war_on_two_worlds/"
     },
     {
       "title": "War on Two Worlds pt.2 - Escalation",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/6x2547/ocjversethe_deathworlders_40_war_on_two_worlds/"
     },
     {
       "title": "War on Two Worlds pt.3 - Consolidation",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/73fd8s/ocjversethe_deathworlders_40_war_on_two_worlds/"
     },
     {
       "title": "War on Two Worlds pt.4 - Retaliation",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/78xtyl/ocjversethe_deathworlders_40_war_on_two_worlds/"
     },
     {
       "title": "War on Two Worlds pt.5 - Cremation",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/7glzti/ocjversethe_deathworlders_40_war_on_two_worlds/"
     },
     {
       "title": "Pyrophytes",
-      "filters": "reddit",
+      "filters": "reddit-to-deathworlders",
       "src": "https://www.reddit.com/r/HFY/comments/7n8lgk/ocjversethe_deathworlders_41_pyrophytes/"
     },
     {
       "title": "Good Training: Survival",
-      "filters": "reddit",
-      "src": "https://www.reddit.com/r/HFY/comments/7nantm/jverse_good_training_survival/"
+      "filters": "hfy-archive",
+      "src": "https://deathworlders.com/books/good-training/survival/"
     },
     {
       "title": "Waters of Babylon - 1. Tzedakah",
