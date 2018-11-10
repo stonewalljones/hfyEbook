@@ -620,9 +620,69 @@
       "src": "http://hfy-archive.org/book/deathworlders/chapter-26-blood-and-ash"
     },
     {
-      "title": "Good Training",
-      "filters": "reddit",
-      "src": "https://www.reddit.com/r/HFY/comments/4aayuu/jverse_good_training/"
+      "title": "Fun & Games",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/01-fun-games"
+    },
+    {
+      "title": "Strategies",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/02-strategies"
+    },
+    {
+      "title": "Instinct",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/03-instinct"
+    },
+    {
+      "title": "Crawl",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/04-crawl"
+    },
+    {
+      "title": "Walk",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/05-walk"
+    },
+    {
+      "title": "Friendships & Revelations",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/06-friendships-revelations"
+    },
+    {
+      "title": "Run",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/07-run"
+    },
+    {
+      "title": "Fetch",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/08-fetch"
+    },
+    {
+      "title": "Aftermath",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/09-aftermath"
+    },
+    {
+      "title": "Essayons",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/10-essayons"
+    },
+    {
+      "title": "Shenanigans",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/11-shenanigans"
+    },
+    {
+      "title": "Wargames",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/12-wargames"
+    },
+    {
+      "title": "Adventure Time",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/good-training/13-adventure-time"
     },
     {
       "title": "Good Training: Saturday Morning Breakfast",
