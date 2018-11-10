@@ -21,7 +21,7 @@ function get(params, callback)
 
     request({ uri: params.chap.src}, function(parmas, callback, uri_cache) { return function(error, response, body)
     {
-        if(response.statusCode === 503)
+        if(!response || response.statusCode === 503)
         {
             console.log('[\033[91mRetrying\033[0m] ' + params.chap.id);
             get(params, callback);
