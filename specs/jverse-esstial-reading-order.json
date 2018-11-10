@@ -1,0 +1,803 @@
+{
+  "title": "The Deathworlders - Essential reading order",
+  "creator": "Hambone3110, Hume_reddit, Rantarian, GoingAnywhereButHere, Ctwelve",
+  "patreon": "https://www.patreon.com/HamboneHFY",
+  "filters": {
+    "reddit": [
+      "from-reddit-post",
+      "clean-reddit",
+      "custom-break-to-hr",
+      "no-preamble",
+      "jverse-the-deathworlders",
+      "typography",
+      "finalize"
+    ],
+    "hfy-archive": [
+      "from-hfy-archive",
+      "clean-reddit",
+      "custom-break-to-hr",
+      "no-preamble",
+      "jverse-the-deathworlders",
+      "typography",
+      "finalize"
+    ]
+  },
+  "filename": "The Deathworlders essential reading order",
+  "output": [
+    "epub",
+    "latex",
+    "html"
+  ],
+  "contents": [
+    {
+      "title": "The Kevin Jenkins Experience",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-01-kevin-jenkins-experience"
+    },
+    {
+      "title": "Run, little monster",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-02-run-little-monster"
+    },
+    {
+      "title": "Aftermath",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-03-aftermath"
+    },
+    {
+      "title": "Monkeys Reaches Stars",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2hf1f9/ocjenkinsverse_monkeys_reaches_stars/"
+    },
+    {
+      "title": "An Eventful Month",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-04-eventful-month"
+    },
+    {
+      "title": "The Tiger’s Cub",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2i7ohf/ocjenkinsverse_the_tigers_cub/"
+    },
+    {
+      "title": "Quarantine",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-05-quarantine"
+    },
+    {
+      "title": "Rat in Sheep's Clothing",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/2iwttx/ocjenkinsverse_rat_in_sheeps_clothing/"
+    },
+    {
+      "title": "Deliverance",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-06-deliverance"
+    },
+    {
+      "title": "Salvage 01. Salvage",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2j0ra4/ocjenkinsverse_salvage/"
+    },
+    {
+      "title": "Salvage 02. Food",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2j3l12/ocjenkinsverse_food/"
+    },
+    {
+      "title": "Salvage 03. Hunting",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2j3xuq/ocjenkinsverse_hunting/"
+    },
+    {
+      "title": "Salvage 04. Turning Point",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2j7if8/ocjenkinsverse_chapter_4_turning_point/"
+    },
+    {
+      "title": "Salvage 05. Dead Mans Switch",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jagfb/ocjenkinsverse_chapter_5_dead_mans_switch/"
+    },
+    {
+      "title": "Salvage 06. Robotic Death Machine",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jb2ln/ocjenkinsverse_chapter_6_robotic_death_machine/"
+    },
+    {
+      "title": "Salvage 07. Incompetence In Command",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jdy6h/ocjenkinsverse_chapter_7_incompetence_in_command/"
+    },
+    {
+      "title": "Salvage 08. Check",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2je831/ocjenkinsverse_chapter_8_check/"
+    },
+    {
+      "title": "Salvage 09. Positions of Power",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jepu0/ocjenkinsverse_positions_of_power/"
+    },
+    {
+      "title": "Salvage 10. Air Time",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jgpzi/ocjenkinsverse_chapter_10_air_time/"
+    },
+    {
+      "title": "Salvage 11. Victory for Some",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jhwfi/ocjenkinsverse_chapter_11_victory_for_some/"
+    },
+    {
+      "title": "Salvage 12. The Backup Plan",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jiedn/ocjenkinsverse_chapter_12_the_backup_plan/"
+    },
+    {
+      "title": "Interlude/Ultimatum",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-06-deliverance/65-ultimatum"
+    },
+    {
+      "title": "The Ox’s Plan Part 1",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kf0i0/jverse_the_oxs_plan_part_1/"
+    },
+    {
+      "title": "The Ox's Plan Part 2",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kf59c/jverse_the_oxs_plan_part_22/"
+    },
+    {
+      "title": "Salvage 13. Plan C from Outer Space",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jkive/ocjenkinsverse_chapter_13_plan_c_from_outer_space/"
+    },
+    {
+      "title": "Salvage 14. Knight takes Queen. Checkmate.",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jlcin/ocjenkinsverse_chapter_14_knight_takes_queen/"
+    },
+    {
+      "title": "Salvage 15. Solitude",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jo61h/ocjenkinsverse_salvage_chapter_15_solitude/"
+    },
+    {
+      "title": "Salvage 16. Help",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jxkml/ocjenkinsverse_salvage_chapter_16_help/"
+    },
+    {
+      "title": "Salvage 17. Warp",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jyfmh/ocjenkinsverse_salvage_chapter_17_warp/"
+    },
+    {
+      "title": "Salvage 18. Fireworks",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jzdgm/ocjenkinsverse_salvage_chapter_18_fireworks/"
+    },
+    {
+      "title": "Salvage 19. Rogue Elements",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2jznkj/ocjenkinsverse_salvage_chapter_19_rogue_elements/"
+    },
+    {
+      "title": "Taking Back the Sky",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-07-taking-back-sky"
+    },
+    {
+      "title": "A Wounded Rabbit",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2vtw4t/jverse_a_wounded_rabbit/"
+    },
+    {
+      "title": "A Wounded Rabbit (Part 2/5)",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2vtyt8/jverse_a_wounded_rabbit_part_25/"
+    },
+    {
+      "title": "A Wounded Rabbit (Part 3/5)",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2vu0y9/jverse_a_wounded_rabbit_part_35/"
+    },
+    {
+      "title": "A Wounded Rabbit (Part 4/5)",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2vu3cq/jverse_a_wounded_rabbit_part_45/"
+    },
+    {
+      "title": "A Wounded Rabbit (Part 5/5)",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2vu5za/jverse_a_wounded_rabbit_part_55/"
+    },
+    {
+      "title": "Salvage 20. Black Flag",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k2ko7/ocjenkinsverse_salvage_chapter_20_black_flag/"
+    },
+    {
+      "title": "Salvage 21. New Parts",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k36w8/ocjenkinsverse_salvage_chapter_21_new_parts/"
+    },
+    {
+      "title": "Salvage 22. Ix-Nay",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k5gp9/ocjenkinsverse_salvage_chapter_22_ixnay/"
+    },
+    {
+      "title": "Salvage 23. Getaway",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k63lc/ocjenkinsverse_salvage_chapter_23_getaway/"
+    },
+    {
+      "title": "Salvage 24. The Winning Team",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k6rej/ocjenkinsverse_salvage_chapter_24_the_winning_team/"
+    },
+    {
+      "title": "Salvage 25. New Beginnings",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k74av/ocjenkinsverse_salvage_chapter_25_new_beginnings/"
+    },
+    {
+      "title": "Salvage 26. Heat",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2k93gw/ocjenkinsverse_salvage_chapter_26_heat/"
+    },
+    {
+      "title": "Salvage 27. Poor Choices",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kaapz/ocjenkinsverse_salvage_chapter_27_poor_choices/"
+    },
+    {
+      "title": "Salvage 28. Two Out of Three",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kfgdb/ocjenkinsverse_salvage_chapter_28_two_out_of_three/"
+    },
+    {
+      "title": "Salvage 29. Hot Property",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kgmy3/ocjenkinsverse_salvage_chapter_29_hot_property/"
+    },
+    {
+      "title": "Interlude/Jargon",
+      "filters": "hfy-archive",
+      "src": "http://deathworlders.com/books/deathworlders/chapter-06.5-interlude-jargon/"
+    },
+    {
+      "title": "Salvage 30. Business Concerns",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kk0p1/ocjenkinsverse_salvage_chapter_30_business/"
+    },
+    {
+      "title": "Salvage 31. Broken Man",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kn2xg/ocjenkinsverse_salvage_chapter_31_broken_man/"
+    },
+    {
+      "title": "Salvage 32. Game Plan",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2ko8b0/ocjenkinsverse_salvage_chapter_32_game_plan/"
+    },
+    {
+      "title": "Tensions",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-08-tensions"
+    },
+    {
+      "title": "Salvage 33. Pieces in Play",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kqvri/ocjenkinsverse_salvage_chapter_33_pieces_in_play/"
+    },
+    {
+      "title": "Salvage 34. Taking Care of Business",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2krvmk/ocjenkinsverse_salvage_chapter_34_taking_care_of/"
+    },
+    {
+      "title": "Salvage 35. Same Place, Same Time",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kscls/ocjenkinsverse_salvage_chapter_35_same_place_same/"
+    },
+    {
+      "title": "Salvage 36. Red, White and Blue",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kvb2k/ocjenkinsverse_salvage_chapter_36_red_white_and/"
+    },
+    {
+      "title": "Salvage 37. One Step at a Time",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2kvslo/ocjenkinsverse_salvage_chapter_37_one_step_at_a/"
+    },
+    {
+      "title": "Alternatives",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-09-alternatives"
+    },
+    {
+      "title": "Salvage 38. The Best Policy",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l24k2/ocjenkinsverse_salvage_chapter_38_the_best_policy/"
+    },
+    {
+      "title": "Salvage 39. Meetings and Partings",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l3v32/ocjenkinsverse_salvage_chapter_39_meetings_and/"
+    },
+    {
+      "title": "Salvage 40. With a Bang",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l59ox/ocjenkinsverse_salvage_chapter_40_with_a_bang/"
+    },
+    {
+      "title": "Salvage 41. You Dropped A Bomb On Me",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l5mst/ocjenkinsverse_salvage_chapter_41_you_dropped_a/"
+    },
+    {
+      "title": "Salvage 42. Out of the Frying Pan",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l7rj4/ocjenkinsverse_salvage_chapter_42_out_of_the/"
+    },
+    {
+      "title": "Salvage 43. Good News. Bad News.",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l8ktl/ocjenkinsverse_salvage_chapter_43_good_news_bad/"
+    },
+    {
+      "title": "Salvage 44. Hitting the Fan",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2l9ahg/ocjenkinsverse_salvage_chapter_44_hitting_the_fan/"
+    },
+    {
+      "title": "Salvage 45. Technical Support",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2ld5wu/ocjenkinsverse_salvage_chapter_45_technical/"
+    },
+    {
+      "title": "Salvage 46. These Silent Halls",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lg5uc/ocjenkinsverse_salvage_chapter_46_these_silent/"
+    },
+    {
+      "title": "Salvage 47. Point Zero",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lgwbt/ocjenkinsverse_salvage_chapter_47_point_zero/"
+    },
+    {
+      "title": "Salvage 48. Expectations Not Met",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lh922/ocjenkinsverse_salvage_chapter_48_expectations/"
+    },
+    {
+      "title": "Gains and losses",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-10-gains-and-losses"
+    },
+    {
+      "title": "Salvage 49. Where The Heart Is",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lk1ga/ocjenkinsverse_salvage_chapter_49_where_the_heart/"
+    },
+    {
+      "title": "Salvage 50. Ships in the Night",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lnwuo/ocjenkinsverse_salvage_chapter_50_ships_in_the/"
+    },
+    {
+      "title": "Salvage 51. Road to Hell",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lqfs3/ocjenkinsverse_salvage_chapter_51_road_to_hell/"
+    },
+    {
+      "title": "Salvage 52. Shades of Gray",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lucl1/ocjenkinsverse_salvage_chapter_52_shades_of_gray/"
+    },
+    {
+      "title": "Salvage 53. Plus One",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2luste/ocjenkinsverse_salvage_chapter_53_plus_one/"
+    },
+    {
+      "title": "Salvage 54. The White Stuff",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2lypuw/ocjenkinsverse_salvage_chapter_54_the_white_stuff/"
+    },
+    {
+      "title": "Legwork",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-11-legwork"
+    },
+    {
+      "title": "Salvage 55. That Old Plan",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2m2oz5/ocjenkinsverse_salvage_chapter_55_that_old_plan/"
+    },
+    {
+      "title": "Salvage 56. Pushing Forward",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2m6ae2/ocjenkinsverse_salvage_chapter_56_pushing_forward/"
+    },
+    {
+      "title": "Direct Delivery",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-12-direct-delivery"
+    },
+    {
+      "title": "Salvage 57. Turnabout",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2ma08e/ocjenkinsverse_salvage_chapter_57_turnabout/"
+    },
+    {
+      "title": "Salvage 58. Dragons on a Spaceship",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2md4e9/ocjenkinsverse_salvage_chapter_58_dragons_on_a/"
+    },
+    {
+      "title": "Salvage 59. A Time to Bond",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2mfho8/ocjenkinsverse_salvage_chapter_59_a_time_to_bond/"
+    },
+    {
+      "title": "Salvage 60. Red Line Run",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2mjv7g/ocjenkinsverse_salvage_chapter_60_red_line_run/"
+    },
+    {
+      "title": "Salvage 61. The Other Side",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2mrh08/ocjenkinsverse_salvage_chapter_61_the_other_side/"
+    },
+    {
+      "title": "Salvage 62. By The Light",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2mz9ug/ocjenkinsverse_salvage_chapter_62_by_the_light/"
+    },
+    {
+      "title": "Salvage 63. Breach",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2n5na5/ocjenkinsverse_salvage_chapter_63_breach/"
+    },
+    {
+      "title": "Salvage 64. From Ackbar With Love",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2n9df8/ocjenkinsverse_salvage_chapter_64_from_ackbar/"
+    },
+    {
+      "title": "Only Human",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-13-only-human"
+    },
+    {
+      "title": "Salvage 65. Beating the Clock",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2nde3r/ocjenkinsverse_salvage_chapter_65_beating_the/"
+    },
+    {
+      "title": "Salvage 66. Russian and Flushin’",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2ntjpj/ocjenkinsverse_salvage_chapter_66_russian_and/"
+    },
+    {
+      "title": "Tall Tales",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-14-tall-tales"
+    },
+    {
+      "title": "Salvage 67. Washing Up",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2oxjxj/ocjenkinsverse_salvage_chapter_67_washing_up/"
+    },
+    {
+      "title": "Salvage 68. Back Amongst Us",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2oxyhn/ocjenkinsverse_salvage_chapter_68_back_amongst_us/"
+    },
+    {
+      "title": "Salvage 69. New Starts",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/2oy1if/ocjenkinsverse_salvage_chapter_69_new_starts/"
+    },
+    {
+      "title": "The Hornet's Nest",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-15-hornets-nest"
+    },
+    {
+      "title": "Forever Changed",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-16-forever-changed"
+    },
+    {
+      "title": "Firebird",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-17-firebird"
+    },
+    {
+      "title": "Battles",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-18-battles"
+    },
+    {
+      "title": "Baggage",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-19-baggage"
+    },
+    {
+      "title": "Baptisms",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-20-baptisms"
+    },
+    {
+      "title": "MIA 1. Awakening",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/36bgna/oc_jenkinsverse_mia_chapter_1_awakening/"
+    },
+    {
+      "title": "MIA 2. Profiling",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/36bjm9/ocjenkinsverse_mia_chapter_2_profiling/"
+    },
+    {
+      "title": "MIA 3. Briefing",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/36bq38/ocjenkinsverse_mia_chapter_3_briefing/"
+    },
+    {
+      "title": "MIA 4. Augmenting",
+      "filters": "reddit",
+      "src": "http://www.reddit.com/r/HFY/comments/36tf7e/oc_jenkinsverse_mia_chapter_4_augmenting/"
+    },
+    {
+      "title": "Exorcisms",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-21-exorcisms"
+    },
+    {
+      "title": "Dragon Dreams",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-dragon-dreams"
+    },
+    {
+      "title": "Warhorse",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse"
+    },
+    {
+      "title": "The second year",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/second-year"
+    },
+    {
+      "title": "The third year",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/third-year"
+    },
+    {
+      "title": "The fourth year",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/fourth-year"
+    },
+    {
+      "title": "The fifth year",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/fifth-year"
+    },
+    {
+      "title": "Operation NOVA HOUND",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-22-warhorse/operation-nova-hound"
+    },
+    {
+      "title": "Interlude 22.5: Outlets",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/225-interlude-outlets"
+    },
+    {
+      "title": "Back Down To Earth",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-23-back-down-earth"
+    },
+    {
+      "title": "An Alien World",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-24-alien-world"
+    },
+    {
+      "title": "Where We Stand",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-25-where-we-stand"
+    },
+    {
+      "title": "Blood and Ash",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-26-blood-and-ash"
+    },
+    {
+      "title": "Good Training",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/4aayuu/jverse_good_training/"
+    },
+    {
+      "title": "Good Training: Saturday Morning Breakfast",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/4aw0mv/jverse_good_training_saturday_morning_breakfast/"
+    },
+    {
+      "title": "Playing With Fire",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-27-playing-fire"
+    },
+    {
+      "title": "Good Training: The Locals",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/4g6cgw/jverse_good_training_the_locals/"
+    },
+    {
+      "title": "Misfits",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-28-misfits"
+    },
+    {
+      "title": "Forges",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-29-forges"
+    },
+    {
+      "title": "Good Training: The Champions, Pt I",
+      "filters": "reddit",
+      "src": "https://old.reddit.com/r/HFY/comments/4v9un8/jverse_good_training_the_champions_part_i/"
+    },
+    {
+      "title": "Hearts and Minds",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-30-hearts-and-minds"
+    },
+    {
+      "title": "Touching Down",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-31-touching-down"
+    },
+    {
+      "title": "Deep Wounds",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-32-deep-wounds"
+    },
+    {
+      "title": "Good Training: The Champions, Pt II",
+      "filters": "reddit",
+      "src": "https://old.reddit.com/r/HFY/comments/57ugxt/jverse_good_training_the_champions_part_ii/"
+    },
+    {
+      "title": "Metadyskolia",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-33-metadyskolia"
+    },
+    {
+      "title": "Good Training: Pecking Order",
+      "filters": "reddit",
+      "src": "https://old.reddit.com/r/HFY/comments/5bqqxo/jverse_good_training_pecking_order/"
+    },
+    {
+      "title": "States of Mind",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-34-states-mind"
+    },
+    {
+      "title": "Event Horizons",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-35-event-horizons"
+    },
+    {
+      "title": "Consequences",
+      "filters": "hfy-archive",
+      "src": "http://hfy-archive.org/book/deathworlders/chapter-36-consequences"
+    },
+    {
+      "title": "Grounded",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/68ac07/ocjversethe_deathworlders_37_grounded/"
+    },
+    {
+      "title": "Paroxysm",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/6dokzr/ocjversethe_deathworlders_38_paroxysm/"
+    },
+    {
+      "title": "The Nirvana Cage",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/6kiba1/ocjversethe_deathworlders_39_the_nirvana_cage/"
+    },
+    {
+      "title": "War on Two Worlds pt.1 - Instigation",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/6q79su/ocjversethe_deathworlders_40_war_on_two_worlds/"
+    },
+    {
+      "title": "War on Two Worlds pt.2 - Escalation",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/6x2547/ocjversethe_deathworlders_40_war_on_two_worlds/"
+    },
+    {
+      "title": "War on Two Worlds pt.3 - Consolidation",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/73fd8s/ocjversethe_deathworlders_40_war_on_two_worlds/"
+    },
+    {
+      "title": "War on Two Worlds pt.4 - Retaliation",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/78xtyl/ocjversethe_deathworlders_40_war_on_two_worlds/"
+    },
+    {
+      "title": "War on Two Worlds pt.5 - Cremation",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7glzti/ocjversethe_deathworlders_40_war_on_two_worlds/"
+    },
+    {
+      "title": "Pyrophytes",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7n8lgk/ocjversethe_deathworlders_41_pyrophytes/"
+    },
+    {
+      "title": "Good Training: Survival",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7nantm/jverse_good_training_survival/"
+    },
+    {
+      "title": "Waters of Babylon - 1. Tzedakah",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7nalch/ocjverse_waters_of_babylon_1_tzedakah/"
+    },
+    {
+      "title": "Waters of Babylon - 2. Tikkun Olam",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7q057h/jverse_waters_of_babylon_part_2_tikkun_olam/"
+    },
+    {
+      "title": "Waters of Babylon - 3. Mitzvah",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7u6800/jverse_waters_of_babylon_3_mitzvah/"
+    },
+    {
+      "title": "Big Questions",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/7u96sl/ocjversethe_deathworlders_42_big_questions/"
+    },
+    {
+      "title": "Scars Both Old and New",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/80v8cy/ocjversethe_deathworlders_43_scars_both_old_and/"
+    },
+    {
+      "title": "Samsara",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/88eiag/ocjversethe_deathworlders_44_samsara/"
+    },
+    {
+      "title": "We Need Each Other",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/8fsmnv/ocjversethe_deathworlders_45_we_need_each_other/"
+    },
+    {
+      "title": "Hellfall",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/8nig8q/ocjversethe_deathworlders_46_hellfall/"
+    },
+    {
+      "title": "Fallout",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/8v28t6/ocjversethe_deathworlders_47_fallout/"
+    },
+    {
+      "title": "Laid Bare",
+      "filters": "reddit",
+      "src": "https://www.reddit.com/r/HFY/comments/93f6je/ocjversethe_deathworlders_48_laid_bare/"
+    }
+  ]
+}
