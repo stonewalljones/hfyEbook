@@ -1,0 +1,616 @@
+{
+	"title": "Pact",
+	"creator": "wildbow",
+	"patreon": "https://www.patreon.com/Wildbow",
+	"filters": [
+		"from-url",
+		"pact",
+		"typography",
+		"finalize"
+	],
+	"filename": "Pact",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+        {
+	        "title": "1.01",
+	        "src": "http://pactwebserial.wordpress.com/2013/12/17/bonds-1-1/"
+        },
+        {
+	        "title": "1.02",
+	        "src": "http://pactwebserial.wordpress.com/2013/12/17/bonds-1-2/"
+        },
+        {
+	        "title": "1.03",
+	        "src": "http://pactwebserial.wordpress.com/2013/12/24/bonds-1-3/"
+        },
+        {
+	        "title": "1.04",
+	        "src": "http://pactwebserial.wordpress.com/2013/12/30/bonds-1-4/"
+        },
+        {
+	        "title": "1.05",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/04/bonds-1-5/"
+        },
+        {
+	        "title": "1.06",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/07/bonds-1-6/"
+        },
+        {
+	        "title": "1.07",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/11/bonds-1-7/"
+        },
+        {
+	        "title": "1.0x",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/14/pages-1/"
+        },
+        {
+	        "title": "2.01",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/18/damages-2-1/"
+        },
+        {
+	        "title": "2.02",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/21/damages-2-2/"
+        },
+        {
+	        "title": "2.03",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/25/damages-2-3-2/"
+        },
+        {
+	        "title": "2.04",
+	        "src": "http://pactwebserial.wordpress.com/2014/01/28/damages-2-4/"
+        },
+        {
+	        "title": "2.05",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/01/damages-2-5/"
+        },
+        {
+	        "title": "2.06",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/04/damages-2-6/"
+        },
+        {
+	        "title": "2.0x",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/06/gathered-pages-2/"
+        },
+        {
+	        "title": "2.07",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/08/damages-2-7/"
+        },
+        {
+	        "title": "2.0y",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/11/histories-arc-2/"
+        },
+        {
+	        "title": "3.01",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/15/breach-3-1/"
+        },
+        {
+	        "title": "3.02",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/18/breach-3-2/"
+        },
+        {
+	        "title": "3.03",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/20/breach-3-3/"
+        },
+        {
+	        "title": "3.04",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/22/breach-3-4/"
+        },
+        {
+	        "title": "3.05",
+	        "src": "http://pactwebserial.wordpress.com/2014/02/25/breach-3-5/"
+        },
+        {
+	        "title": "3.x",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/01/histories3/"
+        },
+        {
+	        "title": "4.01",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/04/collateral-4-1/"
+        },
+        {
+	        "title": "4.02",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/06/collateral-4-2/"
+        },
+        {
+	        "title": "4.03",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/08/collateral-4-3/"
+        },
+        {
+	        "title": "4.04",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/11/collateral-4-4/"
+        },
+        {
+	        "title": "4.05",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/15/collateral-4-5/"
+        },
+        {
+	        "title": "4.06",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/18/collateral-4-6/"
+        },
+        {
+	        "title": "4.07",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/20/collateral-4-7/"
+        },
+        {
+	        "title": "4.08",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/22/collateral-4-8/"
+        },
+        {
+	        "title": "4.09",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/25/collateral-4-9/"
+        },
+        {
+	        "title": "4.10",
+	        "src": "http://pactwebserial.wordpress.com/2014/03/29/collateral-4-10/"
+        },
+        {
+	        "title": "4.11",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/01/collateral-4-11/"
+        },
+        {
+	        "title": "4.12",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/03/collateral-4-12/"
+        },
+        {
+	        "title": "4.x",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/05/gathered-pages-arc-4/"
+        },
+        {
+	        "title": "5.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/08/conviction-5-1/"
+        },
+        {
+	        "title": "5.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/12/conviction-5-2/"
+        },
+        {
+	        "title": "5.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/15/conviction-5-3/"
+        },
+        {
+	        "title": "5.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/17/conviction-5-4/"
+        },
+        {
+	        "title": "5.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/19/conviction-5-5/"
+        },
+        {
+	        "title": "5.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/22/conviction-5-6/"
+        },
+        {
+	        "title": "5.x",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/26/histories-arc-5/"
+        },
+        {
+	        "title": "6.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/04/29/subordination-6-1/"
+        },
+        {
+	        "title": "6.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/01/subordination-6-2/"
+        },
+        {
+	        "title": "6.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/03/subordination-6-3/"
+        },
+        {
+	        "title": "6.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/06/subordination-6-4/"
+        },
+        {
+	        "title": "6.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/08/subordination-6-5/"
+        },
+        {
+	        "title": "6.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/10/subordination-6-6/"
+        },
+        {
+	        "title": "6.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/13/subordination-6-7/"
+        },
+        {
+	        "title": "6.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/15/subordination-6-8/"
+        },
+        {
+	        "title": "6.9",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/17/subordination-6-9/"
+        },
+        {
+	        "title": "6.10",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/20/subordination-6-10/"
+        },
+        {
+	        "title": "6.12",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/24/subordination-6-12-2/"
+        },
+        {
+	        "title": "6.x (Histories)",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/27/histories-arc-6/"
+        },
+        {
+	        "title": "7.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/29/void-7-1/"
+        },
+        {
+	        "title": "7.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/05/31/void-7-2/"
+        },
+        {
+	        "title": "7.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/03/void-7-3/"
+        },
+        {
+	        "title": "7.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/07/void-7-4/"
+        },
+        {
+	        "title": "7.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/10/void-7-5/"
+        },
+        {
+	        "title": "7.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/14/void-7-6/"
+        },
+        {
+	        "title": "7.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/17/void-7-7/"
+        },
+        {
+	        "title": "7.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/21/void-7-8/"
+        },
+        {
+	        "title": "7.9",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/24/void-7-9/"
+        },
+        {
+	        "title": "7.10",
+	        "src": "http://pactwebserial.wordpress.com/2014/06/28/void-7-10/"
+        },
+        {
+	        "title": "7.11",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/01/void-7-11/"
+        },
+        {
+	        "title": "7.x (Histories)",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/05/histories-arc-7/"
+        },
+        {
+	        "title": "8.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/08/signature-8-1/"
+        },
+        {
+	        "title": "8.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/12/signature-8-2/"
+        },
+        {
+	        "title": "8.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/15/signature-8-3/"
+        },
+        {
+	        "title": "8.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/17/signature-8-4/"
+        },
+        {
+	        "title": "8.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/19/signature-8-5/"
+        },
+        {
+	        "title": "8.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/22/signature-8-6/"
+        },
+        {
+	        "title": "8.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/24/signature-8-7/"
+        },
+        {
+	        "title": "9.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/26/null-9-1/"
+        },
+        {
+	        "title": "9.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/07/29/null-9-2/"
+        },
+        {
+	        "title": "9.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/02/vull-9-3/"
+        },
+        {
+	        "title": "9.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/05/null-9-4/"
+        },
+        {
+	        "title": "9.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/07/null-9-5/"
+        },
+        {
+	        "title": "9.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/09/null-9-6/"
+        },
+        {
+	        "title": "9.x (Histories)",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/12/histories-9/"
+        },
+        {
+	        "title": "10.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/16/mala-fide-10-1/"
+        },
+        {
+	        "title": "10.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/19/mala-fide-10-2/"
+        },
+        {
+	        "title": "10.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/21/mala-fide-10-3/"
+        },
+        {
+	        "title": "10.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/23/mala-fide-10-4/"
+        },
+        {
+	        "title": "10.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/26/mala-fide-10-5/"
+        },
+        {
+	        "title": "10.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/08/30/mala-fide-10-6/"
+        },
+        {
+	        "title": "10.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/02/mala-fide-10-7/"
+        },
+        {
+	        "title": "10.x",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/04/gathered-pages-arc-10/"
+        },
+        {
+	        "title": "11.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/06/malfeasance-11-1/"
+        },
+        {
+	        "title": "11.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/09/malfeasance-11-2/"
+        },
+        {
+	        "title": "11.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/11/malfeasance-11-3/"
+        },
+        {
+	        "title": "11.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/13/malfeasance-11-04/"
+        },
+        {
+	        "title": "11.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/16/malfeasance-11-5/"
+        },
+        {
+	        "title": "11.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/20/malfeasance-11-6/"
+        },
+        {
+	        "title": "11.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/23/malfeasance-11-7/"
+        },
+        {
+	        "title": "11.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/27/malfeasance-11-8/"
+        },
+        {
+	        "title": "11.9",
+	        "src": "http://pactwebserial.wordpress.com/2014/09/30/malfeasance-11-9/"
+        },
+        {
+	        "title": "11.10",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/02/malfeasance-11-10/"
+        },
+        {
+	        "title": "11.11",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/04/malfeasance-11-11/"
+        },
+        {
+	        "title": "11.x (Histories)",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/07/histories-arc-11/"
+        },
+        {
+	        "title": "12.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/09/duress-12-1/"
+        },
+        {
+	        "title": "12.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/11/duress-12-2/"
+        },
+        {
+	        "title": "12.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/14/duress-12-3/"
+        },
+        {
+	        "title": "12.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/16/duress-12-4/"
+        },
+        {
+	        "title": "12.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/18/duress-12-5/"
+        },
+        {
+	        "title": "12.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/21/duress-12-6/"
+        },
+        {
+	        "title": "12.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/25/duress-12-7/"
+        },
+        {
+	        "title": "12.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/10/28/duress-12-8/"
+        },
+        {
+	        "title": "12.x",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/01/histories-arc-12/"
+        },
+        {
+	        "title": "13.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/04/execution-13-1/"
+        },
+        {
+	        "title": "13.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/06/execution-13-2/"
+        },
+        {
+	        "title": "13.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/08/execution-13-3/"
+        },
+        {
+	        "title": "13.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/11/execution-13-4/"
+        },
+        {
+	        "title": "13.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/15/execution-13-5/"
+        },
+        {
+	        "title": "13.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/18/execution-13-6/"
+        },
+        {
+	        "title": "13.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/20/execution-13-7/"
+        },
+        {
+	        "title": "13.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/22/execution-13-8/"
+        },
+        {
+	        "title": "13.9",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/25/execution-13-9/"
+        },
+        {
+	        "title": "13.x (Gathered Pages)",
+	        "src": "http://pactwebserial.wordpress.com/2014/11/29/gathered-pages-arc-13/"
+        },
+        {
+	        "title": "14.1",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/02/sine-die-14-1/"
+        },
+        {
+	        "title": "14.2",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/04/sine-die-14-2/"
+        },
+        {
+	        "title": "14.3",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/06/sine-die-14-3/"
+        },
+        {
+	        "title": "14.4",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/09/sine-die-14-4/"
+        },
+        {
+	        "title": "14.5",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/13/sine-die-14-5/"
+        },
+        {
+	        "title": "14.6",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/16/sine-die-14-6/"
+        },
+        {
+	        "title": "14.7",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/20/sine-die-14-7/"
+        },
+        {
+	        "title": "14.8",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/23/sine-die-14-8/"
+        },
+        {
+	        "title": "14.9",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/27/sine-die-14-09/"
+        },
+        {
+	        "title": "14.10",
+	        "src": "http://pactwebserial.wordpress.com/2014/12/30/sine-die-14-10/"
+        },
+        {
+	        "title": "14.x",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/03/histories-arc-14/"
+        },
+        {
+	        "title": "15.1",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/06/possession-15-1/"
+        },
+        {
+	        "title": "15.2",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/08/possession-15-2/"
+        },
+        {
+	        "title": "15.3",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/10/possession-15-3/"
+        },
+        {
+	        "title": "15.4",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/13/possession-15-4/"
+        },
+        {
+	        "title": "15.5",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/17/possession-15-5/"
+        },
+        {
+	        "title": "15.6",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/20/possession-15-6/"
+        },
+        {
+	        "title": "15.7",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/22/possession-15-7/"
+        },
+        {
+	        "title": " 15.x",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/24/histories-arc-15/"
+        },
+        {
+	        "title": "16.1",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/27/judgment-16-1/"
+        },
+        {
+	        "title": "16.2",
+	        "src": "http://pactwebserial.wordpress.com/2015/01/29/judgment-16-2/"
+        },
+        {
+	        "title": "16.316.4",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/03/judgment-16-4/"
+        },
+        {
+	        "title": "16.5",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/07/judgment-16-05/"
+        },
+        {
+	        "title": "16.6",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/10/judgment-16-6/"
+        },
+        {
+	        "title": "16.7",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/14/judgment-16-7/"
+        },
+        {
+	        "title": "16.8",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/17/judgment-16-8/"
+        },
+        {
+	        "title": "16.9",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/19/judgment-16-9/"
+        },
+        {
+	        "title": "16.10",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/21/judgment-16-10/"
+        },
+        {
+	        "title": "16.11",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/24/judgment-16-11/"
+        },
+        {
+	        "title": "16.12",
+	        "src": "http://pactwebserial.wordpress.com/2015/02/28/judgment-16-12/"
+        }
+	]
+}

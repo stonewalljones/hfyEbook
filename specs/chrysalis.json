@@ -1,0 +1,80 @@
+{
+	"title": "Chrysalis",
+	"creator": "BeaverFur",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"chrysalis",
+		"typography",
+		"finalize"
+	],
+	"filename": "Chrysalis",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter 1",
+			"src": "http://www.reddit.com/r/HFY/comments/55v9e1/chrysalis/"
+		},
+		{
+			"title": "Chapter 2",
+			"src": "http://www.reddit.com/r/HFY/comments/56i5w2/chrysalis_2/"
+		},
+		{
+			"title": "Chapter 3",
+			"src": "http://www.reddit.com/r/HFY/comments/5702zv/chrysalis_3/"
+		},
+		{
+			"title": "Chapter 4",
+			"src": "http://www.reddit.com/r/HFY/comments/57hynm/chrysalis_4/"
+		},
+		{
+			"title": "Chapter 5",
+			"src": "http://www.reddit.com/r/HFY/comments/57yhb8/chrysalis_5/"
+		},
+		{
+			"title": "Chapter 6",
+			"src": "http://www.reddit.com/r/HFY/comments/58hy0y/chrysalis_6/"
+		},
+		{
+			"title": "Chapter 7",
+			"src": "http://www.reddit.com/r/HFY/comments/58zjzt/chrysalis_7/"
+		},
+		{
+			"title": "Chapter 8",
+			"src": "http://www.reddit.com/r/HFY/comments/59iook/chrysalis_8/"
+		},
+		{
+			"title": "Chapter 9",
+			"src": "http://www.reddit.com/r/HFY/comments/5a1ddd/chrysalis_9/"
+		},
+		{
+			"title": "Chapter 10",
+			"src": "http://www.reddit.com/r/HFY/comments/5akevj/chrysalis_10/"
+		},
+		{
+			"title": "Chapter 11",
+			"src": "http://www.reddit.com/r/HFY/comments/5b4evy/chrysalis_11/"
+		},
+		{
+			"title": "Chapter 12",
+			"src": "http://www.reddit.com/r/HFY/comments/5bnl7z/chrysalis_12/"
+		},
+		{
+			"title": "Chapter 13",
+			"src": "http://www.reddit.com/r/HFY/comments/5c93sp/chrysalis_13/"
+		},
+		{
+			"title": "Chapter 14",
+			"src": "http://www.reddit.com/r/HFY/comments/5cqyrj/chrysalis_14/"
+		},
+		{
+			"title": "Chapter 15",
+			"src": "http://www.reddit.com/r/HFY/comments/5dam3w/chrysalis_15/"
+		},
+		{
+			"title": "Chapter 16",
+			"src": "http://www.reddit.com/r/HFY/comments/5dnt13/chrysalis_16_final/"
+		}
+	]
+}

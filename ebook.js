@@ -1,8 +1,8 @@
-var cheerio = require('cheerio');
-var fs = require('fs');
+const cheerio = require('cheerio');
+const fs = require('fs');
 
-var ERROR_TAG = '[\033[91mError\033[0m]: ';
-var DEBUG = false;
+const ERROR_TAG = '[\033[91mError\033[0m]: ';
+const DEBUG = false;
 
 if(process.argv.length < 3)
 {
@@ -12,10 +12,10 @@ if(process.argv.length < 3)
 
 function ensure_dir(dir)
 {
-	dir = __dirname + '/' + dir;
+	const full_path = __dirname + '/' + dir;
 	
-	if(!fs.existsSync(dir))
-		fs.mkdirSync(dir);
+	if(!fs.existsSync(full_path))
+		fs.mkdirSync(full_path);
 }
 
 // Ensure the 'cache' and 'output' directories exists. Create them if they do not.
@@ -24,7 +24,7 @@ ensure_dir('output');
 
 function decode_cr(cr)
 {
-	var ishex = cr[2] === 'x';
+	const ishex = cr[2] === 'x';
 	
 	return String.fromCodePoint(parseInt(cr.substr(ishex ? 3 : 2, cr.length - 2), ishex ? 16 : 10));
 }
@@ -32,12 +32,12 @@ function decode_cr(cr)
 // Decode all HTML character references to unicode.
 function decode_crs(s)
 {
-	var i = -1;
-	var ls = s;
+	let i = -1;
+	let ls = s;
 	
 	while((i = ls.search(/&#.*;/)) > -1)
 	{
-		var ni = ls.indexOf(';', i);
+		const ni = ls.indexOf(';', i);
 		
 		ls = ls.substr(0, i) + decode_cr(ls.substr(i, ni - i + 1)) + ls.substr(ni + 1);
 	}
@@ -58,7 +58,7 @@ function unescape_html(html)
 
 function purge(set)
 {
-	for(var i = 0; i < set.length; i++)
+	for(let i = 0; i < set.length; i++)
 	{
 		var e = set[i];
 		
@@ -73,9 +73,9 @@ function UriCache()
 {
     this.cache = [];
 
-    var files = fs.readdirSync(__dirname + '/cache');
+    const files = fs.readdirSync(__dirname + '/cache');
 
-    for(var i = 0; i < files.length; i++)
+    for(let i = 0; i < files.length; i++)
         this.cache.push(files[i]);
 }
 
@@ -83,12 +83,12 @@ function FilterManager()
 {
     this.filters = {};
 
-    var files = fs.readdirSync(__dirname + '/filters');
+    const files = fs.readdirSync(__dirname + '/filters');
 
-    for(var i = 0; i < files.length; i++)
+    for(let i = 0; i < files.length; i++)
     {
-        var fname = files[i];
-        var fid = fname.substr(0, fname.length - 3);
+        const fname = files[i];
+        const fid = fname.substr(0, fname.length - 3);
 
         this.filters[fid] = require('./filters/' + fid);
     }
@@ -96,7 +96,7 @@ function FilterManager()
 
 FilterManager.prototype.get = function(fid)
 {
-    var filter = this.filters[fid];
+    const filter = this.filters[fid];
 
     if(!filter)
     {
@@ -107,11 +107,11 @@ FilterManager.prototype.get = function(fid)
     return filter.apply;
 };
 
-var filter_mgr = new FilterManager();
+const filter_mgr = new FilterManager();
 
 function Finalize(params)
 {
-    var spec = params.spec;
+    const spec = params.spec;
 
     if(++spec.loaded === spec.contents.length)
     {
@@ -121,9 +121,9 @@ function Finalize(params)
             filter_mgr.get(spec.output)(params, function(){});
         else if(spec.output instanceof Array)
         {
-            var ops = [];
+            let ops = [];
 
-            for(var i = 0; i < spec.output.length; i++)
+            for(let i = 0; i < spec.output.length; i++)
                 ops.push(filter_mgr.get(spec.output[i]));
 
             Sequence(ops, params);
@@ -138,7 +138,7 @@ function Sequence(ops, params, cb)
     if(ops.length < 2)
         throw new Exception(ERROR_TAG + 'Cannot create a sequence of less than two operations.');
 
-    var last = function(params, cb) { return function() { Finalize(params); if(cb) cb(); }; }(params, cb);
+    let last = function(params, cb) { return function() { Finalize(params); if(cb) cb(); }; }(params, cb);
 
     for(var i = ops.length - 1; i >= 0; i--)
         last = function(cur, nxt) { return function() { cur(params, nxt); }; }(ops[i], last);
@@ -147,16 +147,16 @@ function Sequence(ops, params, cb)
 }
 
 // Load the spec. Start processing.
-var spec = JSON.parse(fs.readFileSync(__dirname + '/' + process.argv[2]));
-var sched = {};
-var uri_cache = new UriCache();
+const spec = JSON.parse(fs.readFileSync(__dirname + '/' + process.argv[2]));
+const sched = {};
+const uri_cache = new UriCache();
 
 spec.loaded = 0;
 
-for(var i = 0; i < spec.contents.length; i++)
+for(let i = 0; i < spec.contents.length; i++)
 {
-	var chap = spec.contents[i];
-    var params = {
+	const chap = spec.contents[i];
+    const params = {
         spec: spec,
         chap: chap,
     	unescape_html: unescape_html,
@@ -181,8 +181,8 @@ for(var i = 0; i < spec.contents.length; i++)
     params.chap.id = '' + i;
     params.chap.dom = cheerio.load('');
 
-    var ops = [];
-	var filter_type = Object.prototype.toString.call(spec.filters);
+    let   ops = [];
+	const filter_type = Object.prototype.toString.call(spec.filters);
 	
     if(filter_type === '[object Array]')
     {
@@ -204,9 +204,9 @@ for(var i = 0; i < spec.contents.length; i++)
 			return;
 		}
 		
-		var filters = spec.filters[chap.filters];
+		const filters = spec.filters[chap.filters];
 		
-		for(var fi = 0; fi < filters.length; fi++)
+		for(let fi = 0; fi < filters.length; fi++)
 		    ops.push(filter_mgr.get(filters[fi]));
 	}
 	else
@@ -221,12 +221,12 @@ for(var i = 0; i < spec.contents.length; i++)
  		sched[chap.src] = [[ops, params]];
 }
 
-for(var src in sched)
+for(let src in sched)
 {
 	if(!sched.hasOwnProperty(src))
 		continue;
 	
-	var chapters = sched[src];
+	const chapters = sched[src];
 	
 	if(chapters.length === 1)
 		Sequence(chapters[0][0], chapters[0][1]);
@@ -234,7 +234,7 @@ for(var src in sched)
 	{
 		Sequence(chapters[0][0], chapters[0][1], function(chapters) { return function()
 		{
-			for(var ci = 1; ci < chapters.length; ci++)
+			for(let ci = 1; ci < chapters.length; ci++)
 				Sequence(chapters[ci][0], chapters[ci][1]);
 		}}(chapters));
 	}

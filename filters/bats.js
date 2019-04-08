@@ -1,25 +1,15 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-	var chap = params.chap;
-	var $ = chap.dom;
-	var ps = $('p');
-	var rem = [];
-	var cmt_re = /^continued in (the )*comments/gi;
+	const chap = params.chap;
+	const $ = chap.dom;
+	const rem = [];
 	
-	ps.each(function(i, e)
-	{
-		var el = $(e);
-		var t = el.text();
+	utils.removeMatching($, rem, 'p', /^continued in (the )*comments/gi); 
 
-		if(t.search(cmt_re) === 0)
-			rem.push(el);
-	});
-
-	if(chap.title === 'Help I Accidentally the Princess' || 
-	   chap.title === 'How I Kept Him From Making the Big Orc Cry')
-	{
-		rem.push($(ps[ps.length - 1]));
-	}
+	if(['Help I Accidentally the Princess', 'How I Kept Him From Making the Big Orc Cry'].includes(chap.title))
+		utils.removeLast($, rem, 'p', 1);
 	
 	params.purge(rem);
 	next();

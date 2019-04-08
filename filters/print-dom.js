@@ -5,11 +5,11 @@ function filter_txt(txt)
 
 function display($, indent, root)
 {
-	var cont = root.contents();
+	const cont = root.contents();
 	
-	for(var i = 0; i < cont.length; i++)
+	for(let i = 0; i < cont.length; i++)
 	{
-		var c = cont[i];
+		const c = cont[i];
 		
 		if(c.type === 'tag')
 		{
@@ -26,7 +26,7 @@ function display($, indent, root)
 
 function apply(params, next)
 {
-    var $ = params.chap.dom;
+    const $ = params.chap.dom;
 
     display($, '', $.root());
     next();

@@ -1,9 +1,12 @@
+const utils = require('./utils');
+
 function apply(params, next)
 {
-    var chap = params.chap;
-    var $ = chap.dom;
-	var rem = [];
-	var prune = {
+    const chap = params.chap;
+    const $ = chap.dom;
+	const rem = [];
+	
+	utils.pruneParagraphs(chap, rem, {
 		'A predator subdued': [1, 0],
 		'Making an omelet': [0, 1],
 		'Winging it': [1, 6],
@@ -18,6 +21,9 @@ function apply(params, next)
 		'What Price a Word': [2, 0],
 		'Human Scientific Methods': [1, 0],
 		'Warning: Hitchhikers May Be Escaping Humans': [0, 1],
+		'A Most Peculiar Prisoner': [2, 0],
+		'Another Most Peculiar Prisoner': [2, 0],
+		'Strategic Buffer Zone': [1, 0],
 		'Pancakes': [2, 0],
 		'Dead humans rising': [1, 0],
 		'Submission': [1, 0],
@@ -32,34 +38,11 @@ function apply(params, next)
 		'The Myth of Men': [0, 1],
 		'The Human Speciality': [0, 2],
 		'The Legend of the Firearms': [1, 0],
-		'Legend of the Exploding Server': [0, 1]
-	};
+		'Legend of the Exploding Server': [0, 1],
+		'Secondary System Online': [1, 0],
+		'The Human Experience': [1, 0]
+	});
 		
-    if(chap.title in prune)
-    {
-		var pr = prune[chap.title];
-		var ps = $('p');
-	
-		for(var i = 0; i < pr[0]; i++)
-			rem.push($(ps[i]));
-		
-		for(var i = ps.length - pr[1]; i < ps.length; i++)
-			rem.push($(ps[i]));
-    
-    	if(pr.length > 2)
-    	{
-    		var pats = pr[2];
-    		
-    		for(var i = 0; i < pats.length; i++)
-    		{
-    			var res = $(pats[i]);
-    			
-    			for(var i2 = 0; i2 < res.length; i2++)
-    				rem.push($(res[i2]));
-    		}
-    	}
-    }
-    
     if(rem.length)
 	    params.purge(rem);
 	

@@ -4,7 +4,6 @@
 	"filters": [
 		"from-reddit-post",
 		"clean-reddit",
-		"no-preamble",
 		"jverse-mia",
 		"typography",
 		"finalize"
@@ -131,7 +130,7 @@
 		},
 		{
 			"title": "28. The Door",
-			"src": "https://www.reddit.com/r/HFY/comments/5sbqks/ocjenkinsverse_mia_chapter_28_the_door/"
+			"src": "http://www.reddit.com/r/HFY/comments/5sbqks/ocjenkinsverse_mia_chapter_28_the_door/"
 		}
 	]
 }

@@ -1,12 +1,13 @@
-var cheerio = require('cheerio');
-var fs = require('fs');
+const cheerio = require('cheerio');
+const fs = require('fs');
 
 function apply(params, next)
 {
-    var spec = params.spec;
-    var oname = 'output/' + spec.filename + '.html';
-    var vspace = '\n    <p><br/></p><p><br/></p><p><br/></p>\n\n';
-    var html = [
+    const spec = params.spec;
+    const oname = 'output/' + spec.filename + '.html';
+    const vspace = '\n    <p><br/></p><p><br/></p><p><br/></p>\n\n';
+    
+    let html = [
         '<?xml version="1.0" encoding="utf-8"?>',
         '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">',
         '<html xmlns="http://www.w3.org/1999/xhtml">',
@@ -34,18 +35,18 @@ function apply(params, next)
 	html += vspace;
 	html += '    <h1 class="toc-item">Table of contents</h1><br />\n';
 
-    for(var i = 0; i < spec.contents.length; i++)
+    for(let i = 0; i < spec.contents.length; i++)
     {
-        var chap = spec.contents[i];
+        const chap = spec.contents[i];
 		
 		html += '    <a class="toc-item" href="#' + chap.id + '">' + chap.title + '</a><br/>\n';
 	}
 	    
 	html += vspace;
 
-    for(var i = 0; i < spec.contents.length; i++)
+    for(let i = 0; i < spec.contents.length; i++)
     {
-        var chap = spec.contents[i];
+        const chap = spec.contents[i];
 
         html += '    <h1 id="' + chap.id + '">' + chap.title + '</h1>\n';
         

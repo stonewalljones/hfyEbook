@@ -1,12 +1,12 @@
 function apply(params, next)
 {
-    var chap = params.chap;
-    var $ = chap.dom;
-	var rem = [];
+    const chap = params.chap;
+    const $ = chap.dom;
+	const rem = [];
 	
     if(chap.title.substr(chap.title.length - 2, 2) === ' 7')
     {
-        var ps = $('p');
+        const ps = $('p');
 
         rem.push($(ps[0]));
         rem.push($(ps[1]));
@@ -19,7 +19,7 @@ function apply(params, next)
     // Also gets rid of inexplicable empty paragraphs.
     $('p').each(function(i, e)
     {
-        var el = $(e);
+        const el = $(e);
 
         if(el.find('a').length || el.contents().length < 1)
 			rem.push(el);
@@ -28,7 +28,7 @@ function apply(params, next)
     // Remove 'All chapter' references
     $('p span').each(function(i, e)
     {
-        var el = $(e);
+        const el = $(e);
 
         if(el.text() === 'All chapters')
         	rem.push(el.parent());
@@ -40,12 +40,12 @@ function apply(params, next)
         delete e.attribs['id'];
     });
 
-    var pa = $('hr').last().nextAll();
-    var html = $.html(pa);
+    const pa = $('hr').last().nextAll();
+    const html = $.html(pa);
     
     if(html.length < 500)
     {
-    	for(var i = 0; i < pa.length; i++)
+    	for(let i = 0; i < pa.length; i++)
     		rem.push($(pa[i]));
     }
     

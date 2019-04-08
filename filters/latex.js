@@ -1,12 +1,5 @@
-var cheerio = require('cheerio');
-var fs = require('fs');
-
-// Noto Serif
-// DejaVu Serif
-// Linux Libertine
-// Linux Biolinum
-var typeface = 'Liberation Serif';
-var typeface_mono = 'Liberation Mono';
+const cheerio = require('cheerio');
+const fs = require('fs');
 
 function l_esc(txt)
 {
@@ -21,8 +14,9 @@ function l_esc(txt)
 
 function filter(p, txt)
 {
-	return l_esc(p.unescape_html(txt).replace(/—/g, '---')
-	                                 .replace(/–/g, '-'))
+	return l_esc(p.unescape_html(txt).replace(/—/g, ' -- ')
+	                                 .replace(/–/g, '--'))
+	                                 .replace(/’/g, '\'')
 	                                 .replace(/\\([^%\$#_\{\}&])/gm, '{\\textbackslash}$1')
 	                                 .replace(/\\$/g, '{\\textbackslash}')
 							         .replace(/~/g, '{\\textasciitilde}')
@@ -32,62 +26,65 @@ function filter(p, txt)
 
 function tolatex(p, $, e, brk)
 {
-	var latex = '';
+	let latex = '';
 
 	e.contents().each(function(i, el)
 	{
-		var elem = $(el);
-
+		const elem = $(el);
+        let   l = '';
+        
 		// console.log(id + el.type);
 
 		if(el.type === 'text')
-			latex += filter(p, el.data);
+			l += filter(p, el.data);
 		else if(el.type === 'tag')
 		{
 			if(el.name === 'em')
-				latex += '\\textit{' + tolatex(p, $, elem) + '}';
+				l += '\\textit{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'strong')
-				latex += '\\textbf{' + tolatex(p, $, elem) + '}';
+			    l += '\\textbf{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'pre' || el.name === 'code')
-				latex += '\\monosp{' + tolatex(p, $, elem).replace(/\n/g, '\\\\*') + '}';
+				l += '\\monosp{' + tolatex(p, $, elem).replace(/\n/g, '\\\\*') + '}';
 			else if(el.name === 'a')
-				latex += '\\href{' + l_esc(el.attribs['href']) + '}{' + tolatex(p, $, elem) + '}';
+				l += '\\href{' + l_esc(el.attribs['href']) + '}{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'p')
 			{
-				var t = tolatex(p, $, elem);
+				const t = tolatex(p, $, elem);
 
 				if(elem.attr('class') === 'center')
 				{
-				    if(t === '&#0038;')
-					    latex += '\\asterism\n';
+				    if(t === '⁂')
+					    l += '\\asterism\n';
 				    else
-					    latex += '\\begin{center}' + t + '\\end{center}';
+					    l += '\\begin{center}' + t + '\\end{center}';
 				}
 				else
-				    latex += t + (t.indexOf('\\star') > -1 ? '' : '\n');
+				    l += t.replace(/\n\n?/g, '\n') + (t.indexOf('\\star') > -1 ? '' : '\n');
 			}
             else if(el.name === 'blockquote')
-                latex += '\\begin{displayquote}\n' + tolatex(p, $, elem) + '\n\\end{displayquote}';
+                l += '\\begin{displayquote}\n' + tolatex(p, $, elem) + '\n\\end{displayquote}';
 			else if(el.name === 'span')
-				latex += tolatex(p, $, elem);
+				l += tolatex(p, $, elem);
 			else if(el.name === 'li')
-				latex += '\\item ' + tolatex(p, $, elem);
+				l += '\\item ' + tolatex(p, $, elem);
 			else if(el.name === 'ul')
-				latex += '\\begin{itemize}' + tolatex(p, $, elem) + '\n\\end{itemize}';
+				l += '\\begin{itemize}' + tolatex(p, $, elem) + '\n\\end{itemize}';
 			else if(el.name === 'ol')
-				latex += '\\begin{enumerate}' + tolatex(p, $, elem) + '\n\\end{enumerate}';
+				l += '\\begin{enumerate}' + tolatex(p, $, elem) + '\n\\end{enumerate}';
 			else if(el.name === 'br')
-				latex += '\\\\*\n';
+				l += '\\\\*\n';
 			else if(el.name === 's' || el.name === 'del' || el.name === 'strike')
-				latex += '\\sout{' + tolatex(p, $, elem) + '}';
+				l += '\\sout{' + tolatex(p, $, elem) + '}';
 			else if(el.name === 'sup')
-				latex += '\\textsuperscript{' + tolatex(p, $, elem) + '}';
+				l += '\\textsuperscript{' + tolatex(p, $, elem) + '}';
 			else
 			{
 				console.log('LaTeX: Unhandled tag: ' + el.name);
-				latex += tolatex(p, $, elem);
+				l += tolatex(p, $, elem);
 			}
 		}
+		
+	    latex += el.type !== 'tag' || el.name !== 'p' ? l.replace(/\n\n?/g, '\n') : l;
 	});
 
 	return latex;
@@ -95,23 +92,36 @@ function tolatex(p, $, e, brk)
 
 function apply(params, next)
 {
-    var spec = params.spec;
-    var oname = 'output/' + spec.filename + '.tex';
-    var title = l_esc(spec.title);
-    var creator = l_esc(spec.creator);
-    var n_re = /\n/g;
-    var d_str = (new Date()).toUTCString();
-    var latex = [
+    const spec = params.spec;
+    const oname = 'output/' + spec.filename + '.tex';
+    const title = l_esc(spec.title);
+    const creator = l_esc(spec.creator);
+    const n_re = /\n/g;
+    const d_str = (new Date()).toLocaleDateString('en-GB', 
+    { 
+    	day: 'numeric',
+    	month: 'long',
+    	year: 'numeric',
+    	hour: 'numeric',
+    	minute: 'numeric',
+    	timeZoneName: 'short',
+    	timeZone: 'UTC'
+    });
+    
+    let latex = [
 		'\\documentclass[a4paper,10pt]{article}',
 		'',
-		'\\usepackage{fontspec,xunicode}',
+		'\\usepackage{fontspec}',
 		'\\usepackage[normalem]{ulem}',
 		'\\usepackage{tocloft}',
 		'\\usepackage{hyperref}',
 		'\\usepackage{csquotes}',
+		'\\usepackage{microtype}',
+		'\\usepackage{needspace}',
+		'\\usepackage{ifthen}',
 		'',
-		'\\title{' + title.replace(n_re, '\\\\\n') + '}',
-		'\\author{By ' + creator + (spec.patreon ? '\\\\ Donate securely to the author at \\href{' + l_esc(spec.patreon) + '}{Patreon}' : '') + '}',
+		'\\title{\\textsc{' + title.replace(n_re, '\\\\\n') + '}}',
+		'\\author{\\textsc{By ' + creator + '}' + (spec.patreon ? '\\\\ \\small{Donate securely to the author at \\href{' + l_esc(spec.patreon) + '}{Patreon}}' : '') + '}',
 		'\\date{}',
 		'',
 		'\\hypersetup{',
@@ -129,10 +139,25 @@ function apply(params, next)
 		'\\linespread{1.2}',
 		'\\raggedright',
 		'\\defaultfontfeatures{Ligatures=TeX}',
-		'\\setromanfont{' + typeface + '}',
-		'\\setmonofont[Scale=0.85]{' + typeface_mono + '}',
+		'\\setmainfont[',
+		'	Path = ../templates/,',
+		'	Extension = .otf,',
+		'	Ligatures = TeX,',
+		'	BoldFont = LinLibertine-RB,',
+		'	ItalicFont = LinLibertine-RI,',
+		'	BoldItalicFont = LinLibertine-RBI',
+		']{LinLibertine-R}',
+		'\\setmonofont[',
+		'	Path = ../templates/,',
+		'	Scale = 0.85,',
+		'	Extension = .ttf,',
+		'	Ligatures = TeX,',
+		'	BoldFont = LiberationMono-Bold,',
+		'	ItalicFont = LiberationMono-Italic,',
+		'	BoldItalicFont = LiberationMono-BoldItalic',
+		']{LiberationMono-Regular}',
 		'',
-		'\\def\\asterism{\\par\\begin{center}\\scalebox{2}{$\\cdots$}\\end{center}}',
+		'\\def\\asterism{\\par\\begin{center}\\vspace{-1em}\\huge{$\\cdots$}\\end{center}}',
 		'',
 		'\\newcommand{\\monosp}[1]{\\texttt{{#1}}\\vspace{5mm}}',
 		'\\renewcommand{\\cftsecfont}{\\normalfont}',
@@ -140,18 +165,18 @@ function apply(params, next)
 		'\\renewcommand{\\cftsecpresnum}{\\begin{lrbox}{\\@tempboxa}}',
 		'\\renewcommand{\\cftsecaftersnum}{\\end{lrbox}}',
 		'\\renewcommand{\\cftsecleader}{\\cftdotfill{\\cftdotsep}}',
-		'\\renewcommand{\\contentsname}{Contents\\linebreak}',
+		'\\renewcommand{\\contentsname}{\\textsc{Contents}\\linebreak}',
 		'\\setcounter{secnumdepth}{-2}',
 		'',
 		'\\begin{document}',
         '\\pagestyle{plain}',
 		'',
-        '\\addcontentsline{toc}{section}{\\protect{Title}}',
+        '\\addcontentsline{toc}{section}{\\protect{\\textsc{Title}}}',
         '\\sectionmark{Title}',
 		'\\maketitle',
 		'\\thispagestyle{empty}',
 		'\\vfill',
-		'\\begin{center}Automatically typeset in\\\\' + typeface + ' and ' + typeface_mono + '\\\\by EbookJS on ' + d_str.substr(5, d_str.length) + '\\end{center}',
+		'\\begin{center}\\textsc{Automatically typeset in\\\\Linux Libertine and Liberation Mono\\\\Using EbookJS on ' + d_str + '}\\end{center}',
 		'',
 		'\\clearpage',
         '\\pagenumbering{Roman}',
@@ -166,15 +191,15 @@ function apply(params, next)
 
     console.log('Building ' + oname);
 
-    for(var i = 0; i < spec.contents.length; i++)
+    for(let i = 0; i < spec.contents.length; i++)
     {
-        var chap = spec.contents[i];
-        var title = l_esc(chap.title);
+        const chap = spec.contents[i];
+        const c_title = l_esc(chap.title);
 
-        latex += '\n\\clearpage\n\\section{' + title + '}\n';
+        latex += '\n\\clearpage\n\\section{\\textsc{' + c_title + '}}\n';
 
         if(chap.byline)
-        	latex += '\\vspace{-2em}By ' + l_esc(chap.byline) + '\\vspace{1em}\\\\*\n';
+        	latex += '\\vspace{-2em}\\textsc{By ' + l_esc(chap.byline) + '}\\vspace{1em}\\\\*\n';
 
         latex += tolatex(params, chap.dom, chap.dom.root());
     }
