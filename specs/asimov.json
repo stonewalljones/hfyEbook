@@ -1,0 +1,48 @@
+{
+	"title": "The Asimov",
+	"creator": "shoguncdn",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"hfy-anthology",
+		"typography",
+		"finalize"
+	],
+	"filename": "The_Asimov",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Part 1",
+			"src": "https://www.reddit.com/r/HFY/comments/2rg21p/the_asimov_part_1/"
+		},
+		{
+			"title": "Part 2",
+			"src": "https://www.reddit.com/r/HFY/comments/2rjy80/the_asimov_part_2/"
+		},
+		{
+			"title": "Part 3",
+			"src": "https://www.reddit.com/r/HFY/comments/2rsif7/the_asimov_part_3/"
+		},
+		{
+			"title": "Part 4",
+			"src": "https://www.reddit.com/r/HFY/comments/2s7i4i/the_asimov_part_4/"
+		},
+		{
+			"title": "Part 5",
+			"src": "https://www.reddit.com/r/HFY/comments/2seyy9/the_asimov_part_5/"
+		},
+		{
+			"title": "Part 6",
+			"src": "https://www.reddit.com/r/HFY/comments/2sk2ac/the_asimov_part_6/"
+		},
+		{
+			"title": "Part 7",
+			"src": "https://www.reddit.com/r/HFY/comments/2sybhn/the_asimov_part_7/"
+		},
+		{
+			"title": "Part 8",
+			"src": "https://www.reddit.com/r/HFY/comments/2t2rsl/the_asimov_part_8/"
+		}
+	]
+}

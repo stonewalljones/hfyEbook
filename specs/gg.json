@@ -1,0 +1,56 @@
+{
+	"title": "GG",
+	"creator": "Hikaraka",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"hfy-anthology",
+		"typography",
+		"finalize"
+	],
+	"filename": "GG",
+	"output": ["epub", "latex", "html"],
+	"contents":
+	[
+		{
+			"title": "Chapter 1",
+			"src": "https://www.reddit.com/r/HFY/comments/2m4v2q/oc_gg/"
+		},
+		{
+			"title": "Chapter 2",
+			"src": "https://www.reddit.com/r/HFY/comments/2mcy8q/oc_gg_part_2/"
+		},
+		{
+			"title": "Chapter 3",
+			"src": "https://www.reddit.com/r/HFY/comments/2mymkc/oc_gg_part_3/"
+		},
+		{
+			"title": "Chapter 4",
+			"src": "https://www.reddit.com/r/HFY/comments/2of8yu/oc_gg_part_4/"
+		},
+		{
+			"title": "Chapter 5",
+			"src": "https://www.reddit.com/r/HFY/comments/2pml1u/oc_gg_part_5/"
+		},
+		{
+			"title": "Chapter 6",
+			"src": "https://www.reddit.com/r/HFY/comments/2tcud9/oc_gg_part_6/"
+		},
+		{
+			"title": "Chapter 7",
+			"src": "https://www.reddit.com/r/HFY/comments/2we55g/oc_gg_part_7/"
+		},
+		{
+			"title": "Chapter 8",
+			"src": "https://www.reddit.com/r/HFY/comments/2yb47b/oc_gg_part_8/"
+		},
+		{
+			"title": "Chapter 9",
+			"src": "https://www.reddit.com/r/HFY/comments/2z3pb3/oc_gg_part_9/"
+		},
+		{
+			"title": "Chapter 10 (Finale)",
+			"src": "https://www.reddit.com/r/HFY/comments/3375il/oc_gg_part_10_finale/"
+		}
+	]
+}
