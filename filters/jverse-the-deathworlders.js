@@ -4,7 +4,7 @@ function apply(params, next)
     const title = chap.title;
     const $ = chap.dom;
 	const rem = [];
-	
+
     // Remove 'continued in' paragraphs
     $('p span').each(function(i, e)
     {
@@ -15,23 +15,35 @@ function apply(params, next)
         	rem.push(p);
     });
 
+    // Remove date posted and reading time estimation
+    $('aside').each(function(i,e){
+      rem.push($(e));
+    });
+
+    // Remove redundant title
+    $("h1").each(function(i,e){
+        if($(e).text().indexOf('Chapter')===0){
+          rem.push($(e));
+        }
+    });
+    
     $('p').each(function(i, e)
 	{
         const p = $(e);
-        
+
         if(p.text().trim() === '')
         	rem.push(p);
 	});
-	
+
     const end_m = /^\+*end (chapter|part) \d/i;
     const end_m2 = /^\+\+end([  ]|&nbsp;)(of )*chapter/i;
     const cont_m = /^Continued in Chapter/i;
-    
+
     $('p, p strong').each(function(i, e)
     {
         const p = $(e);
         const t = p.text();
-		
+
     	if(t.search(end_m2) === 0)
     	{
     		console.log('R: ' + t);
@@ -42,7 +54,7 @@ function apply(params, next)
     		rem.push(p);
 		else if(t.search(cont_m) === 0)
     		rem.push(p);
-    	
+
 	    if(title === 'Deliverance')
 	    {
 		    if(t === 'Four years previously.')
@@ -51,11 +63,11 @@ function apply(params, next)
 		    	rem.push(p);
 	    }
     });
-    
+
     if(title === 'Run, little monster')
     {
         const fp = $($('p')[0]);
-        
+
         fp.text('"' + fp.text());
     }
     else if(title === 'Interlude/Ultimatum')
@@ -103,20 +115,20 @@ function apply(params, next)
     else if(['Exorcisms (pt. 4)', 'Exorcisms (pt. 5)'].includes(title))
     {
         const ps = $('p');
-        
+
         rem.push($(ps[ps.length - 1]));
     }
     else if(title === 'Dragon Dreams (pt. 4)')
     {
         const ps = $('p');
-        
+
         for(let i = ps.length - 6; i < ps.length; i++)
             rem.push($(ps[i]));
     }
     else if(['Operation NOVA HOUND', 'Back Down To Earth', 'Metadyskolia'].includes(title))
     {
         const ps = $('p');
-        
+
         for(let i = ps.length - 2; i < ps.length; i++)
             rem.push($(ps[i]));
     }
@@ -124,15 +136,15 @@ function apply(params, next)
     {
         const ps = $('p');
     	const ws_re = /[ \t\r\n]+/g;
-    	
+
     	ps.each(function(i, e)
     	{
     		const cont = $(e).contents();
-    		
+
     		for(let i = 0; i < cont.length; i++)
     		{
     			const c = cont[i];
-    			
+
     			if(c.type === 'text')
     				c.data = c.data.replace(ws_re, ' ');
     		}
@@ -143,11 +155,11 @@ function apply(params, next)
     else if(title === 'Event Horizons')
     {
 	    const ps = $($('p:contains("patreon.com")')[0]).prev().nextAll();
-	
+
 	    for(let i = 0; i < ps.length; i++)
 		    rem.push($(ps[i]));
     }
-    
+
     if(['Event Horizons',
         'Consequences',
         'Grounded',
@@ -161,7 +173,7 @@ function apply(params, next)
 	    for(let i = 0; i < ps.length; i++)
     		rem.push($(ps[i]));
     }
-    
+
     params.purge(rem);
     next();
 }
