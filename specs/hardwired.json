@@ -1,0 +1,181 @@
+{
+	"title": "Hardwired",
+	"creator": "darkPrince010",
+	"filters": [
+		"from-reddit-post",
+		"clean-reddit",
+		"no-preamble",
+      "hardwired",
+		"typography",
+		"finalize"
+	],
+	"filename": "Hardwired",
+	"output": ["epub", "html", "latex"],
+	"contents":
+	[
+      {
+         "title": "Chapter 1: Indicator Lights",
+         "src": "https://www.reddit.com/r/HFY/comments/4qicg5/oc_hardwired_indicator_lights/"
+      },
+      {
+         "title": "Chapter 2: Hard Reboot",
+         "src": "https://www.reddit.com/r/HFY/comments/50d35b/oc_hardwired_hard_reboot/"
+      },
+      {
+         "title": "Chapter 3: Self-Diagnostic",
+         "src": "https://www.reddit.com/r/HFY/comments/4rfw3y/hardwired_selfdiagnostic/"
+      },
+      {
+         "title": "Chapter 4: Jailbreaking",
+         "src": "https://www.reddit.com/r/HFY/comments/520h2k/oc_hardwired_jailbreaking/"
+      },
+      {
+         "title": "Chapter 5: Melee Deterrent",
+         "src": "https://www.reddit.com/r/HFY/comments/4urr8r/oc_hardwired_melee_deterrent/"
+      },
+      {
+         "title": "Chapter 6: Excessive Force Detected",
+         "src": "https://www.reddit.com/r/HFY/comments/4x541g/oc_hardwired_excessive_force_detected/"
+      },
+      {
+         "title": "Chapter 7: Tolerance Calculation",
+         "src": "https://www.reddit.com/r/HFY/comments/52ol9g/oc_hardwired_tolerance_calculation/"
+      },
+      {
+         "title": "Chapter 8: Search Algorithm",
+         "src": "https://www.reddit.com/r/HFY/comments/4scfif/oc_hardwired_search_algorithm/"
+      },
+      {
+         "title": "Chapter 9: Man-in-the-Middle",
+         "src": "https://www.reddit.com/r/HFY/comments/53v4rp/oc_hardwired_maninthemiddle/"
+      },
+      {
+         "title": "Chapter 10: Hibernation",
+         "src": "https://www.reddit.com/r/HFY/comments/4sq5sh/hardwired_hibernation/"
+      },
+      {
+         "title": "Chapter 11: Xanatos Driver",
+         "src": "https://www.reddit.com/r/HFY/comments/4yeh38/oc_hardwired_xanatos_driver/"
+      },
+      {
+         "title": "Chapter 12: Power Reserves",
+         "src": "https://www.reddit.com/r/HFY/comments/585vc6/hardwired_power_reserves/"
+      },
+      {
+         "title": "Chapter 13: Query Array",
+         "src": "https://www.reddit.com/r/HFY/comments/4z9lre/oc_hardwired_query_array/"
+      },
+      {
+         "title": "Chapter 14: Blind Carbon Copy",
+         "src": "https://www.reddit.com/r/HFY/comments/5n913j/hardwired_blind_carbon_copy/"
+      },
+      {
+         "title": "Chapter 15: Disable Device",
+         "src": "https://www.reddit.com/r/HFY/comments/6h8b2d/oc_hardwired_disable_device_chapter_15/"
+      },
+      {
+         "title": "Chapter 16: Electromagnetic Interference",
+         "src": "https://www.reddit.com/r/HFY/comments/6ifnh1/oc_hardwired_electromagnetic_interference/"
+      },
+      {
+         "title": "Chapter 17: Datamining",
+         "src": "https://www.reddit.com/r/HFY/comments/6k19h4/oc_hardwired_datamining_chapter_17/"
+      },
+      {
+         "title": "Chapter 18: Repair Connections",
+         "src": "https://www.reddit.com/r/HFY/comments/6o2azm/oc_hardwired_repair_connection_chapter_18/"
+      },
+      {
+         "title": "Chapter 19: Purge",
+         "src": "https://www.reddit.com/r/HFY/comments/6s86bl/oc_hardwired_purge_chapter_19/"
+      },
+      {
+         "title": "Chapter 20: Analysis Buffering",
+         "src": "https://www.reddit.com/r/HFY/comments/7lcqiw/oc_hardwired_analysis_buffering_chapter_20/"
+      },
+      {
+         "title": "Chapter 21: Fragmentation",
+         "src": "https://www.reddit.com/r/HFY/comments/7oig9y/oc_hardwired_fragmentation_chapter_21/"
+      },
+      {
+         "title": "Chapter 22: Critical Alteration",
+         "src": "https://www.reddit.com/r/HFY/comments/7pvokj/oc_hardwired_critical_alteration_chapter_22/"
+      },
+      {
+         "title": "Chapter 23: Re-Acquiring Target",
+         "src": "https://www.reddit.com/r/HFY/comments/7qqrzc/oc_hardwired_reacquiring_target_chapter_23/"
+      },
+      {
+         "title": "Chapter 24: Acquisitions & Shipping",
+         "src": "https://www.reddit.com/r/HFY/comments/7rh2up/oc_hardwired_acquisitions_and_shipping_chapter_24/"
+      },
+      {
+         "title": "Chapter 25: Interrogative Inertia",
+         "src": "https://www.reddit.com/r/HFY/comments/7s491o/oc_hardwired_interrogative_inertia_chapter_25/"
+      },
+      {
+         "title": "Chapter 26: Biological Contamination",
+         "src": "https://www.reddit.com/r/HFY/comments/7t3ewc/oc_hardwired_biological_contamination_chapter_26/"
+      },
+      {
+         "title": "Chapter 27: Rural Deceleration",
+         "src": "https://www.reddit.com/r/HFY/comments/7tqx3j/oc_hardwired_rural_deceleration_chapter_27/"
+      },
+      {
+         "title": "Chapter 28: Third-Party Interfacing",
+         "src": "https://www.reddit.com/r/HFY/comments/7upsph/oc_hardwired_thirdparty_interfacing_chapter_28/"
+      },
+      {
+         "title": "Chapter 29: Antiviral Definitions",
+         "src": "https://www.reddit.com/r/HFY/comments/7vdphj/oc_hardwired_antiviral_definitions_chapter_29/"
+      },
+      {
+         "title": "Chapter 30: Syncing",
+         "src": "https://www.reddit.com/r/HFY/comments/7wk8xc/oc_hardwired_syncing_chapter_30/"
+      },
+      {
+         "title": "Chapter 31: Thermal Upsurge",
+         "src": "https://www.reddit.com/r/HFY/comments/7wz960/oc_hardwired_thermal_upsurge_chapter_31/"
+      },
+      {
+         "title": "Chapter 32: Transfer Complete",
+         "src": "https://www.reddit.com/r/HFY/comments/7y5o8q/oc_hardwired_transfer_complete_chapter_32/"
+      },
+      {
+         "title": "Chapter 33: Statistical Rejection",
+         "src": "https://www.reddit.com/r/HFY/comments/7zmbi5/oc_hardwired_statistical_rejection_chapter_33/"
+      },
+      {
+         "title": "Chapter 34: Backup Located",
+         "src": "https://www.reddit.com/r/HFY/comments/80klt1/oc_hardwired_backup_located_chapter_34/"
+      },
+      {
+         "title": "Chapter 35: Principle Violation",
+         "src": "https://www.reddit.com/r/HFY/comments/8355uh/oc_hardwired_principle_violation_chapter_35/"
+      },
+      {
+         "title": "Chapter 36: Updates Complete",
+         "src": "https://www.reddit.com/r/HFY/comments/84ts8p/oc_hardwired_updates_complete_chapter_36/"
+      },
+      {
+         "title": "Chapter 37: Initiate Scenario",
+         "src": "https://www.reddit.com/r/HFY/comments/86qm6g/oc_hardwired_initiate_scenario_chapter_37/"
+      },
+      {
+         "title": "Chapter 38: Target-Rich Environment",
+         "src": "https://www.reddit.com/r/HFY/comments/888p3q/oc_hardwired_targetrich_environment_chapter_38/"
+      },
+      {
+         "title": "Chapter 39: De Novo Pathfinding",
+         "src": "https://www.reddit.com/r/HFY/comments/88xoxl/oc_hardwired_de_novo_pathfinding_chapter_39/"
+      },
+      {
+         "title": "Chapter 40: Cultural Adaptation",
+         "src": "https://www.reddit.com/r/HFY/comments/8ah3y6/oc_hardwired_cultural_adaptation_chapter_40/"
+      },
+      {
+         "title": "Chapter 41: Export Complete",
+         "src": "https://www.reddit.com/r/HFY/comments/8awxd5/oc_hardwired_export_complete_chapter_41/"
+      }
+	]
+}
